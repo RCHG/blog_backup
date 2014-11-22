@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Posts
+  url: /posts/
+
+- title: Research Statement
+  url: /theme-setup/
+
+- title: Links
+  url: http://web.ramiro-checa.info
