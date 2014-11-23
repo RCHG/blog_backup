@@ -22,20 +22,17 @@ image:
 > Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― **Marie Curie**
 
 **Where you are?** You arrived to my academic webpage build with Jekyll and Github. In the Blog there are entries whose topics are about my job in Science but also other questions related with Ethics, Sociology, or computing in Science.
+{:.notice}
+
 
 <a markdown="0" href="{{ site.url }}/research" class="btn">...to my Research Page</a>
 <a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">...to my Blog posts</a>
 <a markdown="0" href="http://web.ramiro-checa.info" class="btn btn-warning">...to my old webpage</a>
-{:.notice}
-
-
 
 
 ### General Overview
 
 My academic career started with a B.A. in Spanish from the University of Granada, where I graduated on Physics with an specialization on Theoretical Physics. Awarded with a scholarship, I obtain a M.Sc. on Condensed Matter with an dissertation about Theory of Liquids (Statistical Physics of Fluids) at the University Autónoma of Madrid. Also I was assistant professor of Physics (Laboratory Experiments) two years. In the field of Atmospheric Sciences, I have a PhD on Remote Sensing and Micro-physics of Precipitation at Spain with an stage at NASA Goddard Space Center. Currently, I am working as research assistant at Karlsruhe Institute of Technology (Germany). in Atmospheric Physics & Chemistry, specifically on Remote Sensing of Greenhouse Gases.
-
-
 
 
 ### Scientific Interests
