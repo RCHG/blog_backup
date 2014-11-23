@@ -12,15 +12,13 @@ image:
 
 #### General Overview:
 
-{% highlight yaml %}
 My academic career started with a B.A. in Spanish from the University of Granada, where I graduated on Physics with an specialization on Theoretical Physics. Awarded with a scholarship, I obtain a M.Sc. on Condensed Matter with an dissertation about Theory of Liquids (Statistical Physics of Fluids) at the University Autónoma of Madrid. Also I was assistant professor of Physics (Laboratory Experiments) two years. In the field of Atmospheric Sciences, I have a PhD on Remote Sensing and Micro-physics of Precipitation at Spain with an stage at NASA Goddard Space Center. Currently, I am working as research assistant at Karlsruhe Institute of Technology (Germany). in Atmospheric Physics & Chemistry, specifically on Remote Sensing of Greenhouse Gases.
-{% endhighlight %}
 
 #### Scientific Interests:
 
 My objectives are improve my knowledge of remote sensing applied on earth sciences. This comprises develop simulations of the actual measurement conditions to assert the uncertainty and new applications of remote sensing, but also in-situ measurement to calibrate, test and validate satellite products and improve retrieval algorithms. In particular, I am interested on carbon cycle and water cycle application of remote sensing science. This is complemented by my interest on numerical models of atmospheric processes at several scales.
 
-    Due to my professional trajectory my interest is also related with mathematical methods, in particular those related with statistics and statistical physics. Together with scientific computing.
+Due to my professional trajectory my interest is also related with mathematical methods, in particular those related with statistics and statistical physics. Together with scientific computing.
 
 #### Membership:
 
@@ -29,4 +27,4 @@ My objectives are improve my knowledge of remote sensing applied on earth scienc
 * American Geophysical Union
 
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Check my Research Statement</a>
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Link to my Research Statement</a>

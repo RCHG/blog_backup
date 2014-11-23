@@ -80,7 +80,7 @@ figcaption {
 // Note text
 // --------------------------------------------------
 .notice {
-	margin-top: 1.5em;
+	margin-top: 10.5em;
 	padding: .5em 1em;
 	text-indent: 0;
 	@include font-rem(14);
