@@ -3,11 +3,17 @@
 - title: About
   url: /about/
 
-- title: Sample Posts
-  url: /posts/
+- title: Articles
+  url: /articles/
 
-- title: Theme Setup
+- title: Research
   url: /theme-setup/
 
-- title: Made Mistakes
-  url: http://mademistakes.com
+- title: Teaching
+  url: /Teaching/
+  
+- title: Blog
+  url: /posts/
+  
+- title: Links
+  url: http://web.ramiro-checa.info
