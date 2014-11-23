@@ -4,11 +4,11 @@ title: "Author New"
 author: billy_rick
 modified:
 excerpt: "A post to test author overrides using a data file."
-tags: [review, atmospheric-physics]
+tags: []
 ---
 
 
-### Book Review: A First Course in Atmospheric Radiation (G.W. Petty)
+### Book Review: A First Course in Atmospheric Radiation
 
 
 > Introductory book to the Physics of radiation, with emphasis on atmospheric related applications. The book contains a good selection of exercises and it was written with a easy to read style.
