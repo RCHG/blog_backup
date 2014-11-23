@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Author New"
-author: billy_rick
+title: "Book Review: A First Course in Atmospheric Radiation "
+author: Ramiro Checa-Garcia
 modified:
-excerpt: "A post to test author overrides using a data file."
+excerpt: "Small review"
 tags: [review, atmospheric-physics]
 ---
 
