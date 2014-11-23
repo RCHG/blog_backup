@@ -19,7 +19,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-## Installation
+## Overview
 
 Minimal Mistakes now requires [Jekyll](http://jekyllrb.com/) 2.2+. Make sure to run `gem update jekyll` if you aren't on the latest version or `gem install jekyll` if this is your first time installing it.
 
@@ -44,7 +44,7 @@ If you want to use Minimal Mistakes with an existing Jekyll site follow these st
 
 ---
 
-## Running Jekyll
+## Hydrometeorology
 
 If `jekyll build` and `jekyll serve` throw errors you may have to run Jekyll with `bundled exec` instead.
 
@@ -60,7 +60,7 @@ bundle exec jekyll serve
 
 ---
 
-## Scaffolding
+## Trace Gases
 
 How Minimal Mistakes is organized and what the various files are. All posts, layouts, includes, stylesheets, assets, and whatever else is grouped nicely under the root folder. The compiled Jekyll site outputs to `_site/`.
 
