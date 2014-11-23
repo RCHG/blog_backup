@@ -7,39 +7,19 @@ excerpt: "A post to test author overrides using a data file."
 tags: []
 ---
 
-BLA BLA
 
-For those of you who may have content written by multiple authors on your site you can now assign different authors to each post if desired.
+### Book Review: A First Course in Atmospheric Radiation
 
-Previously the theme used a global author for the entire site and those attributes would be used in all bylines, social networking links, Twitter Card attribution, and Google Authorship. These `owner` variables were defined in `config.yml`
 
-Start by modifying or creating a new `authors.yml` file in the `_data` folder and add your authors using the following format.
+> Introductory book to the Physics of radiation, with emphasis on atmospheric related applications. The book contains a good selection of exercises and it was written with a easy to read style.
 
-{% highlight yaml %}
-# Authors
+The book of G.W. Petty about Atmospheric Radiation (see here) , while it is an introductory book contains almost every topic that a university student or young researcher may need. Just I missed a more detailed further reading section to guide the reader a little bit more to the field.
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: BillyRick
+![](http://www.sundogpublishing.com/shop/images/41/AtmosRadCover2.jpg)
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
-{% endhighlight %}
+The previous knowledge needed to follow the book is just the logical mathematical skills and a capacity to follow the physics reasoning of the author. But the book doesn't rely too much on Electromagnetic or Optics physics with is only used at the beginning of the book to explain the nature of the light. The book, as usual in this field cover the phenomena of absorption, emission and scattering of light which always are described focused on atmospheric radiation applications. Equations for multiple scattering radiation transfer theory are included together with the typical Legendre Polynomial based expansion of the Phase Function, but probably additional information would needed for those reader most interested on the mathematical side of radiative transfer theory. The practical problem of line by line calculation and the k-correlation approach to solve (partially) this problem is successfully and very intuitively explained. In general the goal of the author of explain to the reader the way of reasoning on atmospheric radiation is nicely achieved.
 
-To assign Billy Rick as an author for our post. You'd add the following YAML front matter to a post:
+The readers interested on remote sensing by satellite in subjects like atmospheric chemistry or cloud physics without a previous background on this applications will find quite useful have this book close in the working desk.
 
-{% highlight yaml %}
-author: billy_rick
-{% endhighlight %}
+
+
