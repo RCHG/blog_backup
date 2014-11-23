@@ -1,25 +1,30 @@
 ---
 layout: page
-title: About the Theme
+title: Academic Profile
 tags: [about, Jekyll, theme, responsive]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
   feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Minimal Mistakes is responsive Jekyll theme with large featured images and solid typography. As the name implies the styling is fairly minimal to make it easier for you to build on top of.
+> Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― *Marie Curie*
 
-## Minimal Mistakes is all about:
+#### General Overview:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+    My academic career started with a B.A. in Spanish from the University of Granada, where I graduated on Physics with an specialization on Theoretical Physics. Awarded with a scholarship, I obtain a M.Sc. on Condensed Matter with an dissertation about Theory of Liquids (Statistical Physics of Fluids) at the University Autónoma of Madrid. Also I was assistant professor of Physics (Laboratory Experiments) two years. In the field of Atmospheric Sciences, I have a PhD on Remote Sensing and Micro-physics of Precipitation at Spain with an stage at NASA Goddard Space Center. Currently, I am working as research assistant at Karlsruhe Institute of Technology (Germany). in Atmospheric Physics & Chemistry, specifically on Remote Sensing of Greenhouse Gases.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+#### Scientific Interests:
+
+    My objectives are improve my knowledge of remote sensing applied on earth sciences. This comprises develop simulations of the actual measurement conditions to assert the uncertainty and new applications of remote sensing, but also in-situ measurement to calibrate, test and validate satellite products and improve retrieval algorithms. In particular, I am interested on carbon cycle and water cycle application of remote sensing science. This is complemented by my interest on numerical models of atmospheric processes at several scales.
+
+    Due to my professional trajectory my interest is also related with mathematical methods, in particular those related with statistics and statistical physics. Together with scientific computing.
+
+#### Membership:
+
+* European Geosciences Union
+* American Meteorological Society
+* American Geophysical Union
+
+
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Check my Research Statement</a>
