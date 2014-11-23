@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Personal Blog
+title:            r.checagarcia
 locale:           en_US
-url:              http://localhost:4000
+url:              /cite
 
 
 # Jekyll configuration
