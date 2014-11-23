@@ -21,18 +21,12 @@ image:
 
 > Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― **Marie Curie**
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Link to my Research Statement</a>
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn ">Link to my Research Statement</a>
+You arrived to my academic webpage build with Jekyll and Github. In the Blog there are entries whose topics are about my job in Science but also other questions related with Ethics, Sociology, or computing in Science.
 
-{% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
-{% endhighlight %}
+<a markdown="0" href="{{ site.url }}/research" class="btn">to Research Page</a>
+<a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">to my Blog posts</a>
+<a markdown="0" href="http://web.ramiro-checa.info" class="btn btn-warning">to old webpage</a>
 
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
 ### General Overview
 
