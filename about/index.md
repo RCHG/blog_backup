@@ -22,7 +22,6 @@ image:
 > Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― **Marie Curie**
 
 **Where you are?** You arrived to my academic webpage build with Jekyll and Github. In the Blog there are entries whose topics are about my job in Science but also other questions related with Ethics, Sociology, or computing in Science.
-
 <a markdown="0" href="{{ site.url }}/research" class="btn">...to my Research Page</a>
 <a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">...to my Blog posts</a>
 <a markdown="0" href="http://web.ramiro-checa.info" class="btn btn-warning">...to my old webpage</a>
