@@ -23,9 +23,10 @@ image:
 
 ** Where you are? ** You arrived to my academic webpage build with Jekyll and Github. In the Blog there are entries whose topics are about my job in Science but also other questions related with Ethics, Sociology, or computing in Science.
 
-<a markdown="0" href="{{ site.url }}/research" class="btn">to Research Page</a>
-<a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">to my Blog posts</a>
-<a markdown="0" href="http://web.ramiro-checa.info" class="btn btn-warning">to old webpage</a>
+
+<a markdown="0" href="{{ site.url }}/research" class="btn">...to my Research Page</a>
+<a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">...to my Blog posts</a>
+<a markdown="0" href="http://web.ramiro-checa.info" class="btn btn-warning">...to my old webpage</a>
 
 
 ### General Overview
