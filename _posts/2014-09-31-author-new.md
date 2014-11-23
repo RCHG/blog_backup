@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book Review: A First Course in Atmospheric Radiation "
-author: Ramiro Checa-Garcia
+author: ramiro_chg
 modified:
 excerpt: "Small review"
 tags: [review, atmospheric-physics]
