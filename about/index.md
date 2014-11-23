@@ -48,7 +48,7 @@ Due to my professional trajectory my interest is also related with mathematical 
 * American Meteorological Society
 * American Geophysical Union
 
-### Conceptual Map
+### Conceptual Map of my research background and experience
 
 <figure>
 <a href="/images/SCIENCE_MINDmap.png"><img src="/images/SCIENCE_MINDmap.png"></a>
