@@ -21,12 +21,24 @@ image:
 
 > Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― **Marie Curie**
 
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Link to my Research Statement</a>
+<a markdown="0" href="{{ site.url }}/theme-setup" class="btn ">Link to my Research Statement</a>
+
+{% highlight html %}
+<a href="#" class="btn btn-success">Success Button</a>
+{% endhighlight %}
+
+<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
+<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
 
 ### General Overview
 
 My academic career started with a B.A. in Spanish from the University of Granada, where I graduated on Physics with an specialization on Theoretical Physics. Awarded with a scholarship, I obtain a M.Sc. on Condensed Matter with an dissertation about Theory of Liquids (Statistical Physics of Fluids) at the University Autónoma of Madrid. Also I was assistant professor of Physics (Laboratory Experiments) two years. In the field of Atmospheric Sciences, I have a PhD on Remote Sensing and Micro-physics of Precipitation at Spain with an stage at NASA Goddard Space Center. Currently, I am working as research assistant at Karlsruhe Institute of Technology (Germany). in Atmospheric Physics & Chemistry, specifically on Remote Sensing of Greenhouse Gases.
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Link to my Research Statement</a>
+
 
 
 ### Scientific Interests
