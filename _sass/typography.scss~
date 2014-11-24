@@ -91,11 +91,13 @@ figcaption {
 
 .smallblock {
 	margin-top: 1.5em;
-	padding: 3.5em 3em;
-	text-indent: 0;
-	@include font-rem(12);
+	margin-left: 28px;
+	padding-left: 30px;
+	text-indent: -2px;
+	@include font-rem(10);
 	background-color: $body-color;
-	border: 2px solid darken($body-color,30);
+	border-left: 2px solid darken($body-color,30);
+	border-right: 2px solid darken($body-color,30);
 	@include rounded(5px);
 }
 

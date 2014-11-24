@@ -93,10 +93,13 @@ figcaption {
 	margin-top: 1.5em;
 	margin-left: 28px;
 	padding-left: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 	text-indent: -2px;
 	@include font-rem(10);
 	background-color: $body-color;
-	border: 2px solid darken($body-color,30);
+	border-left: 2px solid darken($body-color,30);
+	border-right: 2px solid darken($body-color,30);
 	@include rounded(5px);
 }
 
