@@ -25,6 +25,7 @@ image:
 
 My research background cover several fields and a broad set of methodologies both theoretical and experimental, with a strong focus on computational tools. My initial formation is Physics with an specialization on Theoretical Physics. This side was developed during my M.Sc. in Condensed Matter which was related with Statistical Physics in a theoretical field of Theory of Liquids. However my interest has been moved to the field of Atmospheric Sciences and Remote Sensing. Therefore the main scope of my PhD was related with Micro-physics of rainfall and remote sensing of precipitation, which also involves Applied Statistics. Actually I am working at the field of Remote Sensing of Trace Gases, this improves my knowledge on radiative transfer theory, inverse problem,satellite product, and spectroscopy.
 
+# Research Experience
 
 ## Research Assistant
 ---
@@ -52,4 +53,29 @@ In the following link you may find a PDF file with the Dissertation.
 **Abstract:**
 Two different theories are used to understand the liquid-vapor interfaces: the Van der Waals theory and the capillary waves theory. But comparing both come up a problem of interpretation of the interface density profiles obtained, for example, with the Density Functional Theory (DFT). As a consequence emerge the question of how the surface fluctuations are included on traditional density profiles (usually named equilibrium density profiles). Last years, new insights on the role of capillary waves were possible by analyzing X-ray reflectivity experiments and performing computer simulations of liquids with low melting temperature. In particular, the density profile exhibits a layering structure which is considered a key property to elucidate a new interpretation of those profiles as intrinsic density profiles. This dissertation aims to investigate these questions within the DFT using simple fluids with a pairwise interactions that reproduce important phase-diagram properties of liquid metals. Two generics questions were explored: the relevance of Fisher-Widom line and the role of capillary waves on the nature of interface obtained with approximations WDA and FMT. It hypothesized the existence of a density profile with strong layering properties whose structure is reduced by capillary waves. Then the effect of surface fluctuations is described by introducing an effective transversal size which imposes a limitation of the spectrum of surface fluctuations incorporated on the DFT. However, an explicit methodology to unfreeze the capillary waves over a postulated intrinsic profile exempt of surface fluctuations was proven still a challenge. As a consequence it suggested that other previous results describing the liquid surface using the equilibrium DFT may conduct to unphysical properties.
 
+# Publications
+
+## Statistical Physics
+
+   - Critical analysis of the density functional theory prediction of enhanced capillary waves (P Tarazona, R Checa, E Chacón), Physical review letters 99 (19), 196101 (2007)
+   - Density functional study of layering at liquid surfaces (R Checa, E Chacón, P Tarazona) Physical Review E 70 (6), 061601 (2004)
+   - Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory (R Checa-Garcia) arXiv preprint arXiv:1307.6199 (2013)
+
+## Hydrometeorology
+
+   - An experiment to measure the spatial variability of rain drop size distribution using sixteen laser disdrometers (FJ Tapiador, R Checa, M De Castro) Geophysical Research Letters 37 (16) (2010)
+   - Precipitation estimates for hydroelectricity (FJ Tapiador, AY Hou, M de Castro, R Checa, F Cuartero, AP Barros) Energy & Environmental Science 4 (11), 4435-4448 (2011)
+   - A maximum entropy modelling of the rain drop size distribution (R Checa, FJ Tapiador) Entropy 13 (2), 293-315 (2011)
+   - First measurement of the small-scale spatial variability of the rain drop size distribution: Results from a crucial experiment and maximum entropy modeling (R Checa-Garcia) arXiv preprint arXiv:1306.5649 (2013)
+   - Binning effects on in-situ raindrop size distribution measurements (R.Checa-Garcia, A. Tokay, FJ Tapiador) AMTD 7, (2014)
+    Supplement: Binning effects on in-situ raindrop size distribution measurements (R.Checa-Garcia) AMTD 7, (2014) downloading link.
+
+## Remote Sensing of Trace Gases
+
+   - ESA Technical Note: Consolidation of SWIR requirements for Sentinel-5 satellite (2013)
+   - ESA report: Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite (2013)
+
+## Dynamical Systems
+
+   - Toy Models of dynamical systems to understand topics of atmospheric dynamics. (R Checa-Garcia) NWP Applications for Meteorology
 

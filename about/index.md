@@ -23,9 +23,10 @@ image:
 
 **Where are you?** You arrived to my academic webpage build with Jekyll and Github. In the Blog there are entries related with my job in Science but also other questions I think important and interesting related with Ethics, Sociology, or computing in Science.
 {:.notice}
-   
+
+
 <br><br>
-   
+
 
 <a markdown="0" href="{{ site.url }}/research" class="btn">...to my Research Page</a>
 <a markdown="0" href="{{ site.url }}/posts" class="btn btn-info">...to my Blog posts</a>
