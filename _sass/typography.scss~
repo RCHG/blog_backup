@@ -89,6 +89,16 @@ figcaption {
 	@include rounded(3px);
 }
 
+.smallblock {
+	margin-top: 1.5em;
+	padding: 3.5em 3em;
+	text-indent: 0;
+	@include font-rem(12);
+	background-color: $body-color;
+	border: 2px solid darken($body-color,30);
+	@include rounded(5px);
+}
+
 // Blockquotes
 // --------------------------------------------------
 blockquote {
