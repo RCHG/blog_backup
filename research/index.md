@@ -56,8 +56,12 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ---
 
 - **Remote Sensing of Trace Gases**
+   - Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor, Ramiro Checa-Garcia, Jochen Landgraf, Frank Hase, Frans Alkemade, Andre Butz. AMT Journal, to be submitted (Dec-2014 )
    - ESA Technical Note: Consolidation of SWIR requirements for Sentinel-5 satellite (2013)
    - ESA report: Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite (2013)
+   - Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept, AGU - Geophysical Trace Gases Research Abstracts, Thiemo Knigge and Frank Schmuelling Andre Butz, Johannes Orphal, Heinrich Bovensmann, Thomas von Clarmann, Felix Friedl-Vallon, Frank Hase, Ramiro Checa-Garcia, Gerald Hechenblaikner, October 2014.
+   - Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an Trace Gases error sources analysis, Geophysical Research Abstracts, Ramiro Checa-Garcia, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
+
 
 - **Statistical Physics**
    - Critical analysis of the density functional theory prediction of enhanced capillary waves (P Tarazona, R Checa, E Chacón), Physical review letters 99 (19), 196101 (2007)
@@ -81,7 +85,6 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ---
 
 - **Atmospheric Sciences**
-
    - EGU Conference, April 2014, Vienna (Austria). EGU2014-137. Additional author: Frank Hase.
    - 13th. Plinius Con., Mediterranean Storms, 7-9 Sep 2011 at CIMA, Savona (Italy),
    - Workshop Water and Society, University of Grenoble, May 2011, Summer Ecole of Physique, Les Houches (France), .
@@ -89,12 +92,12 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
    - Numerical Weather Prediction Models. EUMETCAL 2009 Workshop. Helsinki (Finland)
    - Meteorology Eumetcal Library, Toy Models of dynamical systems to understand topics of atmospheric dynamics. Dec 2009.
 
-- **Scientific Computing**
 
+- **Scientific Computing**
   - Euro Sci-Python, Course and Conference, July 2010, Ecole Normale Superior, Paris(France),
 
-- **Statistical Physics**
 
+- **Statistical Physics**
   - FISES. Física Estadística, Navarra 2003, Madrid 2004, Granada 2007, Salamanca 2008.
   - 6th Liquid Matter Conference, Utrecht - Netherlands (2005).
   - 22th StatsPhysics, Bangalore - India (2004).
@@ -105,3 +108,5 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ---
 
 - Indian Journal of Radio and Space Physics., (2011).
+- Hydrometeorology Water Resources Research (AGU journal), (2014).
+- Remote Sensing Remote Sensing (MPDI journal), (2014).
