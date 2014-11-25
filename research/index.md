@@ -23,7 +23,18 @@ image:
 ## Overview
 ---
 
-My research background cover several fields and a broad set of methodologies both theoretical and experimental, with a strong focus on computational tools. My initial formation is Physics with an specialization on Theoretical Physics. This side was developed during my M.Sc. in Condensed Matter which was related with Statistical Physics in a theoretical field of Theory of Liquids. However my interest has been moved to the field of Atmospheric Sciences and Remote Sensing. Therefore the main scope of my PhD was related with Micro-physics of rainfall and remote sensing of precipitation, which also involves Applied Statistics. Actually I am working at the field of Remote Sensing of Trace Gases, this improves my knowledge on radiative transfer theory, inverse problem,satellite product, and spectroscopy.
+My research background covers several fields and a broad set of methodologies with a fo-
+cus on computational skills and statistical methods. My initial formation is Physics, with
+an specialization on Statistical Theoretical Physics. In my PhD I investigated
+in field of Atmospheric Sciences and Remote Sensing, in particular in micro-physics
+and remote sensing of precipitation, which also involved Applied Statistics.
+Currently I am working at Karlsruhe Institute of Technology, and my research is about
+Remote Sensing of Trace Gases, with specific topics related with spectroscopy, radiative
+transfer theory, inverse problems and processing of satellite products.
+
+
+[comment]: <> (My research background cover several fields and a broad set of methodologies both theoretical and experimental, with a strong focus on computational tools. My initial formation is Physics with an specialization on Theoretical Physics. This side was developed during my M.Sc. in Condensed Matter which was related with Statistical Physics in a theoretical field of Theory of Liquids. However my interest has been moved to the field of Atmospheric Sciences and Remote Sensing. Therefore the main scope of my PhD was related with Micro-physics of rainfall and remote sensing of precipitation, which also involves Applied Statistics. Actually I am working at the field of Remote Sensing of Trace Gases, this improves my knowledge on radiative transfer theory, inverse problem,satellite product, and spectroscopy)
+
 
 ---
 
