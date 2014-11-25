@@ -56,30 +56,30 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ---
 
 - **Remote Sensing of Trace Gases**
-   - Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor, Ramiro Checa-Garcia, Jochen Landgraf, Frank Hase, Frans Alkemade, Andre Butz. AMT Journal, to be submitted (Dec-2014 )
-   - ESA Technical Note: Consolidation of SWIR requirements for Sentinel-5 satellite (2013)
-   - ESA report: Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite (2013)
-   - Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept, AGU - Geophysical Trace Gases Research Abstracts, Thiemo Knigge and Frank Schmuelling Andre Butz, Johannes Orphal, Heinrich Bovensmann, Thomas von Clarmann, Felix Friedl-Vallon, Frank Hase, Ramiro Checa-Garcia, Gerald Hechenblaikner, October 2014.
-   - Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an Trace Gases error sources analysis, Geophysical Research Abstracts, Ramiro Checa-Garcia, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
+   - *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, ++Ramiro Checa-Garcia++, Jochen Landgraf, Frank Hase, Frans Alkemade, Andre Butz. **AMT Journal, to be submitted (Dec-2014)**
+   - *Consolidation of SWIR requirements for Sentinel-5 satellite*. **ESA Technical Note (2013)**
+   - *Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite*. **ESA report (2013)**
+   - *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*, **AGU - Geophysical Research Abstracts**, Thiemo Knigge and Frank Schmuelling Andre Butz, Johannes Orphal, Heinrich Bovensmann, Thomas von Clarmann, Felix Friedl-Vallon, Frank Hase, ++Ramiro Checa-Garcia++, Gerald Hechenblaikner, October 2014.
+   - *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, **Geophysical Research Abstracts**, ++Ramiro Checa-Garcia++, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
 
 
 - **Statistical Physics**
-   - Critical analysis of the density functional theory prediction of enhanced capillary waves (P Tarazona, R Checa, E Chacón), Physical review letters 99 (19), 196101 (2007)
-   - Density functional study of layering at liquid surfaces (R Checa, E Chacón, P Tarazona) Physical Review E 70 (6), 061601 (2004)
-   - Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory (R Checa-Garcia) arXiv preprint arXiv:1307.6199 (2013)
+   - *Critical analysis of the density functional theory prediction of enhanced capillary waves*. P Tarazona, ++R Checa-Garcia++, E Chacón, **Physical Review Letters** 99 (19), 196101 (2007)
+   - *Density functional study of layering at liquid surfaces*. ++R Checa-Garcia++, E Chacón, P Tarazona. **Physical Review E** 70 (6), 061601 (2004)
+   - *Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory*, ++R Checa-Garcia++. **arXiv preprint arXiv:1307.6199** (2013)
 
 - **Hydrometeorology**
-   - An experiment to measure the spatial variability of rain drop size distribution using sixteen laser disdrometers (FJ Tapiador, R Checa, M De Castro) Geophysical Research Letters 37 (16) (2010)
-   - Precipitation estimates for hydroelectricity (FJ Tapiador, AY Hou, M de Castro, R Checa, F Cuartero, AP Barros) Energy & Environmental Science 4 (11), 4435-4448 (2011)
-   - A maximum entropy modelling of the rain drop size distribution (R Checa, FJ Tapiador) Entropy 13 (2), 293-315 (2011)
-   - First measurement of the small-scale spatial variability of the rain drop size distribution: Results from a crucial experiment and maximum entropy modeling (R Checa-Garcia) arXiv preprint arXiv:1306.5649 (2013)
-   - Binning effects on in-situ raindrop size distribution measurements (R.Checa-Garcia, A. Tokay, FJ Tapiador) AMTD 7, (2014)
-   - Supplement: Binning effects on in-situ raindrop size distribution measurements (R.Checa-Garcia) AMTD 7, (2014) downloading link.
+   - *An experiment to measure the spatial variability of rain drop size distribution using sixteen laser disdrometers*. FJ Tapiador, R Checa, M De Castro **Geophysical Research Letters** 37 (16) (2010)
+   - *Precipitation estimates for hydroelectricity*, FJ Tapiador, AY Hou, M de Castro, ++R Checa++, F Cuartero, AP Barros, **Energy & Environmental Science** 4 (11), 4435-4448 (2011)
+   - *A maximum entropy modelling of the rain drop size distribution*, R Checa, FJ Tapiador, **Entropy** 13 (2), 293-315 (2011)
+   - *First measurement of the small-scale spatial variability of the rain drop size distribution: Results from a crucial experiment and maximum entropy modeling* ++R Checa-Garcia++ **arXiv preprint arXiv:1306.5649** (2013)
+   - *Binning effects on in-situ raindrop size distribution measurements*. ++R.Checa-Garcia++, A. Tokay, FJ Tapiador, **AMTD** 7, (2014)
+   - *Supplement: Binning effects on in-situ raindrop size distribution measurements* (R.Checa-Garcia) **AMTD** 7, (2014).
 
 
 - **Dynamical Systems**
 
-   - Toy Models of dynamical systems to understand topics of atmospheric dynamics. (R Checa-Garcia) NWP Applications for Meteorology
+   - *Toy Models of dynamical systems to understand topics of atmospheric dynamics*. ++R Checa-Garcia++ **NWP Applications for Meteorology**.
 
 ### Conferences & Workshops
 ---
