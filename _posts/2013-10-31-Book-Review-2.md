@@ -3,7 +3,7 @@ layout: post
 title: "Book Review: An Introduction to Atmospheric Physics (David G. Andrews)"
 author: ramiro_chg
 modified:
-excerpt: "Small review: An Introduction to Atmospheric Physics, David G. Andrews. Cambridge University Press, 2nd Edition. 2010."
+excerpt: "Brief book review"
 tags: [review, atmospheric-physics]
 ---
 

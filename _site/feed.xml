@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-25T20:22:57+01:00</updated>
+<updated>2014-11-25T20:26:41+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -44,17 +44,26 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Book Review: A First Course in Atmospheric Radiation ]]></title>
+  <title type="html"><![CDATA[Book Review]]></title>
   <link rel="alternate" type="text/html" href="http://rchg.github.io/Book-Review/" />
   <id>http://rchg.github.io/Book-Review</id>
   <published>2014-10-01T00:00:00+02:00</published>
   <updated>2014-10-01T00:00:00+02:00</updated>
   <author>
-    <name>R. Checa-Garcia</name>
+    <name>R.Checa-Garcia</name>
     <uri>http://rchg.github.io</uri>
     
   </author>
-  <content type="html">&lt;blockquote&gt;
+  <content type="html">&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: “Book Review: A First Course in Atmospheric Radiation (G.W. Petty)”
+author: ramiro_chg
+modified:
+excerpt: “Brief book review”
+tags: [review, atmospheric-physics]
+—G.W. Petty&lt;/p&gt;
+
+&lt;blockquote&gt;
   &lt;p&gt;Introductory book to the Physics of radiation, with emphasis on atmospheric related applications. The book contains a good selection of exercises and it was written with a easy to read style&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -67,7 +76,7 @@
 &lt;p&gt;The readers interested on remote sensing by satellite in subjects like atmospheric chemistry or cloud physics without a previous background on this applications will find quite useful have this book close in the working desk.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Book-Review/&quot;&gt;Book Review: A First Course in Atmospheric Radiation &lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 01, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Book-Review/&quot;&gt;Book Review&lt;/a&gt; was originally published by R.Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 

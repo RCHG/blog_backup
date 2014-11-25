@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Book Review: A First Course in Atmospheric Radiation "
+title: "Book Review: A First Course in Atmospheric Radiation (G.W. Petty)"
 author: ramiro_chg
 modified:
 excerpt: "Brief book review"
 tags: [review, atmospheric-physics]
----
+---G.W. Petty
 
 > Introductory book to the Physics of radiation, with emphasis on atmospheric related applications. The book contains a good selection of exercises and it was written with a easy to read style
 
