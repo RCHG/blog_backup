@@ -20,7 +20,6 @@ image:
 
 > I learned very early the difference between knowing the name of something and knowing something. ― **Richard P. Feynman**
 
-## Overview
+## Overview 2014
 ---
 
-$$A=f(x)$$
