@@ -23,3 +23,4 @@ image:
 ## Overview
 ---
 
+$$A=f(x)$$
