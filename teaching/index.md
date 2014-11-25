@@ -23,3 +23,4 @@ image:
 ## Overview 2014
 ---
 
+$$ A = f(x) $$
