@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-25T21:00:47+01:00</updated>
+<updated>2014-11-26T19:50:31+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -28,13 +28,33 @@
   </author>
   <content type="html">&lt;h3 id=&quot;definition&quot;&gt;Definition&lt;/h3&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;Post under construction: (I am writting step by step)&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;Mie Scattering is the solution of the scattering problem described with the Maxwell Equations, for a sphere. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multilayered spheres and with important limitations for other geometrical objects.&lt;/p&gt;
 
-&lt;h3 id=&quot;how-is-formulated&quot;&gt;How is formulated?&lt;/h3&gt;
-
-&lt;p&gt;The mathematical solution of the scattering problem is finally written in terms of the &lt;strong&gt;Phase Matrix&lt;/strong&gt; and intermediate series based on Bessel functions and Legendre Polynomia of $cos(\theta)$ , where &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; is the scattering angle.&lt;/p&gt;
+&lt;p&gt;In the Mie approach the mathematical solution of the scattering problem is finally written in terms of the &lt;strong&gt;Phase Matrix&lt;/strong&gt; and intermediate series based on Bessel functions and Legendre Polynomia of &lt;script type=&quot;math/tex&quot;&gt;cos(\theta)&lt;/script&gt; , where &lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt; is the scattering angle.&lt;/p&gt;
 
 &lt;p&gt;The calculation is relatively efficient but depends on the &lt;strong&gt;size parameter&lt;/strong&gt;, &lt;script type=&quot;math/tex&quot;&gt;x=2\pi r/\lambda&lt;/script&gt;. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-scattering-problem&quot;&gt;The Scattering problem&lt;/h3&gt;
+
+&lt;p&gt;The scattering problem can be formulated within the Maxwell Theory as,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{E}_{s}=f(R)\mathbf{S}(\Omega)\vec{E}_{i}&lt;/script&gt;
+
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{s}&lt;/script&gt; its the scattered electric field vector and &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{i}&lt;/script&gt; its the incident. &lt;script type=&quot;math/tex&quot;&gt;\mathbf{S}(\Omega)&lt;/script&gt; is the &lt;strong&gt;scattering matrix&lt;/strong&gt; (a 2x2 matrix). We have indicated a dependence on solid angle &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;. In the case of isotropic spheres the dependency its only &lt;script type=&quot;math/tex&quot;&gt;\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)&lt;/script&gt;. &lt;script type=&quot;math/tex&quot;&gt;f(R)&lt;/script&gt; it is just a function of the distance. In general the scattering matrix its a complex matrix.&lt;/p&gt;
+
+&lt;p&gt;For spheres (and probably also for a set of scatters with randomly oriented axis)  the scattering matrix is diagonal. &lt;/p&gt;
+
+&lt;p&gt;In the Atmospheric Radiation studies it is quite common use the Stokes vector, so we have an incident stokes vector and an scattered stokes vectors. If we write the scattering problem in terms of the Stokes vector:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}&lt;/script&gt;
+
+&lt;p&gt;and here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Phase Matrix&lt;/strong&gt; (maybe with a factor proportional to the scattering cros-section). Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix.&lt;/p&gt;
+
+&lt;p&gt;At this point the Mie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt; and therefore the &lt;strong&gt;phase matrix&lt;/strong&gt;&lt;/p&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Mie-Scattering/&quot;&gt;Mie Scattering&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>
