@@ -66,18 +66,20 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ### Publications and Technical Reports
 ---
 
+
 - **Remote Sensing of Trace Gases**
-   - *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, **Ramiro Checa-Garcia**, Jochen Landgraf, Frank Hase, Frans Alkemade, Andre Butz. `AMT Journal`, to be submitted (Dec-2014)**
+   - *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, **Ramiro Checa-Garcia**, Jochen Landgraf, Frank Hase, Ha Tran, Vincent Boudon, Frans Alkemade, Andre Butz. `AMT Journal`, to be submitted (Dec-2014)
    - *Consolidation of SWIR requirements for Sentinel-5 satellite*. `ESA Technical Note (2013)`
    - *Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite*. `ESA Technical report (2013)`
    - *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*, `AGU - Geophysical Research Abstracts`, T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner, October 2014.
-   - *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
+   - *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `EGU - Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
 
 
 - **Statistical Physics**
    - *Critical analysis of the density functional theory prediction of enhanced capillary waves*. P Tarazona, **R Checa-Garcia**, E Chacón, `Physical Review Letters` 99 (19), 196101 (2007)
    - *Density functional study of layering at liquid surfaces*. **R Checa-Garcia**, E Chacón, P Tarazona. `Physical Review E` 70 (6), 061601 (2004)
    - *Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory*, **R.Checa-Garcia**. `arXiv preprint arXiv:1307.6199` (2013)
+
 
 - **Hydrometeorology**
    - *An experiment to measure the spatial variability of rain drop size distribution using sixteen laser disdrometers*. FJ Tapiador, **R. Checa-Garcia**, M De Castro `Geophysical Research Letters` 37 (16) (2010)
@@ -89,7 +91,6 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 
 
 - **Dynamical Systems**
-
    - *Toy Models of dynamical systems to understand topics of atmospheric dynamics*. **R. Checa-Garcia** `NWP Applications for Meteorology` .
 
 ### Conferences & Workshops
