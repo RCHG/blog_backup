@@ -46,7 +46,7 @@ The central goal of the project I am working is related with a consolidation of 
 ### PhD. Dissertation
 
 
-**Important Note:**  I would recommend check [link](https://spideroak.com/browse/share/checagarcia/phddissertation) to download a PDF file with the Dissertation. However, please note that this version (and the version upload to the arXiv repository) are not equal the official filled version at my university. More specifically: I finished my PhD Dissertation on November 2011, however it was not filled until June-2012, therefore I included additional research that I did by myself on the filled version. But also after fill and defend my PhD still I work more on the topic and I have included several improvements (and they were included on the version uploaded to arXiv and on the first pdf linked above).
+**Important Note:**  I would recommend check [link](https://spideroak.com/browse/share/checagarcia/phddissertation) to download a PDF file with the Dissertation. However, please note that this version (and the version upload to the arXiv repository) are not equal the official filled version at my university. More specifically: I finished my PhD Dissertation on November 2011. However because it was not filled until June-2012, I included additional research that I did by myself on the filled version. But also after finish my PhD still I worked on the topic and I have included several improvements on the PDF on the version uploaded to arXiv (and on the first pdf linked above).
 {:.notice}
 <br><br>
 **First measurement of the small-scale spatial variability of the rain drop size distribution: Results from a crucial experiment and maximum entropy modeling** (R Checa-Garcia) arXiv preprint arXiv:1306.5649 (2013)
