@@ -67,13 +67,14 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 ---
 
 
-- **Remote Sensing of Trace Gases**
+**Remote Sensing of Trace Gases**
 
-   - *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, **Ramiro Checa-Garcia**, Jochen Landgraf, Frank Hase, Ha Tran, Vincent Boudon, Frans Alkemade, Andre Butz. `AMT Journal`, to be submitted (Dec-2014)
-   - *Consolidation of SWIR requirements for Sentinel-5 satellite*. `ESA Technical Note (2013)`
-   - *Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite*. `ESA Technical report (2013)`
-   - *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*, `AGU - Geophysical Research Abstracts`, T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner, October 2014.
-   - *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `EGU - Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014. {:.smallquote}
+- *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, **Ramiro Checa-Garcia**, Jochen Landgraf, Frank Hase, Ha Tran, Vincent Boudon, Frans Alkemade, Andre Butz. `AMT Journal`, to be submitted (Dec-2014)
+- *Consolidation of SWIR requirements for Sentinel-5 satellite*. `ESA Technical Note (2013)`
+- *Spectroscopy relevance on SWIR requirements for Sentinel-5 satellite*. `ESA Technical report (2013)`
+- *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*, `AGU - Geophysical Research Abstracts`, T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner, October 2014.
+- *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `EGU - Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
+{:.smallquote}
 
 - **Statistical Physics**
    - *Critical analysis of the density functional theory prediction of enhanced capillary waves*. P Tarazona, **R Checa-Garcia**, E Chacón, `Physical Review Letters` 99 (19), 196101 (2007)
