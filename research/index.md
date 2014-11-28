@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Research'
+title: Research
 modified: 2014-07-31T13:23:02.362000-04:00
 excerpt: "Overview of my research experience"
 image:
