@@ -37,7 +37,7 @@
       {% if page.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a> <a href="{{ page.link }}" target="_blank" title="{{ page.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
-        <h2><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ post.title }}</a></h2>
+        <h2>1<a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ post.title }}</a></h2>
         <p>{{ page.excerpt | strip_html | truncate: 160 }}</p>
       {% endif %}
     </article>
