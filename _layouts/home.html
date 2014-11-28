@@ -29,6 +29,21 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
+  
+    <div id="index">
+    <h3>Pages</h3>
+    {% for page in site.pages limit:5 %}    
+    <article>
+      {% if page.link %}
+        <h2 class="link-post"><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a> <a href="{{ page.link }}" target="_blank" title="{{ page.title }}"><i class="fa fa-link"></i></h2>
+      {% else %}
+        <h2><a href="{{ site.url }}{{ page.url }}" title="{{ page.title }}">{{ post.title }}</a></h2>
+        <p>{{ page.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div><!-- /#index -->
+  
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}    

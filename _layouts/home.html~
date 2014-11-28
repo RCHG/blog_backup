@@ -22,9 +22,6 @@
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
-  {% endif %}
   </div><!-- /.image-wrap --> 
 {% endif %}
 
@@ -32,6 +29,21 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
+  
+    <div id="index">
+    <h3>Pages</h3>
+    {% for page in site.pages limit:5 %}    
+    <article>
+      {% if page.link %}
+        <h2 class="link-post"><a href="{{ site.url }}{{ po.url }}" title="{{ page.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+      {% else %}
+        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div><!-- /#index -->
+  
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
     {% for post in site.posts limit:5 %}    
