@@ -116,11 +116,15 @@ blockquote {
 
 .smallquote {
 	margin-left: 38px;
-	padding-left: 50px;
+	padding-left: 40px;
 	border-left: 4px solid darken($body-color,30);
 	@include font-rem(11);
 	font-family: $alt-font;
 }
+
+//Custom List
+//---------------------------------------------------
+li.inline{display:inline; @include font-rem(10); }
 
 // Footnotes
 // --------------------------------------------------
