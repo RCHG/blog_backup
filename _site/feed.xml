@@ -4,57 +4,13 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-28T20:10:24+01:00</updated>
+<updated>2014-11-28T20:11:05+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
   <uri>http://rchg.github.io/</uri>
   
 </author>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Mie Scattering]]></title>
-  <link rel="alternate" type="text/html" href="http://rchg.github.io/blog/Mie-Scattering/" />
-  <id>http://rchg.github.io/blog/Mie-Scattering</id>
-  <published>2014-11-20T00:00:00+01:00</published>
-  <updated>2014-11-20T00:00:00+01:00</updated>
-  <author>
-    <name>R. Checa-Garcia</name>
-    <uri>http://rchg.github.io</uri>
-    
-  </author>
-  <content type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Post under construction&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multilayered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the &lt;strong&gt;size parameter&lt;/strong&gt;, &lt;script type=&quot;math/tex&quot;&gt;x=2\pi r/\lambda&lt;/script&gt;. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-scattering-problem&quot;&gt;The Scattering problem&lt;/h3&gt;
-
-&lt;p&gt;The scattering problem can be formulated within the Maxwell Theory as,&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{E}_{s}=f(R)\mathbf{S}(\Omega)\vec{E}_{i}&lt;/script&gt;
-
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{s}&lt;/script&gt; its the scattered electric field vector and &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{i}&lt;/script&gt; its the incident electric field. &lt;script type=&quot;math/tex&quot;&gt;\mathbf{S}(\Omega)&lt;/script&gt; is the &lt;strong&gt;scattering matrix&lt;/strong&gt; (a 2x2 matrix). We have indicated a dependence on solid angle &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;. In the case of isotropic spheres the dependency its only &lt;script type=&quot;math/tex&quot;&gt;\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)&lt;/script&gt;. And &lt;script type=&quot;math/tex&quot;&gt;f(R)&lt;/script&gt; it is just a function of the distance (we are usually in &lt;em&gt;far field approximation&lt;/em&gt;). In general the scattering matrix its a complex matrix.&lt;/p&gt;
-
-&lt;p&gt;For spheres (and probably also for any set of scatters with randomly oriented axis) the scattering matrix is diagonal. &lt;/p&gt;
-
-&lt;h3 id=&quot;the-phase-matrix&quot;&gt;The Phase Matrix&lt;/h3&gt;
-
-&lt;p&gt;In the Atmospheric Radiation studies it is quite common use the &lt;strong&gt;Stokes vector&lt;/strong&gt;, so we have an incident stokes vector &lt;script type=&quot;math/tex&quot;&gt;\vec{I}_{i}&lt;/script&gt; and an scattered stokes vector &lt;script type=&quot;math/tex&quot;&gt;\vec{I}_{s}&lt;/script&gt; and the scattering problem is written as,&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}&lt;/script&gt;
-
-&lt;p&gt;here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Transformation Matrix&lt;/strong&gt; while the &lt;strong&gt;Phase Matrix&lt;/strong&gt; is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt;.&lt;/p&gt;
-
-
-  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/blog/Mie-Scattering/&quot;&gt;Mie Scattering&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>
-</entry>
 
 
   
@@ -128,65 +84,6 @@
 
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Book-Review/&quot;&gt;Book Review: A First Course in Atmospheric Radiation (G.W. Petty)&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 01, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Book Review: A First Course in Atmospheric Radiation (G.W. Petty)]]></title>
-  <link rel="alternate" type="text/html" href="http://rchg.github.io/blog/Book-Review/" />
-  <id>http://rchg.github.io/blog/Book-Review</id>
-  <published>2014-10-01T00:00:00+02:00</published>
-  <updated>2014-10-01T00:00:00+02:00</updated>
-  <author>
-    <name>R. Checa-Garcia</name>
-    <uri>http://rchg.github.io</uri>
-    
-  </author>
-  <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Introductory book to the Physics of radiation, with emphasis on atmospheric related applications. The book contains a good selection of exercises and it was written with a easy to read style&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The book of G.W. Petty about Atmospheric Radiation (see here) , while it is an introductory book contains almost every topic that a university student or young researcher may need. Just I missed a more detailed further reading section to guide the reader a little bit more to the field.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.sundogpublishing.com/shop/images/41/AtmosRadCover2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The previous knowledge needed to follow the book is just the logical mathematical skills and a capacity to follow the physics reasoning of the author. But the book doesn’t rely too much on Electromagnetic or Optics physics with is only used at the beginning of the book to explain the nature of the light. The book, as usual in this field cover the phenomena of absorption, emission and scattering of light which always are described focused on atmospheric radiation applications. Equations for multiple scattering radiation transfer theory are included together with the typical Legendre Polynomial based expansion of the Phase Function, but probably additional information would needed for those reader most interested on the mathematical side of radiative transfer theory. The practical problem of line by line calculation and the k-correlation approach to solve (partially) this problem is successfully and very intuitively explained. In general the goal of the author of explain to the reader the way of reasoning on atmospheric radiation is nicely achieved.&lt;/p&gt;
-
-&lt;p&gt;The readers interested on remote sensing by satellite in subjects like atmospheric chemistry or cloud physics without a previous background on this applications will find quite useful have this book close in the working desk.&lt;/p&gt;
-
-
-  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/blog/Book-Review/&quot;&gt;Book Review: A First Course in Atmospheric Radiation (G.W. Petty)&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 01, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Book Review: An Introduction to Atmospheric Physics (David G. Andrews)]]></title>
-  <link rel="alternate" type="text/html" href="http://rchg.github.io/blog/Book-Review-2/" />
-  <id>http://rchg.github.io/blog/Book-Review-2</id>
-  <published>2013-10-31T00:00:00+01:00</published>
-  <updated>2013-10-31T00:00:00+01:00</updated>
-  <author>
-    <name>R. Checa-Garcia</name>
-    <uri>http://rchg.github.io</uri>
-    
-  </author>
-  <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Concise Review of the introductory book to Atmospheric Physics written by David G. Andrews. Personally I founded it more useful on several aspects than the broadly known book “Atmospheric Science (an introductory survey)” of J.M.Wallace, which probably gives too many details to the reader instead of focus on the relevant physical meaning. Probably this last book is more useful like a general reference.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The author presents an concise introduction to several topics on Atmospheric Physics. No previous knowledge is supposed and the different subjects are explained on a consistent exposition mainly self-contained.&lt;/p&gt;
-
-&lt;p&gt;For a undergraduate students of any scientific discipline it is a interesting introduction book. In my personal opinion I have found his concise approach more useful than other more encyclopedic books like Atmospheric Science of John M. Wallace and Peter V. Hobbs, at least for a beginner. The topics of atmospheric thermodynamics, basic fluid dynamics or radiative transfer theory are well exposed with a minimum previous knowledge on physics and mathematics. However if the reader is looking for other topics like conceptual models on meteorology, cloud physics or data-assimilation applied to atmospheric physics other references are needed.&lt;/p&gt;
-
-&lt;p&gt;The problems contained on each chapter provide a necessary complement to understand correctly the topics described. And finally the set of references is enough, but probably a student with interest on an specific subject may need more sources of information for the bibliography.&lt;/p&gt;
-
-&lt;p&gt;In my opinion, a good book that I recommend for introductory courses on sciences under-graduate programs.&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/blog/Book-Review-2/&quot;&gt;Book Review: An Introduction to Atmospheric Physics (David G. Andrews)&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 31, 2013.&lt;/p&gt;</content>
 </entry>
 
 
