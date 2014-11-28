@@ -124,7 +124,7 @@ blockquote {
 
 //Custom List
 //---------------------------------------------------
-li.inline{display:inline; @include font-rem(10); color:darken($body-color,50)}
+li.inline{display:inline; margin-top: -3px; margin-bottom: -3px; padding-left: 2px; padding-right:@include font-rem(10); background:darken($body-color,70); color:white}
 
 // Footnotes
 // --------------------------------------------------
