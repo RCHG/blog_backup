@@ -81,6 +81,12 @@ figcaption {
 
 // Note text
 // --------------------------------------------------
+// 	-webkit-columns: 50px 2; /* Chrome, Safari, Opera */
+//  -moz-columns: 50px 2; /* Firefox */
+//   columns: 50px 2;
+
+
+
 .notice {
 	margin-top: 1.5em;
 	padding: .5em 1em;
@@ -104,9 +110,6 @@ figcaption {
 	border-left: 2px solid darken($body-color,30);
 	border-right: 2px solid darken($body-color,30);
 	@include rounded(8px);
-	-webkit-columns: 50px 2; /* Chrome, Safari, Opera */
-    -moz-columns: 50px 2; /* Firefox */
-    columns: 50px 2;
 }
 
 // Blockquotes
