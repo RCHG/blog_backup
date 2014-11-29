@@ -35,3 +35,9 @@ $$\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}$$
 
 here $$\mathbf{F}(\Omega)$$ its a 4x4 real matrix called **Transformation Matrix** while the **Phase Matrix** is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the **scattering matrix**.
 
+
+
+{% bibliography --cited %}
+
+
+
