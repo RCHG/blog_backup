@@ -9,8 +9,6 @@ hr {
 }
 /* Figures and images ==================================== */
 figure {
-	border-top: 2px solid darken($body-color,40);
-	border-bottom: 2px solid darken($body-color,40);
 	margin-bottom: $indent-var;
 }
 article img {
