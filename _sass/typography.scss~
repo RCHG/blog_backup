@@ -47,9 +47,11 @@ a {
 // --------------------------------------------------
 figcaption {
 	padding-top: 10px;
+	font-variant: small-caps;
+	text-align: center;
 	@include font(14);
 	line-height: 1.3;
-	color: lighten($text-color, 10);
+	color: lighten($text-color, 20);
 }
 
 // Feature Image Caption
@@ -124,7 +126,7 @@ blockquote {
 
 //Custom List
 //---------------------------------------------------
-li.inline{display:inline; margin-top: -3px; margin-bottom: -3px; padding-left: 2px; padding-right: 2px; @include font-rem(10); background:darken($body-color,15); color:darken($body-color,90); @include rounded(4px);}
+li.inline{display:inline; margin-top: -3px; margin-bottom: -3px; padding-left: 2px; padding-right: 2px; @include font-rem(10); background:darken($body-color,10); color:darken($body-color,90); @include rounded(4px);}
 
 // Footnotes
 // --------------------------------------------------
