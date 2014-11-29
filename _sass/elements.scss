@@ -11,8 +11,7 @@ hr {
 figure {
     padding-top: 3px;
     padding-bottom: 3px;
-	border: 2px solid darken($body-color,40);
-	border-bottom: 2px solid darken($body-color,40);
+	border-left: 2px solid darken($body-color,40);
 	margin-bottom: $indent-var;
 }
 article img {
