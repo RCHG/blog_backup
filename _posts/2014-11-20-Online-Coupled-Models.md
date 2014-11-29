@@ -7,8 +7,10 @@ excerpt: "Comment about Online Coupled Models"
 tags: [NWPM,earth-modelling, atmospheric-physics]
 image:
   feature: sample-image-3.jpg
+
 ---
 
+[TOC]
 ### Introduction
 
 > Post under construction: In this post I am writting step by step the topics I am learning about Online Coupled Models. 
