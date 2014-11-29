@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-29T20:07:47+01:00</updated>
+<updated>2014-11-29T20:42:06+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -36,7 +36,12 @@
 
 &lt;h4 id=&quot;spatio-temporal-resolution&quot;&gt;Spatio-temporal Resolution&lt;/h4&gt;
 
-&lt;p&gt;Few years ago most of the NWPM were &lt;strong&gt;hydrostatic&lt;/strong&gt; which constrained the spatial resolution to values larger than (around) 20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually &lt;strong&gt;non-hydrostatic&lt;/strong&gt;. However smaller spatial resolution also means improve the physical parameterizations or physical descriptions, a classical example is the convection. When the scale is highly improved the name of the NWPM is called Cloud-Resolving-Models. The aerosols and chemistry can be included on several scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  &lt;/p&gt;
+&lt;p&gt;Few years ago most of the NWPM were &lt;strong&gt;hydrostatic&lt;/strong&gt; which constrained the spatial resolution to values larger than (around) 20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually &lt;strong&gt;non-hydrostatic&lt;/strong&gt;. However smaller spatial resolution also means improve the physical parameterizations or physical descriptions, a classical example is the convection. When the scale is highly improved the name of the NWPM is called &lt;strong&gt;Cloud-Resolving-Models&lt;/strong&gt;. The aerosols and chemistry can be included on several scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  &lt;/p&gt;
+
+&lt;figure&gt;
+&lt;a href=&quot;http://www.meteoswiss.admin.ch/web/en/research/consortia/cosmo/more_about/properties.Par.0009.Image.jpg&quot;&gt;&lt;img src=&quot;http://www.meteoswiss.admin.ch/web/en/research/consortia/cosmo/more_about/properties.Par.0009.Image.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;&lt;a title=&quot;Illustration of Spatial Resolutions&quot;&gt;Illustration of Spatial Resolutions (source:MeteoSwiss)&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h4 id=&quot;objectives&quot;&gt;Objectives&lt;/h4&gt;
 
