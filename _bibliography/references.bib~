@@ -1,13 +1,10 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: ISO8859_1
 
-@PREAMBLE{ "\newcommand{\noopsort}[1]{} " # "\newcommand{\printfirst}[2]{#1} " # "\newcommand{\singleletter}[1]{#1} " # "\newcommand{\switchargs}[2]{#2#1} " }
-
-@STRING{ACM = {The OX Association for Computing Machinery}}
-
-@STRING{STOC = { Symposium on the Theory of Computing}}
-
-@STRING{STOC-key = {OX{\singleletter{stoc}}}}
+---
+---
+References
+==========
 
 @ARTICLE{Albert2009,
   author = {Albert, Sieghard and Bauerecker, Sigurd and Boudon, Vincent and Brown,
