@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-29T15:06:42+01:00</updated>
+<updated>2014-11-29T15:12:07+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -40,7 +40,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{E}_{s}=f(R)\mathbf{S}(\Omega)\vec{E}_{i}&lt;/script&gt;
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{s}&lt;/script&gt; its the scattered electric field vector and &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{i}&lt;/script&gt; its the incident electric field. &lt;script type=&quot;math/tex&quot;&gt;\mathbf{S}(\Omega)&lt;/script&gt; is the &lt;strong&gt;scattering matrix&lt;/strong&gt; (a 2x2 matrix). We have indicated a dependence on solid angle &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;. In the case of isotropic spheres the dependency its only &lt;script type=&quot;math/tex&quot;&gt;\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)&lt;/script&gt;. And &lt;script type=&quot;math/tex&quot;&gt;f(R)&lt;/script&gt; it is just a function of the distance (we are usually in &lt;em&gt;far field approximation&lt;/em&gt;). In general the scattering matrix its a complex matrix &lt;a href=&quot;#ruby&quot;&gt;(Flanagan &amp;amp; Matsumoto, 2008)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{s}&lt;/script&gt; its the scattered electric field vector and &lt;script type=&quot;math/tex&quot;&gt;\vec{E}_{i}&lt;/script&gt; its the incident electric field. &lt;script type=&quot;math/tex&quot;&gt;\mathbf{S}(\Omega)&lt;/script&gt; is the &lt;strong&gt;scattering matrix&lt;/strong&gt; (a 2x2 matrix). We have indicated a dependence on solid angle &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;. In the case of isotropic spheres the dependency its only &lt;script type=&quot;math/tex&quot;&gt;\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)&lt;/script&gt;. And &lt;script type=&quot;math/tex&quot;&gt;f(R)&lt;/script&gt; it is just a function of the distance (we are usually in &lt;em&gt;far field approximation&lt;/em&gt;). In general the scattering matrix its a complex matrix.&lt;/p&gt;
 
 &lt;p&gt;For spheres (and probably also for any set of scatters with randomly oriented axis) the scattering matrix is diagonal. &lt;/p&gt;
 
@@ -51,8 +51,6 @@
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}&lt;/script&gt;
 
 &lt;p&gt;here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Transformation Matrix&lt;/strong&gt; while the &lt;strong&gt;Phase Matrix&lt;/strong&gt; is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ruby&quot;&gt;Flanagan, D., &amp;amp; Matsumoto, Y. (2008). &lt;i&gt;The Ruby Programming Language&lt;/i&gt;. O’Reilly Media.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Mie-Scattering/&quot;&gt;Mie Scattering&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>

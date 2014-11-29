@@ -23,7 +23,7 @@ The scattering problem can be formulated within the Maxwell Theory as,
 
 $$\vec{E}_{s}=f(R)\mathbf{S}(\Omega)\vec{E}_{i}$$
 
-where $$\vec{E}_{s}$$ its the scattered electric field vector and $$\vec{E}_{i}$$ its the incident electric field. $$\mathbf{S}(\Omega)$$ is the **scattering matrix** (a 2x2 matrix). We have indicated a dependence on solid angle $$\Omega$$. In the case of isotropic spheres the dependency its only $$\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)$$. And $$f(R)$$ it is just a function of the distance (we are usually in *far field approximation*). In general the scattering matrix its a complex matrix {% cite ruby %}.
+where $$\vec{E}_{s}$$ its the scattered electric field vector and $$\vec{E}_{i}$$ its the incident electric field. $$\mathbf{S}(\Omega)$$ is the **scattering matrix** (a 2x2 matrix). We have indicated a dependence on solid angle $$\Omega$$. In the case of isotropic spheres the dependency its only $$\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)$$. And $$f(R)$$ it is just a function of the distance (we are usually in *far field approximation*). In general the scattering matrix its a complex matrix.
 
 For spheres (and probably also for any set of scatters with randomly oriented axis) the scattering matrix is diagonal. 
 
@@ -34,8 +34,6 @@ In the Atmospheric Radiation studies it is quite common use the **Stokes vector*
 $$\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}$$
 
 here $$\mathbf{F}(\Omega)$$ its a 4x4 real matrix called **Transformation Matrix** while the **Phase Matrix** is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the **scattering matrix**.
-
-{% bibliography --cited %}
 
 
 
