@@ -23,7 +23,7 @@ Few years ago most of the NWPM were **hydrostatic** which constrained the spatia
 
 <figure class="half">
 <a
-href="http://www.meteoswiss.admin.ch/web/en/research/consortia/cosmo/more_about/properties.Par.0009.Image.jpg"><img src="http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/FE/Bilder/ASFU__NM__Phys__Par__skalentrennung__en__580,property=default.jpg"></a>
+href="http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/FE/Bilder/ASFU__NM__Phys__Par__skalentrennung__en__580,property=default.jpg"><img src="http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/FE/Bilder/ASFU__NM__Phys__Par__skalentrennung__en__580,property=default.jpg"></a>
 <a
 href="http://www.clm-community.eu/images/13_Picture1_1403507274.jpg"><img src="http://www.clm-community.eu/images/13_Picture1_1403507274.jpg"></a>
 	<figcaption><a title="Illustration of Spatial Resolutions">Illustration of Spatial Resolutions (sources:DWD and www.clm-community.eu)</a></figcaption>
