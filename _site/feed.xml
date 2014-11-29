@@ -4,13 +4,47 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-29T15:12:07+01:00</updated>
+<updated>2014-11-29T20:07:47+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
   <uri>http://rchg.github.io/</uri>
   
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Online Coupled Models]]></title>
+  <link rel="alternate" type="text/html" href="http://rchg.github.io/Online-Coupled-Models/" />
+  <id>http://rchg.github.io/Online-Coupled-Models</id>
+  <published>2014-11-20T00:00:00+01:00</published>
+  <updated>2014-11-20T00:00:00+01:00</updated>
+  <author>
+    <name>R. Checa-Garcia</name>
+    <uri>http://rchg.github.io</uri>
+    
+  </author>
+  <content type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Post under construction: In this post I am writting step by step the topics I am learning about Online Coupled Models. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module). The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional).&lt;/p&gt;
+
+&lt;h4 id=&quot;spatio-temporal-resolution&quot;&gt;Spatio-temporal Resolution&lt;/h4&gt;
+
+&lt;p&gt;Few years ago most of the NWPM were &lt;strong&gt;hydrostatic&lt;/strong&gt; which constrained the spatial resolution to values larger than (around) 20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually &lt;strong&gt;non-hydrostatic&lt;/strong&gt;. However smaller spatial resolution also means improve the physical parameterizations or physical descriptions, a classical example is the convection. When the scale is highly improved the name of the NWPM is called Cloud-Resolving-Models. The aerosols and chemistry can be included on several scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  &lt;/p&gt;
+
+&lt;h4 id=&quot;objectives&quot;&gt;Objectives&lt;/h4&gt;
+
+&lt;p&gt;There are adventages of the online coupled is that they may use to study the role of aerosols on the global radiative forcing. Also the aerosols are the source of Cloud-Condensation-Nucleus (CCN) that plays a central role on the cloud-microphysics. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Online-Coupled-Models/&quot;&gt;Online Coupled Models&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>
+</entry>
 
 
   
