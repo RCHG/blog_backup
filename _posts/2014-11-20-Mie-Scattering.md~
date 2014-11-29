@@ -23,7 +23,7 @@ The scattering problem can be formulated within the Maxwell Theory as,
 
 $$\vec{E}_{s}=f(R)\mathbf{S}(\Omega)\vec{E}_{i}$$
 
-where $$\vec{E}_{s}$$ its the scattered electric field vector and $$\vec{E}_{i}$$ its the incident electric field. $$\mathbf{S}(\Omega)$$ is the **scattering matrix** (a 2x2 matrix). We have indicated a dependence on solid angle $$\Omega$$. In the case of isotropic spheres the dependency its only $$\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)$$. And $$f(R)$$ it is just a function of the distance (we are usually in *far field approximation*). In general the scattering matrix its a complex matrix.
+where $$\vec{E}_{s}$$ its the scattered electric field vector and $$\vec{E}_{i}$$ its the incident electric field. $$\mathbf{S}(\Omega)$$ is the **scattering matrix** (a 2x2 matrix). We have indicated a dependence on solid angle $$\Omega$$. In the case of isotropic spheres the dependency its only $$\vec{k}_{i}\cdot \vec{k}_{s}=cos(\theta)$$. And $$f(R)$$ it is just a function of the distance (we are usually in *far field approximation*). In general the scattering matrix its a complex matrix {% cite Daumont2012 %}.
 
 For spheres (and probably also for any set of scatters with randomly oriented axis) the scattering matrix is diagonal. 
 
