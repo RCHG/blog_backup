@@ -11,6 +11,9 @@
   
 - title: Blog
   url: /posts/
+
+- title: Tags
+  url: /tags/
   
 - title: Links
   url: /links/

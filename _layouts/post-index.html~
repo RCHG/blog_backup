@@ -55,6 +55,18 @@
         {% endif %}
       </article>
     {% endfor %}
+    
+    <h1>Articles by tag :{{ site.tag }}</h1>
+<div>
+    {% if site.tags[page.tag] %}
+        {% for post in site.tags[page.tag] %}
+            <a href="{{ post.url }}/">{{ post.title }}</a>
+        {% endfor %}
+    {% else %}
+        <p>There are no posts for this tag.</p>
+    {% endif %}
+</div>
+
   </div><!-- /#index -->
 </div><!-- /#main -->
 

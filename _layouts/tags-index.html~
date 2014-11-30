@@ -30,26 +30,27 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h1>{{ page.title }}</h1>
-    {% for post in site.posts %}  
-    {% unless post.next %}
-      <h3>{{ post.date | date: '%Y' }}</h3>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h3>{{ post.date | date: '%Y' }}</h3>
-        {% endif %}
-      {% endunless %}
-      <article>
-        {% if post.link %}
-          <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-        {% else %}
-          <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-        {% endif %}
-      </article>
-    {% endfor %}
+    <h2>{{ page.title }}</h2>
+
+
+   <ul class="tag-box inline">
+   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+     <li><a href="#{{ this_word | cgi_escape }}">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+   {% endunless %}{% endfor %}
+   </ul>
+ 
+   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+  <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+   <ul class="posts">
+     {% for post in site.tags[this_word] %}{% if post.title != null %}
+     <li itemscope><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endunless %}{% endfor %}
+
+
   </div><!-- /#index -->
 </div><!-- /#main -->
 
