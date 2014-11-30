@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-11-29T21:13:05+01:00</updated>
+<updated>2014-11-30T19:56:18+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -32,7 +32,7 @@
   &lt;p&gt;Post under construction: In this post I am writting step by step the topics I am learning about Online Coupled Models. &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module). The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional).&lt;/p&gt;
+&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module)&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.&lt;/p&gt;
 
 &lt;h4 id=&quot;spatio-temporal-resolution&quot;&gt;Spatio-temporal Resolution&lt;/h4&gt;
 
@@ -48,6 +48,15 @@
 
 &lt;p&gt;There are adventages of the online coupled is that they may use to study the role of aerosols on the global radiative forcing. Also the aerosols are the source of Cloud-Condensation-Nucleus (CCN) that plays a central role on the cloud-microphysics. &lt;/p&gt;
 
+&lt;h5 id=&quot;references-and-notes&quot;&gt;References and Notes&lt;/h5&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Baklanov, A. et al.: Online coupled regional meteorology chemistry models in Europe: current status and prospects, Atmos. Chem. Phys., 14, 317-398, doi:10.5194/acp-14-317-2014, 2014. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Online-Coupled-Models/&quot;&gt;Online Coupled Models&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>
 </entry>
@@ -91,6 +100,26 @@
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}&lt;/script&gt;
 
 &lt;p&gt;here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Transformation Matrix&lt;/strong&gt; while the &lt;strong&gt;Phase Matrix&lt;/strong&gt; is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The scattering matrix can be written as,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+  S_{1}(\theta) &amp; 0 \\
+  0  &amp; S_{2}(\theta) 
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;with&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(a_{n}\pi_{n}+b_{n}\tau_{n} \right)
+&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(b_{n}\pi_{n}+a_{n}\tau_{n} \right)
+&lt;/script&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Mie-Scattering/&quot;&gt;Mie Scattering&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on November 20, 2014.&lt;/p&gt;</content>
