@@ -36,7 +36,7 @@
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}   
-            {% for tag in page.tags %}
+          <i class="fa fa-tag"></i>  {% for tag in page.tags %}
                 <li class="inline"> {{ tag }} </li>
                 {% endfor %}               
     </div><!--/ .headline-wrap -->
