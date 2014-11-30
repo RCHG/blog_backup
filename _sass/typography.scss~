@@ -132,7 +132,7 @@ blockquote {
 
 //Custom List
 //---------------------------------------------------
-li.inline{display:inline; margin-top: -3px; margin-right: 3px; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; @include font-rem(10); background:darken($body-color,10); color:darken($body-color,70); @include rounded(5px);	float: right; font-style: bold;}
+li.inline{display:inline; margin-top: -3px; margin-right: 5px; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; @include font-rem(10); background:darken($body-color,10); color:darken($body-color,70); @include rounded(5px);	float: right; font-style: bold;}
 
 // Footnotes
 // --------------------------------------------------

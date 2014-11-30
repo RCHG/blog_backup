@@ -134,6 +134,52 @@ blockquote {
 //---------------------------------------------------
 li.inline{display:inline; margin-top: -3px; margin-right: 5px; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; @include font-rem(10); background:darken($body-color,10); color:darken($body-color,70); @include rounded(5px);	float: right; font-style: bold;}
 
+
+/*****************************************************************************/
+/*
+/* Tags
+/*
+/*****************************************************************************/
+.tag-box {
+list-style: none;
+margin: 0;
+padding: 4px 0;
+overflow: hidden;
+*zoom: 1;
+}
+.tag-box:before, .tag-box:after {
+display: table;
+content: "";
+line-height: 0;
+}
+.tag-box:after {
+clear: both;
+}
+.tag-box.inline li {
+float: left;
+font-size: 14px;
+font-size: 0.875rem;
+line-height: 2.5;
+}
+.tag-box a {
+padding: 4px 6px;
+margin: 2px;
+background-color: #e6e6e6;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+text-decoration: none;
+}
+.tag-box a span {
+vertical-align: super;
+font-size: 10px;
+font-size: 0.625rem;
+}
+
+
+
+
+
 // Footnotes
 // --------------------------------------------------
 .footnotes {
