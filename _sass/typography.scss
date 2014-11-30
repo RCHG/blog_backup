@@ -140,6 +140,14 @@ li.inline{display:inline; margin-top: -3px; margin-right: 5px; margin-bottom: -3
 /* Tags
 /*
 /*****************************************************************************/
+
+.post-date {
+display: block;
+margin-top: -.5rem;
+margin-bottom: 1rem;
+color: #9a9a9a;
+}
+
 .tag-box {
 list-style: none;
 margin: 0;
@@ -157,9 +165,10 @@ clear: both;
 }
 .tag-box.inline li {
 float: left;
-font-size: 14px;
+font-size: 12px;
 font-size: 0.875rem;
 line-height: 2.5;
+font-style: bold;
 }
 .tag-box a {
 padding: 4px 6px;
