@@ -22,6 +22,13 @@ image:
 
 ### About Science (General)
 
+- [TCCON Network](https://tccon-wiki.caltech.edu/)
+- [Online Spectroscopy Calculations](http://www.spectralcalc.com/info/about.php)
+
+### About Maths and Physics
+
+- [Page of PC.Hansen - Inverse Problems! ](http://www.imm.dtu.dk/~pcha/)
+
 
 ### About Python-Numpy-Scipy and friends
 
@@ -31,8 +38,20 @@ image:
 
 ### About Remote Sensing
 
-### About Numerical Weather Prediction Models
+- [PROJ (map PROJections)](http://trac.osgeo.org/proj/)
+- [MSG-SEVIRI intro](http://www.pytroll.org/quickstart_seviri.html)
+- [MSG-Resources-EUMETSAT](http://www.eumetsat.int/website/home/Satellites/FutureSatellites/MeteosatThirdGeneration/MTGResources/index.html)
+- [CMSAF-products](http://cmsaf.eu)
+- [ESA-Study Reports](http://www.esa.int/Our_Activities/Preparing_for_the_Future/GSP/Study_Reports)
+
+### About Numerical Weather Prediction Models and Transport Models
+
+- [TM5 - Transport Model](http://tm5.sourceforge.net/)
+- [EUMETCAL-SatrepOnline](http://eumetrain.org/eport.html)
 
 ### About Computational Things (Hodgepodge)
 
-https://github.com/inukshuk/jekyll-scholar
+- [Intro Matplotlib](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
+- [References with Jekyll](http://github.com/inukshuk/jekyll-scholar)
+- [My Profile on SourceForge](http://sourceforge.net/u/rchecagarcia/profile/)
+- [Join C/C++ and Fortran 90](http://stackoverflow.com/tags/fortran-iso-c-binding/info)
