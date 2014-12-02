@@ -20,23 +20,20 @@ image:
 
 > An expert is a person who has made all the mistakes that can be made in a very narrow field. ― **Niels Bohr**
 
-### About Science (General)
+### Earth Sciences General
 
 - [TCCON Network](https://tccon-wiki.caltech.edu/)
 - [Online Spectroscopy Calculations](http://www.spectralcalc.com/info/about.php)
 
-### About Maths and Physics
+### Maths and Physics
 
 - [Page of PC.Hansen - Inverse Problems! ](http://www.imm.dtu.dk/~pcha/)
 
+#### Applied Statistics
 
-### About Python-Numpy-Scipy and friends
+- [Network of R dedicated blogs](http://www.r-bloggers.com/)
 
-
-### About Statistics
-
-
-### About Remote Sensing
+### Remote Sensing Earth Sciences
 
 - [PROJ (map PROJections)](http://trac.osgeo.org/proj/)
 - [MSG-SEVIRI intro](http://www.pytroll.org/quickstart_seviri.html)
@@ -44,12 +41,15 @@ image:
 - [CMSAF-products](http://cmsaf.eu)
 - [ESA-Study Reports](http://www.esa.int/Our_Activities/Preparing_for_the_Future/GSP/Study_Reports)
 
-### About Numerical Weather Prediction Models and Transport Models
+### Numerical Weather Prediction Models and Transport Models
 
+- [WRF Tutorials and Code](http://www2.mmm.ucar.edu/wrf/users/supports/tutorial.html)
 - [TM5 - Transport Model](http://tm5.sourceforge.net/)
 - [EUMETCAL-SatrepOnline](http://eumetrain.org/eport.html)
+- [COSMO model](http://www.cosmo-model.org/)
 
-### About Computational Things (Hodgepodge)
+
+### Computational Things (Hodgepodge)
 
 - [Intro Matplotlib](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
 - [References with Jekyll](http://github.com/inukshuk/jekyll-scholar)
