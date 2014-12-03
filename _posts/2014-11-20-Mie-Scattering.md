@@ -9,7 +9,6 @@ image:
   feature: sample-image-2.jpg
 ---
 
-### Introduction
 
 > Post under construction
 
