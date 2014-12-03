@@ -53,6 +53,8 @@ image:
 - [EUMETCAL-SatrepOnline](http://eumetrain.org/eport.html)
 - [COSMO model](http://www.cosmo-model.org/)
 - [Carbon-Tracker](http://www.esrl.noaa.gov/gmd/ccgg/carbontracker/)
+- [ESRL- NOAA datasets](http://www.esrl.noaa.gov/gmd/dv/data/)
+- [ESRL- NOAA products](http://www.esrl.noaa.gov/gmd/ccgg/data-products.html)
 {:.smallquote}
 
 ### Computational Things (Hodgepodge)
