@@ -228,14 +228,14 @@ li.footnote {
 	padding-right: 2px;
 }
 
-dt.footnote{
+ol.footnote{
     color:darken($body-color,70);
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(1px);
 }
 
-dt.footnote:before{
+ol.footnote:before{
     content: "\f02d ";
     color:darken($body-color,50);
 }
