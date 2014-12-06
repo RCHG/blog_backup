@@ -55,12 +55,12 @@ $$
 S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\theta)+a_{n}\tau_{n}(\theta) \right]
 $$
 
-The series of values $$A_{Nmax}={a_{n}, \, n=1, N_{max}}$$, $$B_{Nmax}={b_{n}, \, n=1, N_{max}}$$, are estimated from spherical Bessel functions. 
+The series of values $$A_{Nmax}=\{a_{n}, \, n=1, N_{max}\}$$, $$B_{Nmax}=\{b_{n}, \, n=1, N_{max}\}$$, are estimated from spherical Bessel functions. 
 
 These series are used directly to calculate the Efficiency Factor of Extinction, scattering and absorption. But also the single albedo, or the asymmetry factor. 
 
 <figure>
 <img src="/images/Sphere_Mie_Scatt_web.png">
-	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index.</a></figcaption>
+	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index.</a></figcaption>
 </figure>
 
