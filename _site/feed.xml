@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-06T19:33:41+01:00</updated>
+<updated>2014-12-06T19:50:45+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -77,7 +77,7 @@
   &lt;p&gt;Post under construction&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multilayered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the &lt;strong&gt;size parameter&lt;/strong&gt;, &lt;script type=&quot;math/tex&quot;&gt;x=2\pi r/\lambda&lt;/script&gt;. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.&lt;/p&gt;
+&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multi-layered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the &lt;strong&gt;size parameter&lt;/strong&gt;, &lt;script type=&quot;math/tex&quot;&gt;x=2\pi r/\lambda&lt;/script&gt;. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-scattering-problem&quot;&gt;The Scattering problem&lt;/h3&gt;
 
@@ -110,12 +110,16 @@
 &lt;p&gt;with&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(a_{n}\pi_{n}+b_{n}\tau_{n} \right)
+S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\theta)+b_{n}\tau_{n}(\theta) \right]
 &lt;/script&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(b_{n}\pi_{n}+a_{n}\tau_{n} \right)
+S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\theta)+a_{n}\tau_{n}(\theta) \right]
 &lt;/script&gt;
+
+&lt;p&gt;The series of values &lt;script type=&quot;math/tex&quot;&gt;A_{Nmax}={a_{n}, \, n=1, N_{max}}&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;B_{Nmax}={b_{n}, \, n=1, N_{max}}&lt;/script&gt;, are estimated from spherical Bessel functions. &lt;/p&gt;
+
+&lt;p&gt;These series are used directly to calculate the Efficiency Factor of Extinction, scattering and absorption. But also the single albedo, or the asymmetry factor. &lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;/images/Sphere_Mie_Scatt_web.png&quot; /&gt;

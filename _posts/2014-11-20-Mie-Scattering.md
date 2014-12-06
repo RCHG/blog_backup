@@ -14,7 +14,7 @@ image:
 
 [^1]: Hansen, J.E., and L.D. Travis, 1974: Light scattering in planetary atmospheres. Space Sci. Rev., 16, 527-610, doi:10.1007/BF00168069.
 
-**Definition**: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multilayered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the **size parameter**, $$x=2\pi r/\lambda$$. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.
+**Definition**: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multi-layered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the **size parameter**, $$x=2\pi r/\lambda$$. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.
 {:.smallblock}
 
 ### The Scattering problem
@@ -47,13 +47,17 @@ $$
 with
 
 $$
-S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(a_{n}\pi_{n}+b_{n}\tau_{n} \right)
+S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\theta)+b_{n}\tau_{n}(\theta) \right]
 $$
 
 
 $$
-S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(b_{n}\pi_{n}+a_{n}\tau_{n} \right)
+S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\theta)+a_{n}\tau_{n}(\theta) \right]
 $$
+
+The series of values $$A_{Nmax}={a_{n}, \, n=1, N_{max}}$$, $$B_{Nmax}={b_{n}, \, n=1, N_{max}}$$, are estimated from spherical Bessel functions. 
+
+These series are used directly to calculate the Efficiency Factor of Extinction, scattering and absorption. But also the single albedo, or the asymmetry factor. 
 
 <figure>
 <img src="/images/Sphere_Mie_Scatt_web.png">
