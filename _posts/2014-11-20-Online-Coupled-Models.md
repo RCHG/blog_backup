@@ -16,8 +16,8 @@ image:
 **Definition**: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module)[^1]. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.
 {:.smallblock}
 
-[^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, Atmos. Chem. Phys., 14, 317-398, [doi-link](http://dx.doi.otg/10.5194/acp-14-317-2014).
-[^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, J. Geophys. Res. Atmos., 119, 7889–7907, [doi-link](http://dx.doi.otg/10.1002/2014JD021478).
+[^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, Atmos. Chem. Phys., 14, 317-398, [doi-link](http://dx.doi.org/10.5194/acp-14-317-2014).
+[^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, J. Geophys. Res. Atmos., 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
 
 #### Spatio-temporal Resolution
 
