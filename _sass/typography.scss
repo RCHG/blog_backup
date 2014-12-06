@@ -213,6 +213,16 @@ a.footnote {
 	padding-right: 2px;
 }
 
+li.footnote {
+	color:darken($body-color,90);
+	background-color: #e6e6e6;
+	font-style: bold;
+	@include rounded(1px);
+	margin-left: 1px;
+	margin-right: 1px;
+	padding-left: 3px;
+	padding-right: 2px;
+}
 
 
 // Paragraphs
