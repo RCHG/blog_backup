@@ -55,8 +55,7 @@ $$
 S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(b_{n}\pi_{n}+a_{n}\tau_{n} \right)
 $$
 
-<figure class="half">
-<img src="/images/Sphere_Mie_Scatt_web.png">
+<figure>
 <img src="/images/Sphere_Mie_Scatt_web.png">
 	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index.</a></figcaption>
 </figure>
