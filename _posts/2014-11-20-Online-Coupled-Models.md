@@ -17,11 +17,11 @@ image:
 {:.smallblock}
 
 [^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, *Atmos. Chem. Phys.*, 14, 317-398, [doi-link](http://dx.doi.org/10.5194/acp-14-317-2014).
-[^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, *J. Geophys. Res. Atmos.*, 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
+[^A]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, *J. Geophys. Res. Atmos.*, 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
 
 #### Spatio-temporal Resolution
 
-Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models**[^2]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  
+Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models**[^A]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  
 
 <figure class="half">
 <a
