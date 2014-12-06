@@ -12,6 +12,7 @@ image:
 
 > Post under construction
 
+[^1]: Hansen, J.E., and L.D. Travis, 1974: Light scattering in planetary atmospheres. Space Sci. Rev., 16, 527-610, doi:10.1007/BF00168069.
 
 **Definition**: Mie Scattering is a solution of the scattering problem described with the Maxwell Equations when the scatter is a spherical particle. Initially the solution of Mie (or Lorenz-Mie) was designed for homogeneous spheres, however there are extensions for multilayered spheres and with important limitations for other geometrical objects. The calculation is relatively efficient but depends on the **size parameter**, $$x=2\pi r/\lambda$$. When this parameter increases the number of terms of the series necessaries to calculate the relevant amounts also grows.
 {:.smallblock}
@@ -28,7 +29,7 @@ For spheres (and probably also for any set of scatters with randomly oriented ax
 
 ### The Phase Matrix
 
-In the Atmospheric Radiation studies it is quite common use the **Stokes vector**, so we have an incident stokes vector $$\vec{I}_{i}$$ and an scattered stokes vector $$\vec{I}_{s}$$ and the scattering problem is written as,
+In the Atmospheric Radiation studies it is quite common use the **Stokes vector**, so we have an incident stokes vector $$\vec{I}_{i}$$ and an scattered stokes vector $$\vec{I}_{s}$$ and the scattering problem is written as[^1],
 
 $$\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}$$
 
@@ -53,4 +54,10 @@ $$
 $$
 S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left(b_{n}\pi_{n}+a_{n}\tau_{n} \right)
 $$
+
+<figure class="half">
+<img src="/images/Sphere_Mie_Scatt_web.png">
+<img src="/images/Sphere_Mie_Scatt_web.png">
+	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index.</a></figcaption>
+</figure>
 
