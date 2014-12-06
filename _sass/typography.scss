@@ -193,7 +193,7 @@ font-size: 0.625rem;
 // Footnotes
 // --------------------------------------------------
 .footnotes {
-	ol, li, p {
+	dl, ol, li, p {
 		margin-bottom: 0;
 		@include font-rem(14);
 		color:darken($body-color,70);
