@@ -213,7 +213,7 @@ a.footnote {
 	padding-right: 2px;
 }
 a.footnote:before{
-    content: "\f02d";
+    content: "\f02d ";
     color:darken($body-color,50);
 }
 
@@ -227,8 +227,16 @@ li.footnote {
 	padding-left: 3px;
 	padding-right: 2px;
 }
-p.footnote:before{
-    content: "\f02d";
+
+dt.footnote{
+    color:darken($body-color,70);
+	background-color: #e6e6e6;
+	font-style: bold;
+	@include rounded(1px);
+}
+
+dt.footnote:before{
+    content: "\f02d ";
     color:darken($body-color,50);
 }
 
