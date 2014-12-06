@@ -214,6 +214,7 @@ a.footnote {
 }
 a.footnote:before{
     content: "\f02d";
+    color:darken($body-color,70);
 }
 
 li.footnote {
@@ -228,6 +229,7 @@ li.footnote {
 }
 ol.footnote:before{
     content: "\f02d";
+    color:darken($body-color,70);
 }
 
 // Paragraphs
