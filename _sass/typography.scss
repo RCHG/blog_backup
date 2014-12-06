@@ -224,7 +224,7 @@ li.footnote {
 	padding-right: 2px;
 }
 li.footnote:before{
-    content:"  ";
+    content: $fa-var-book;
 }
 
 // Paragraphs
