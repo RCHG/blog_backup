@@ -208,7 +208,8 @@ a.footnote {
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(2px);
-	padding: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 
