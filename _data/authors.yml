@@ -3,7 +3,9 @@
 ramiro_chg:
   name: R. Checa-Garcia
   web: http://rchg.github.io
-  job: www.imk-asf.kit.edu/english/
+  job: www.imk-asf.kit.edu/english 
+  sourceforge: x
+  bitbucket: x  
   email: 
   bio: "La verdad se corrompe tanto con la mentira como con el silencio."
   avatar: rainy-dragon.jpeg
