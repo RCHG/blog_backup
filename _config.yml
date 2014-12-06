@@ -63,9 +63,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: http://github.com/rchg
-  sourceforge: http://sourceforge.net/u/rchecagarcia/profile/
-  bitbucket: http://bitbucket.org/rchecagarcia/
+  github: rchg
+  sourceforge: rchecagarcia/profile/
+  bitbucket: rchecagarcia
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
