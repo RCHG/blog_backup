@@ -201,12 +201,13 @@ font-size: 0.625rem;
 }
 
 a.footnote {
-    top: 0.5em; font-size: 80%; 
+    vertical-align: middle;
+    font-size: 80%; 
     position: relative;
 	color:darken($body-color,80);
 	background-color: #e6e6e6;
 	font-style: bold;
-	@include rounded(1px);
+	@include rounded(2px);
 }
 
 
