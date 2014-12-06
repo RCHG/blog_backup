@@ -57,6 +57,6 @@ $$
 
 <figure>
 <img src="/images/Sphere_Mie_Scatt_web.png">
-	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index.</a></figcaption>
+	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and chanding the refractive index.</a></figcaption>
 </figure>
 
