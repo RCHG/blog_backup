@@ -211,7 +211,6 @@ a.footnote {
 	margin-right: 1px;
 	padding-left: 3px;
 	padding-right: 2px;
-	content: fa-bitbucket-square;
 }
 
 li.footnote {
@@ -224,7 +223,9 @@ li.footnote {
 	padding-left: 3px;
 	padding-right: 2px;
 }
-
+li.footnote:before{
+    content:"";
+}
 
 // Paragraphs
 // --------------------------------------------------
