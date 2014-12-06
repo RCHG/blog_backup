@@ -196,8 +196,20 @@ font-size: 0.625rem;
 	ol, li, p {
 		margin-bottom: 0;
 		@include font-rem(14);
+		color:darken($body-color,70);
 	}
 }
+
+a.footnote {
+	@include font-rem(12);
+    height: 0;
+    line-height: 1;
+    vertical-align: super;
+    position: relative;
+	color:darken($body-color,50);
+}
+
+
 
 // Paragraphs
 // --------------------------------------------------

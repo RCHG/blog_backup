@@ -200,6 +200,20 @@ font-size: 0.625rem;
 	}
 }
 
+a.footnote {
+	@include font-rem(12);
+    height: 0;
+    line-height: 1;
+    vertical-align: super;
+    position: relative;
+	color:darken($body-color,50);
+	background-color: #e6e6e6;
+	font-style: bold;
+	@include rounded(3px);
+}
+
+
+
 // Paragraphs
 // --------------------------------------------------
 p {
