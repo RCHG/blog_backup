@@ -202,8 +202,6 @@ font-size: 0.625rem;
 
 a.footnote {
 	@include font-rem(12);
-    height: 0;
-    line-height: 1;
     position: relative;
 	color:darken($body-color,80);
 	background-color: #e6e6e6;
