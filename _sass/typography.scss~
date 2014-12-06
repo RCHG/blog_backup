@@ -203,7 +203,7 @@ font-size: 0.625rem;
 a.footnote {
     vertical-align: -5px;
     font-size: 40%;
-	color:darken($body-color,90);
+	color:darken($body-color,50);
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(1px);
@@ -214,7 +214,7 @@ a.footnote {
 }
 a.footnote:before{
     content: "\f02d";
-    color:darken($body-color,70);
+    color:darken($body-color,50);
 }
 
 li.footnote {
@@ -227,9 +227,9 @@ li.footnote {
 	padding-left: 3px;
 	padding-right: 2px;
 }
-ol.footnote:before{
+p.footnote:before{
     content: "\f02d";
-    color:darken($body-color,70);
+    color:darken($body-color,50);
 }
 
 // Paragraphs

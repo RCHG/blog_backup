@@ -203,7 +203,7 @@ font-size: 0.625rem;
 a.footnote {
     vertical-align: -5px;
     font-size: 40%;
-	color:darken($body-color,90);
+	color:darken($body-color,50);
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(1px);
@@ -218,7 +218,7 @@ a.footnote:before{
 }
 
 li.footnote {
-	color:darken($body-color,90);
+	color:darken($body-color,80);
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(1px);
