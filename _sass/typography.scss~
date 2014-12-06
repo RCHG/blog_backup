@@ -211,7 +211,7 @@ a.footnote {
 	margin-right: 1px;
 	padding-left: 3px;
 	padding-right: 2px;
-	content: .fa-bitbucket-square;
+	content: fa-bitbucket-square;
 }
 
 li.footnote {
