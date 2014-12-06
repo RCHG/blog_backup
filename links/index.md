@@ -31,9 +31,8 @@ image:
 - [Page of PC.Hansen - Inverse Problems! ](http://www.imm.dtu.dk/~pcha/)
 {:.smallquote}
 
-#### Applied Statistics
-
-- [Network of R dedicated blogs](http://www.r-bloggers.com/)
+- Applied Statistics
+	- [Network of R dedicated blogs](http://www.r-bloggers.com/)
 {:.smallquote}
 
 ### Remote Sensing Earth Sciences
