@@ -214,8 +214,6 @@ a.footnote {
 }
 
 li.footnote {
-    vertical-align: -5px;
-    font-size: 40%;
 	color:darken($body-color,90);
 	background-color: #e6e6e6;
 	font-style: bold;
