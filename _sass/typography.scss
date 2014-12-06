@@ -203,13 +203,13 @@ font-size: 0.625rem;
 a.footnote {
     vertical-align: baseline;
     @include font-rem(10);
-    font-size: 60%; 
+    font-size: 20%; 
     position: relative;
 	color:darken($body-color,90);
 	background-color: #e6e6e6;
 	font-style: bold;
 	@include rounded(2px);
-	padding-left: 2px;
+	padding-left: 3px;
 	padding-right: 2px;
 }
 
