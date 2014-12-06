@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-06T22:15:28+01:00</updated>
+<updated>2014-12-06T22:16:48+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -30,11 +30,11 @@
   &lt;p&gt;Post under construction: In this post I am writting step by step the topics I am learning about Online Coupled Models. &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module)&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.&lt;/p&gt;
+&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Definition&lt;/strong&gt;: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module)&lt;sup id=&quot;fnref:A&quot;&gt;&lt;a href=&quot;#fn:A&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.&lt;/p&gt;
 
 &lt;h4 id=&quot;spatio-temporal-resolution&quot;&gt;Spatio-temporal Resolution&lt;/h4&gt;
 
-&lt;p&gt;Few years ago most of the NWPM were &lt;strong&gt;hydrostatic&lt;/strong&gt;. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually &lt;strong&gt;non-hydrostatic&lt;/strong&gt;. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about &lt;strong&gt;Cloud-Resolving-Models&lt;/strong&gt;&lt;sup id=&quot;fnref:BA&quot;&gt;&lt;a href=&quot;#fn:BA&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  &lt;/p&gt;
+&lt;p&gt;Few years ago most of the NWPM were &lt;strong&gt;hydrostatic&lt;/strong&gt;. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually &lt;strong&gt;non-hydrostatic&lt;/strong&gt;. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about &lt;strong&gt;Cloud-Resolving-Models&lt;/strong&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  &lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
 &lt;a href=&quot;http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/FE/Bilder/ASFU__NM__Phys__Par__skalentrennung__en__580,property=default.jpg&quot;&gt;&lt;img src=&quot;http://www.dwd.de/bvbw/generator/DWDWWW/Content/Oeffentlichkeit/FE/Bilder/ASFU__NM__Phys__Par__skalentrennung__en__580,property=default.jpg&quot; /&gt;&lt;/a&gt;
@@ -50,11 +50,11 @@
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
+    &lt;li id=&quot;fn:A&quot;&gt;
+      &lt;p&gt;Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, &lt;em&gt;J. Geophys. Res. Atmos.&lt;/em&gt;, 119, 7889–7907, &lt;a href=&quot;http://dx.doi.org/10.1002/2014JD021478&quot;&gt;doi-link&lt;/a&gt;. &lt;a href=&quot;#fnref:A&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, &lt;em&gt;Atmos. Chem. Phys.&lt;/em&gt;, 14, 317-398, &lt;a href=&quot;http://dx.doi.org/10.5194/acp-14-317-2014&quot;&gt;doi-link&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:BA&quot;&gt;
-      &lt;p&gt;Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, &lt;em&gt;J. Geophys. Res. Atmos.&lt;/em&gt;, 119, 7889–7907, &lt;a href=&quot;http://dx.doi.org/10.1002/2014JD021478&quot;&gt;doi-link&lt;/a&gt;. &lt;a href=&quot;#fnref:BA&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
