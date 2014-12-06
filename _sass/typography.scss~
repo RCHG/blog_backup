@@ -212,6 +212,9 @@ a.footnote {
 	padding-left: 3px;
 	padding-right: 2px;
 }
+a.footnote:before{
+    content: fa-var-book;
+}
 
 li.footnote {
 	color:darken($body-color,90);
