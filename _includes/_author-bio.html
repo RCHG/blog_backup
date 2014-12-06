@@ -11,8 +11,8 @@
 <p>{{ author.bio }}</p>
 {% if author.job %}<a href="http://{{ author.job }}" class="author-social" target="_blank"><i class="fa fa-fw fa-university"></i> Academic Institution</a>{% endif %}
 {% if author.email %}<a href="mailto:{{ author.email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
-{% if author.bitbucket %}<a href="http://{{ author.bitbucket }}" class="author-social" target="_blank"><i class="fa fa-fw fa-bitbucket-square"></i> Bitbucket</a>{% endif %}
-{% if author.sourceforge %}<a href="http://{{ author.sourceforge }}" class="author-social" target="_blank"><i class="fa fa-fw fa-linux"></i> SourceForge</a>{% endif %}
+{% if author.bitbucket %}<a href="http://bitbucket.org/{{ author.bitbucket }}" class="author-social" target="_blank"><i class="fa fa-fw fa-bitbucket-square"></i> Bitbucket</a>{% endif %}
+{% if author.sourceforge %}<a href="http://sourceforge.net/u/{{ author.sourceforge }}" class="author-social" target="_blank"><i class="fa fa-fw fa-linux"></i> SourceForge</a>{% endif %}
 
 {% if author.twitter %}<a href="http://twitter.com/{{ author.twitter }}" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>{% endif %}
 {% if author.facebook %}<a href="http://facebook.com/{{ author.facebook }}" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}
