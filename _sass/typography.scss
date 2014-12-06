@@ -202,7 +202,7 @@ font-size: 0.625rem;
 
 a.footnote {
     vertical-align: baseline;
-    @include font-rem(10);
+    @include font-rem(7);
     font-size: 20%; 
     position: relative;
 	color:darken($body-color,90);
