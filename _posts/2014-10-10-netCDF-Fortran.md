@@ -15,15 +15,20 @@ image:
 
 If netcdf is installed in a machine a good idea is run:
 
-``>> nc-config -all``
-
+{% highlight bash %}
+$ nc-config -all
+{% endhighlight %}
 this gives information about all configurations tips on the computer. Two commands are particularly useful for fortran:
 
-``>> nc-config --flibs `` (option -libs for C)
-`` -L/usr/lib -lnetcdff -lnetcdf``
+{% highlight bash %}
+$ nc-config --flibs   # (option -libs for C)
+-L/usr/lib -lnetcdff -lnetcdf
+{% endhighlight %}
 
-``>> nc-config --fflags `` (option -flags for C)
-``-g -O2 -I/usr/include``
+{% highlight bash %}
+$ nc-config --fflags # (option -flags for C)
+-g -O2 -I/usr/include
+{% endhighlight %}
 
 The 1st gives information about how to give information to the compiler about libs
 
@@ -31,6 +36,9 @@ The 2nd gives information about flags.
 
 Therefore compilation would be:
 
-``>> gfortran program.f90 -o program.out -L/usr/lib -lnetcdff -lnetcdf -g -O2 -I/usr/include``
+{% highlight bash %}
+$ gfortran program.f90 -o program.out -L/usr/lib -lnetcdff -lnetcdf -g -O2 -I/usr/include
+{% endhighlight %}
+
 
 
