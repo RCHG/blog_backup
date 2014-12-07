@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-07T17:34:39+01:00</updated>
+<updated>2014-12-07T17:35:58+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -59,7 +59,7 @@
 &lt;p&gt;Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc… But the dynamic processed between aerosols is usually modeled by balance equations like&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transport}}+{\overbrace{A(N_{k})}^{Advection \, Transport}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
+\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
 &lt;/script&gt;
 
 &lt;h5 id=&quot;references-and-notes&quot;&gt;References and Notes&lt;/h5&gt;

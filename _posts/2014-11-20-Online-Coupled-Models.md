@@ -49,7 +49,7 @@ It is quite interesting that the parameterizations of several physical processes
 Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc... But the dynamic processed between aerosols is usually modeled by balance equations like
 
 $$
-\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transport}}+{\overbrace{A(N_{k})}^{Advection \, Transport}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
+\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
 $$
 
 
