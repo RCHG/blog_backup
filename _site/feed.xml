@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-07T18:40:26+01:00</updated>
+<updated>2014-12-07T18:43:07+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -182,18 +182,22 @@ S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\thet
 
 &lt;p&gt;An HDF5 file is a container for storing a variety of scientific data and is composed of two primary types of objects: groups and datasets.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;HDF5 group&lt;/strong&gt;: a grouping structure containing zero or more HDF5 objects, together with supporting metadata
-&lt;strong&gt;HDF5 dataset&lt;/strong&gt;: a multidimensional array of data elements, together with supporting metadata&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;HDF5 group&lt;/strong&gt;: a grouping structure containing zero or more HDF5 objects, together with supporting metadata&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;HDF5 dataset&lt;/strong&gt;: a multidimensional array of data elements, together with supporting metadata&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Any HDF5 group or dataset may have an associated &lt;em&gt;attribute list&lt;/em&gt;. An HDF5 attribute is a user-defined HDF5 structure that provides extra information about an HDF5 object.&lt;/p&gt;
 
 &lt;p&gt;Working with groups and datasets is similar in many ways to working with directories and files in UNIX. As with UNIX directories and files, an HDF5 object in an HDF5 file is often referred to by its full path name (also called an absolute path name).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;/&lt;/strong&gt; means the root group.
-&lt;strong&gt;/foo&lt;/strong&gt; means a member of the root group called foo.
-&lt;strong&gt;/foo/zoo&lt;/strong&gt; means a member of the group foo, which in turn is a member of the root group.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;/&lt;/strong&gt; means the root group.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;/foo&lt;/strong&gt; means a member of the root group called foo.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;/foo/zoo&lt;/strong&gt; means a member of the group foo, which in turn is a member of the root group.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;HDF5 Groups&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;hdf5-groups&quot;&gt;HDF5 Groups&lt;/h4&gt;
 
 &lt;p&gt;An HDF5 group is a structure containing zero or more HDF5 objects. A group has two parts:&lt;/p&gt;
 
@@ -202,7 +206,7 @@ S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\thet
   &lt;li&gt;A group symbol table, which is a list of the HDF5 objects that belong to the group.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;HDF5 Datasets&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;hdf5-datasets&quot;&gt;HDF5 Datasets&lt;/h4&gt;
 
 &lt;p&gt;A dataset is stored in a file in two parts: a header and a data array.&lt;/p&gt;
 
@@ -211,8 +215,8 @@ S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\thet
 &lt;p&gt;There are four essential classes of information in any header: name, datatype, dataspace, and storage layout:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Name&lt;/em&gt;. A dataset name is a sequence of alphanumeric ASCII characters.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Datatype&lt;/em&gt;. HDF5 allows one to define many different kinds of datatypes. There are two categories of datatypes: atomic datatypes and compound datatypes. Atomic datatypes can also be system-specific, or NATIVE, and all datatypes can be names:&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_Name_&lt;/code&gt;. A dataset name is a sequence of alphanumeric ASCII characters.&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;_Datatype_&lt;/code&gt;. HDF5 allows one to define many different kinds of datatypes. There are two categories of datatypes: atomic datatypes and compound datatypes. Atomic datatypes can also be system-specific, or NATIVE, and all datatypes can be names:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Atomic datatypes include integers and floating-point numbers. Each atomic type belongs to a particular class and has several properties: size, order, precision, and offset. In this introduction, we consider only a few of these properties.&lt;/p&gt;
