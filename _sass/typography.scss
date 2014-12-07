@@ -213,11 +213,8 @@ a.footnote {
 }
 
 a.taglink {
-
+    float: right;
 	font-style: bold;
-}
-a.taglink:after {
-	content: "---";
 }
 
 
