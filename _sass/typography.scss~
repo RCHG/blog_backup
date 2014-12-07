@@ -215,6 +215,9 @@ a.footnote {
 a.taglink {
 	font-style: bold;
 }
+a.taglink:after {
+	content: "---";
+}
 
 
 a.footnote:before {
@@ -277,7 +280,11 @@ li {
 	}
 }
 pre {
-	@include font-rem(12);
-	line-height: 1.5;
-	overflow-x: auto;
-}	padding-right: 2px;
+    @include font-rem(12);
+    line-height: 1.5;
+    overflow-x: auto;
+}
+
+
+
+
