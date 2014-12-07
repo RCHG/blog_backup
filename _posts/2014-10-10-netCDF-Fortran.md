@@ -11,7 +11,8 @@ image:
 
 > Note that: This kind of compilation I will describe needs .a libraries. This means that we should be sure that the package installed contains .a libraries. For example, fro hdf5 it is the hdf5-dev the one with .a libraries.
 
-#### Compile a Fortran program which uses netcdf library
+### Compile a Fortran program which uses netcdf library
+
 
 If netcdf is installed in a machine a good idea is run:
 
@@ -19,7 +20,8 @@ If netcdf is installed in a machine a good idea is run:
 $ nc-config -all
 {% endhighlight %}
 
-this gives information about all configurations tips on the computer. Two commands are particularly useful for fortran:
+this gives information about all configurations tips on the computer. 
+Two commands are particularly useful for fortran:
 
 {% highlight bash %}
 $ nc-config --flibs   # (option -libs for C)
