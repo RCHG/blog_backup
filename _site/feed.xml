@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-07T17:53:47+01:00</updated>
+<updated>2014-12-07T17:55:16+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -56,10 +56,10 @@
 
 &lt;p&gt;It is quite interesting that the parameterizations of several physical processes are described with &lt;strong&gt;balance equations&lt;/strong&gt;. The first step is define several categories: like aerosols types or like drops sizes… The physical process are the interpreted as effective transferences from a category to another one. For instance, the breakup of a rain drop in two others will be represented by an increase the concentration of one category and decrease on another. This kind of processed can written as &lt;strong&gt;balance equations&lt;/strong&gt;. That in a warm cloud micro-physics scheme would imply total water vapor mass conservation.&lt;/p&gt;
 
-&lt;p&gt;Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc… But the dynamic processed between aerosols is usually modeled by balance equations like&lt;/p&gt;
+&lt;p&gt;Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc… But the dynamic processed between aerosols is usually modeled by balance equations like (k represents here a mode-category),&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
-\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
+\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between: k, l}}
 &lt;/script&gt;
 
 &lt;h5 id=&quot;references-and-notes&quot;&gt;References and Notes&lt;/h5&gt;

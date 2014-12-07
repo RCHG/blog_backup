@@ -47,10 +47,10 @@ There are advantages of the online coupled is that they may use to study the rol
 
 It is quite interesting that the parameterizations of several physical processes are described with **balance equations**. The first step is define several categories: like aerosols types or like drops sizes... The physical process are the interpreted as effective transferences from a category to another one. For instance, the breakup of a rain drop in two others will be represented by an increase the concentration of one category and decrease on another. This kind of processed can written as **balance equations**. That in a warm cloud micro-physics scheme would imply total water vapor mass conservation.
 
-Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc... But the dynamic processed between aerosols is usually modeled by balance equations like
+Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc... But the dynamic processed between aerosols is usually modeled by balance equations like (k represents here a mode-category),
 
 $$
-\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
+\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transp.}}+{\overbrace{A(N_{k})}^{Advection \, Transp.}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between: k, l}}
 $$
 
 
