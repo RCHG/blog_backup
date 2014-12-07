@@ -214,12 +214,13 @@ a.footnote {
 }
 
 a.taglink {
-    float: left;
 	font-style: bold;
 }
+
 a.taglink:after {
     content: "---";
 }
+
 a.footnote:before{
     content: "\f02d ";
     color:darken($body-color,50);

@@ -218,7 +218,7 @@ a.taglink {
 	font-style: bold;
 }
 a.taglink:after {
-    content: "\f02d ";
+    content: "---";
 }
 a.footnote:before{
     content: "\f02d ";
