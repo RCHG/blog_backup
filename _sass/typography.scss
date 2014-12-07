@@ -210,7 +210,6 @@ a.footnote {
 	margin-left: 1px;
 	margin-right: 1px;
 	padding-left: 3px;
-
 }
 
 a.taglink {
@@ -218,7 +217,7 @@ a.taglink {
 }
 
 
-a.footnote:before{
+a.footnote:before {
     content: "\f02d ";
     color:darken($body-color,50);
 }
@@ -241,7 +240,7 @@ ol.footnote{
 	@include rounded(1px);
 }
 
-ol.footnote:before{
+ol.footnote:before {
     content: "\f02d ";
     color:darken($body-color,50);
 }

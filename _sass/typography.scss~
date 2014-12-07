@@ -210,18 +210,14 @@ a.footnote {
 	margin-left: 1px;
 	margin-right: 1px;
 	padding-left: 3px;
-
 }
 
 a.taglink {
 	font-style: bold;
 }
 
-a.taglink:after {
-    content: "---";
-}
 
-a.footnote:before{
+a.footnote:before {
     content: "\f02d ";
     color:darken($body-color,50);
 }
