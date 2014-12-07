@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: An Introduction to Atmospheric Physics (David G. Andrews)"
+title: "Review of An Introduction to Atmospheric Physics"
 author: ramiro_chg
 modified:
 excerpt: "Brief book review"
