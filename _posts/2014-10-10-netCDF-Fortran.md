@@ -18,6 +18,7 @@ If netcdf is installed in a machine a good idea is run:
 {% highlight bash %}
 $ nc-config -all
 {% endhighlight %}
+
 this gives information about all configurations tips on the computer. Two commands are particularly useful for fortran:
 
 {% highlight bash %}
@@ -30,9 +31,9 @@ $ nc-config --fflags # (option -flags for C)
 -g -O2 -I/usr/include
 {% endhighlight %}
 
-The 1st gives information about how to give information to the compiler about libs
+- The 1st gives information about **how to give information to the compiler about libs**
+- The 2nd gives information about **flags**.
 
-The 2nd gives information about flags.
 
 Therefore compilation would be:
 
