@@ -240,7 +240,7 @@ ol.footnote{
 	@include rounded(1px);
 }
 
-ol.footnote:before{
+ol.footnote:before {
     content: "\f02d ";
     color:darken($body-color,50);
 }
