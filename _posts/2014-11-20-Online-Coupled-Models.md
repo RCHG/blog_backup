@@ -18,8 +18,7 @@ image:
 
 [^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, *Atmos. Chem. Phys.*, 14, 317-398, [doi-link](http://dx.doi.org/10.5194/acp-14-317-2014).
 [^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, *J. Geophys. Res. Atmos.*, 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
-[^3]: Kristina Lundgren, Direct Radiative Effects of Sea Salt
-on the Regional Scale, *KIT Scientific Publishing 2012*, ISSN 0179-5619, ISBN 978-3-86644-773-8
+[^3]: Kristina Lundgren, Direct Radiative Effects of Sea Salt on the Regional Scale, *KIT Scientific Publishing 2012*, ISSN 0179-5619, ISBN 978-3-86644-773-8
 
 
 #### Spatio-temporal Resolution
