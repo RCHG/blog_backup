@@ -136,7 +136,7 @@ li.inline{display:inline; margin-top: -3px; margin-right: 5px; margin-bottom: -3
 
 li.tags{margin-top: -3px; margin-right: 1px; padding-left: 3px; padding-right: 3px; @include font-rem(12); font-style: bold; border-left: 4px solid darken($body-color,30); list-style-type: none;}
 
-a.tagtitle:before{  content: " \f0a9 "; padding-right: 3px}
+a.tagtitle:before{  content: " \f0a9 "; padding-right: 3px;}
 a.tagtitle{font-style: bold;}
 
 /*****************************************************************************/
