@@ -4,24 +4,27 @@ title: "Online Coupled Models"
 author: ramiro_chg
 modified:
 excerpt: "Comment about Online Coupled Models"
-tags: [NWPM,earth-modelling, atmospheric-physics]
+tags: [NWPM,earth-modeling, atmospheric-physics]
 image:
   feature: sample-image-4.jpg
 
 ---
 
-> Post under construction: In this post I am writting step by step the topics I am learning about Online Coupled Models. 
+> Post under construction: In this post I am writing step by step the topics I am learning about Online Coupled Models. 
 
 
-**Definition**: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module)[^1]. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.
+**Definition**: By Online Coupled Models (OCM) I understand a numerical weather prediction model (NWPM) -or a climate model, global or regional- that includes also a parameterization with the gases chemistry and/or an aerosols physics-chemistry (if both are included they has to be also linked with a gas-phase module) [^1]. The term online is included because there is an update of the NWPM due to the parameterizations. An offline chemistry transport model means a chemistry model whose transport and interaction are conditioned by the meteorological fields (but it is unidirectional). Note: The concept of online coupled model may be applied also to ocean-atmosphere coupling, here I am not commenting about that case.
 {:.smallblock}
 
 [^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, *Atmos. Chem. Phys.*, 14, 317-398, [doi-link](http://dx.doi.org/10.5194/acp-14-317-2014).
 [^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, *J. Geophys. Res. Atmos.*, 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
+[^3]: Kristina Lundgren, Direct Radiative Effects of Sea Salt
+on the Regional Scale, *KIT Scientific Publishing 2012*, ISSN 0179-5619, ISBN 978-3-86644-773-8
+
 
 #### Spatio-temporal Resolution
 
-Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models**[^2]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be carefull about the quality of the parametrization and its relations with cloud-microphysics and precipiation.  
+Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models** or **Convection-Resolving-Models(CRM)**[^2]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be careful about the quality of the parametrization and its relations with cloud micro-physics and precipitation. 
 
 <figure class="half">
 <a
@@ -33,7 +36,22 @@ href="http://www.clm-community.eu/images/13_Picture1_1403507274.jpg"><img src="h
 
 #### Objectives
 
-There are adventages of the online coupled is that they may use to study the role of aerosols on the global radiative forcing. Also the aerosols are the source of Cloud-Condensation-Nucleus (CCN) that plays a central role on the cloud-microphysics. 
+There are advantages of the online coupled is that they may use to study the role of aerosols on the global radiative forcing [^3]. Also the aerosols are the source of Cloud-Condensation-Nucleus (CCN) that plays a central role on the cloud micro-physics. 
+
+#### General framework
+
+> Section under construction.
+
+
+#### Balance equations
+
+It is quite interesting that the parameterizations of several physical processes are described with **balance equations**. The first step is define several categories: like aerosols types or like drops sizes... The physical process are the interpreted as effective transferences from a category to another one. For instance, the breakup of a rain drop in two others will be represented by an increase the concentration of one category and decrease on another. This kind of processed can written as **balance equations**. That in a warm cloud micro-physics scheme would imply total water vapor mass conservation.
+
+Describe the aerosols dynamics is quite complex due to the several physical processes involved: cloud micro-physics, chemistry, precipitation etc... But the dynamic processed between aerosols is usually modeled by balance equations like
+
+$$
+\partial_{t}N_{k}={\overbrace{T(N_{k})}^{Turbulent\,Transport}}+{\overbrace{A(N_{k})}^{Advection \, Transport}}+{\overbrace{v_{s}\partial_{z}(N_{k})}^{Sedimentation}}-{\overbrace{C\sum_{l}a_{k,l}}^{Balance\,between\, modes k, l}}
+$$
 
 
 ##### References and Notes
