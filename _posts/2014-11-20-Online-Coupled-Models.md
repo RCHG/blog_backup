@@ -18,12 +18,13 @@ image:
 
 [^1]: Baklanov, A. et al. (2014): Online coupled regional meteorology chemistry models in Europe: current status and prospects, *Atmos. Chem. Phys.*, 14, 317-398, [doi-link](http://dx.doi.org/10.5194/acp-14-317-2014).
 [^2]: Ban, N., J. Schmidli, and C. Schär (2014), Evaluation of the convection-resolving regional climate modeling approach in decade-long simulations, *J. Geophys. Res. Atmos.*, 119, 7889–7907, [doi-link](http://dx.doi.org/10.1002/2014JD021478).
-[^3]: Kristina Lundgren, Direct Radiative Effects of Sea Salt on the Regional Scale, *KIT Scientific Publishing 2012*, ISSN 0179-5619, ISBN 978-3-86644-773-8
+[^3]: Kristina Lundgren, Direct Radiative Effects of Sea Salt on the Regional Scale, *KIT Scientific Publishing 2012*, ISSN 0179-5619, ISBN 978-3-86644-773-8. [pdf-link](http://www.imk-tro.kit.edu/english/3140_5642.php).
+[^4]: Marshall, J., C. Hill, L. Perelman, and A. Adcroft (1997), Hydrostatic, quasi-hydrostatic, and nonhydrostatic ocean modeling, J. Geophys. Res., 102(C3), 5733–5752, [doi-link](http://dx.doi.org/10.1029/96JC02776). [pdf-link](http://www-paoc.mit.edu/paoc/papers/hydrostatic.pdf).
 
 
-#### Spatio-temporal Resolution
+#### Spatial-temporal Resolutions
 
-Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models** or **Convection-Resolving-Models(CRM)**[^2]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be careful about the quality of the parametrization and its relations with cloud micro-physics and precipitation. 
+Few years ago most of the NWPM were **hydrostatic**. An approximation that constrained the spatial resolution to values larger than (around) 15-20 km. However recently most of the NWPM (global climate models usually have larger spatial resolutions) are actually **non-hydrostatic**[^4]. However smaller spatial resolution also means improve the physical parameterizations and physical descriptions (and also increase the temporal resolution), a classical example is the convection. When the scale is highly improved some authors speak about **Cloud-Resolving-Models** or **Convection-Resolving-Models(CRM)**[^2]. The aerosols and chemistry can be included on several model scales, but I understand that higher resolution will means be careful about the quality of the parametrization and its relations with cloud micro-physics and precipitation. 
 
 <figure class="half">
 <a
