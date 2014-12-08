@@ -50,7 +50,7 @@ from pycallgraph import PyCallGraph
 from pycallgraph.output import GraphvizOutput
 
 with PyCallGraph(output=GraphvizOutput()):
-    pymie.mie_scat_lognormals(a_n, a_m, a_d, a_sigma, a_modes)
+    pymie.mie_scat_lognormals(a_n, a_m, a_d, a_sig, a_mode)
 
 {% endhighlight %}
 
