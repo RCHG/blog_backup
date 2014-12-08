@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-08T20:58:29+01:00</updated>
+<updated>2014-12-08T21:11:05+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -28,7 +28,7 @@
   </author>
   <content type="html">&lt;p&gt;In this post, I will introduce a python library quite useful to evaluate the most critical functions in your code (those that are most often called, and those where the program spent more time). To better understand how this library actually works, a good method is explain an example.&lt;/p&gt;
 
-&lt;p&gt;Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations (&lt;a href=&quot;http://http://rchg.github.ioMie-Scattering/&quot;&gt;see this post&lt;/a&gt; ). Typically we have,to program functions like&lt;/p&gt;
+&lt;p&gt;Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations (&lt;a href=&quot;http://http://rchg.github.ioMie-Scattering/&quot;&gt;see this post&lt;/a&gt; ). Typically, we have to program functions like,&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
 S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\theta)+b_{n}\tau_{n}(\theta) \right]
@@ -46,17 +46,15 @@ S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\thet
 
 &lt;p&gt;at this point the specific form of the functions &lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt; is not critical. But if we analized the equation of &lt;script type=&quot;math/tex&quot;&gt;S_{1}(\theta)&lt;/script&gt; there is a sum of $\pi_{n}(\theta)$ for increasing values of n. Due to the recurrence definition we have to evaluate several times similar or identical expressions.&lt;/p&gt;
 
-&lt;p&gt;Let’s say that in first instance we are not aware of this fact, however we want to diagnosticate where the code spend more time and resources.&lt;/p&gt;
-
-&lt;p&gt;For that we install the library:&lt;/p&gt;
+&lt;p&gt;Let’s say that in first instance we are not aware of this fact, however we want to diagnose where the code spends more time and resources. For that we install the library:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pip install pycallgraph&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;We could use the librar like a bash shell program or import it within our program. In the first case,&lt;/p&gt;
+&lt;p&gt;We could use the library like a bash shell program or import it within our program. In the first case,&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;pycallgraph graphviz -- testTHIS.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;This will generate a image file &lt;strong&gt;pycallgraph.png&lt;/strong&gt;. However I think that it is more useful introduce directly in the script this evuation:&lt;/p&gt;
+&lt;p&gt;This will generate a image file &lt;strong&gt;pycallgraph.png&lt;/strong&gt;. However, it is more useful and versatile to introduce directly in the script:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymie_core&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pymie&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pycallgraph&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyCallGraph&lt;/span&gt;
@@ -65,7 +63,7 @@ S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\thet
 &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyCallGraph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GraphvizOutput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()):&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;pymie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mie_scat_lognormals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Within our function &lt;strong&gt;mie_scat_lognormals&lt;/strong&gt; of the library pymie_core we calculated several series of the type: &lt;script type=&quot;math/tex&quot;&gt;S_{1}(\theta)&lt;/script&gt;. The initial image file is:&lt;/p&gt;
+&lt;p&gt;Because it is possible to diagnose expecifically a function or block of code. Within our function &lt;strong&gt;mie_scat_lognormals&lt;/strong&gt; of the library pymie_core we calculated several series of the type: &lt;script type=&quot;math/tex&quot;&gt;S_{1}(\theta)&lt;/script&gt;. The initial image file is:&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;/images/pycallgraph_before_2.png&quot; /&gt;
