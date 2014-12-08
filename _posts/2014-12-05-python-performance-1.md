@@ -71,4 +71,5 @@ I have indicated the large number of evaluations of the Mie angular functions. T
 	<figcaption><a title="Graphviz Image">Graphviz Image to check the function pymie.mie_scat_lognormals after the code improvement.</a></figcaption>
 </figure>
 
+We appreciate that before there was $$4\,300\,000$$  calls and after $$300\,000$$ function calls. 
 
