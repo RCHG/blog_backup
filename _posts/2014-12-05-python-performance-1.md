@@ -54,9 +54,7 @@ with PyCallGraph(output=GraphvizOutput()):
 
 {% endhighlight %}
 
-Within our function **mie_scat_lognormals** of the library pymie_core we calculated several series of the type: $$S_{1}(\theta)$$. 
-
-The initial image file is:
+Within our function **mie_scat_lognormals** of the library pymie_core we calculated several series of the type: $$S_{1}(\theta)$$. The initial image file is:
 
 <figure>
 <img src="/images/pycallgraph_before_2.png">
