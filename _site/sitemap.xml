@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rchg.github.io/python-performance-1/</loc>
+    <lastmod>2014-12-05T00:00:00+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://rchg.github.io/Online-Coupled-Models/</loc>
     <lastmod>2014-11-20T00:00:00+01:00</lastmod>
     <priority>0.8</priority>
@@ -21,6 +26,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://rchg.github.io/matplotlib-intro/</loc>
+    <lastmod>2014-10-02T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://rchg.github.io/UNIX-tools/</loc>
+    <lastmod>2014-10-02T00:00:00+02:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://rchg.github.io/Book-Review/</loc>
     <lastmod>2014-10-01T00:00:00+02:00</lastmod>
     <priority>0.8</priority>
@@ -32,49 +47,49 @@
   </url>
   <url>
     <loc>http://rchg.github.io/404.html</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/research/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/links/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/posts/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/about/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/tags/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://rchg.github.io/teaching/</loc>
-    <lastmod>2014-12-07T19:53:36+01:00</lastmod>
+    <lastmod>2014-12-08T19:50:53+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
