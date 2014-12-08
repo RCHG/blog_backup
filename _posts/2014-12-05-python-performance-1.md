@@ -57,14 +57,16 @@ with PyCallGraph(output=GraphvizOutput()):
 
 {% endhighlight %}
 
-Because it is possible to diagnose expecifically a function or block of code. Within our function **mie_scat_lognormals** of the library pymie_core we calculated several series of the type: $$S_{1}(\theta)$$. The initial image file is:
+Because it is possible to diagnose expecifically a function or block of code. In this case I would like to evaluate the function **mie_scat_lognormals**. Within this function **mie_scat_lognormals** of the library pymie_core are calculated series of the type: $$S_{1}(\theta)$$. 
+
+Are just execute our python script we will find an image file, which in this case is,
 
 <figure>
 <img src="/images/pycallgraph_before_2.png">
 	<figcaption><a title="Graphviz Image">Graphviz Image to analyze the function pymie.mie_scat_lognormals.</a></figcaption>
 </figure>
 
-I have indicated the large number of evaluations of the Mie angular functions. Therefore this motivate check the code because any improvement would mean a much better performance. In this code, I introduced a main change storing in a numpy array the results of the mie angular functions to avoid the huge number of evaluations. The result was:
+I have indicated the large number of evaluations of the Mie angular functions. Therefore this motivate check the code because any improvement would mean a much better performance. In this code, I introduced a main change storing in a numpy array the results of the mie angular functions to avoid the huge number of evaluations. The result of run again the python script is now,
 
 
 <figure>

@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-08T21:11:12+01:00</updated>
+<updated>2014-12-08T21:15:53+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -63,14 +63,16 @@ S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\thet
 &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PyCallGraph&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GraphvizOutput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()):&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;pymie&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mie_scat_lognormals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_sig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Because it is possible to diagnose expecifically a function or block of code. Within our function &lt;strong&gt;mie_scat_lognormals&lt;/strong&gt; of the library pymie_core we calculated several series of the type: &lt;script type=&quot;math/tex&quot;&gt;S_{1}(\theta)&lt;/script&gt;. The initial image file is:&lt;/p&gt;
+&lt;p&gt;Because it is possible to diagnose expecifically a function or block of code. In this case I would like to evaluate the function &lt;strong&gt;mie_scat_lognormals&lt;/strong&gt;. Within this function &lt;strong&gt;mie_scat_lognormals&lt;/strong&gt; of the library pymie_core are calculated series of the type: &lt;script type=&quot;math/tex&quot;&gt;S_{1}(\theta)&lt;/script&gt;. &lt;/p&gt;
+
+&lt;p&gt;Are just execute our python script we will find an image file, which in this case is,&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;/images/pycallgraph_before_2.png&quot; /&gt;
 	&lt;figcaption&gt;&lt;a title=&quot;Graphviz Image&quot;&gt;Graphviz Image to analyze the function pymie.mie_scat_lognormals.&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;I have indicated the large number of evaluations of the Mie angular functions. Therefore this motivate check the code because any improvement would mean a much better performance. In this code, I introduced a main change storing in a numpy array the results of the mie angular functions to avoid the huge number of evaluations. The result was:&lt;/p&gt;
+&lt;p&gt;I have indicated the large number of evaluations of the Mie angular functions. Therefore this motivate check the code because any improvement would mean a much better performance. In this code, I introduced a main change storing in a numpy array the results of the mie angular functions to avoid the huge number of evaluations. The result of run again the python script is now,&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;img src=&quot;/images/pycallgraph_2.png&quot; /&gt;
