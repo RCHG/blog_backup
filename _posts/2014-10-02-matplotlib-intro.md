@@ -30,3 +30,4 @@ mpl.rcParams['font.family'] = 'Gentium Basic'
 
 Also this can be change directly in the matplotlib rc file. I recommend also take a look to the [matplotlib font API](http://matplotlib.org/api/font_manager_api.html).
 
+
