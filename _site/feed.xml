@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2014-12-15T19:42:08+01:00</updated>
+<updated>2014-12-15T19:44:12+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -403,32 +403,58 @@ S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\thet
     
   </author>
   <content type="html">&lt;blockquote&gt;
-  &lt;p&gt;Note that: This kind of compilation I will describe needs .a libraries. This means that we should be sure that the package installed contains .a libraries. For example, fro hdf5 it is the hdf5-dev the one with .a libraries.&lt;/p&gt;
+  &lt;p&gt;Note that: The kind of compilation I will describe needs .a libraries. This means that we should be sure that the package installed contains the required .a libraries. For example, for hdf5 (at least in Debian) you should install &lt;em&gt;hdf5-dev&lt;/em&gt; package.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;compile-a-fortran-program-which-uses-netcdf-library&quot;&gt;Compile a Fortran program which uses netcdf library&lt;/h3&gt;
 
-&lt;p&gt;If netcdf is installed in a machine a good idea is run:&lt;/p&gt;
+&lt;p&gt;After install the libraries &lt;em&gt;hdf5&lt;/em&gt; and &lt;em&gt;hdf5-dev&lt;/em&gt; and their dependences. A good idea is just run in the terminal the command &lt;strong&gt;nc-config&lt;/strong&gt;. &lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config -all&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config -all
 
-&lt;p&gt;this gives information about all configurations tips on the computer. 
-Two commands are particularly useful for fortran:&lt;/p&gt;
+  --cc        -&amp;gt; gcc
+  --cflags    -&amp;gt;  -I/usr/include -DgFortran
+  --libs      -&amp;gt; -L/usr/lib -lnetcdf
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config --flibs   &lt;span class=&quot;c&quot;&gt;# (option -libs for C)&lt;/span&gt;
+  --cxx       -&amp;gt; g++
+  --has-c++   -&amp;gt; yes
+
+  --fc        -&amp;gt; gfortran
+  --fflags    -&amp;gt; -g -O2 -I/usr/include
+  --flibs     -&amp;gt; -L/usr/lib -lnetcdff -lnetcdf
+  --has-f77   -&amp;gt; yes
+  --has-f90   -&amp;gt; yes
+
+  --has-dap   -&amp;gt; yes
+  --has-nc2   -&amp;gt; yes
+  --has-nc4   -&amp;gt; yes
+  --has-hdf5  -&amp;gt; yes
+  --has-hdf4  -&amp;gt; no
+  --has-pnetcdf-&amp;gt; no
+  --has-szlib -&amp;gt; 
+
+  --prefix    -&amp;gt; /usr
+  --includedir-&amp;gt; /usr/include
+  --version   -&amp;gt; netCDF 4.1.3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you will see this gives information about all flags and tips to compile with this library. More specifically two commands are particularly useful for FORTRAN:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config --flibs 
 -L/usr/lib -lnetcdff -lnetcdf&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config --fflags &lt;span class=&quot;c&quot;&gt;# (option -flags for C)&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nc-config --fflags &lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
 -g -O2 -I/usr/include&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;The 1st gives information about &lt;strong&gt;how to give information to the compiler about libs&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;The 2nd gives information about &lt;strong&gt;flags&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;Gives information about &lt;em&gt;*how to give information to the compiler about libs&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Gives information about &lt;strong&gt;flags&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Therefore compilation would be:&lt;/p&gt;
+&lt;p&gt;Therefore compilation of a &lt;strong&gt;program.f90&lt;/strong&gt; that is using the netcdf library would be:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gfortran program.f90 -o program.out -L/usr/lib -lnetcdff -lnetcdf -g -O2 -I/usr/include&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Easy, isn’t it?&lt;/p&gt;
 
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/netCDF-Fortran/&quot;&gt;Note on netCDF-Fortran&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 10, 2014.&lt;/p&gt;</content>
@@ -448,24 +474,23 @@ Two commands are particularly useful for fortran:&lt;/p&gt;
     <uri>http://rchg.github.io</uri>
     
   </author>
-  <content type="html">&lt;p&gt;To Change the fonts&lt;/p&gt;
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;This post has a list of tiny matplotlib tips. &lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;more .matplotlib/fontList.cache&lt;/td&gt;
-      &lt;td&gt;grep Gentium&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h3 id=&quot;how-to-change-the-fonts&quot;&gt;How to Change the fonts&lt;/h3&gt;
 
-&lt;p&gt;this are the names on the fontList.cache of matplotlib&lt;/p&gt;
+&lt;p&gt;There are several possible directories where the matplotlib preference files are stored. In my Linux Distribution they are at &lt;em&gt;/home/USER/.matplotlib&lt;/em&gt;, therefore to see if a specific font is avaliable we could write in the terminal.&lt;/p&gt;
 
-&lt;p&gt;then choose one font, for example, ‘Gentium Basic’&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;more .matplotlib/fontList.cache &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; grep Gentium&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;import matplotlib as mlp&lt;/p&gt;
+&lt;p&gt;Because this file has the names on the fontList.cache of matplotlib then to choose one font, for example, &lt;em&gt;Gentium Basic&lt;/em&gt; that we have checked that is in &lt;strong&gt;fontList.cache&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;mpl.rcParams[‘font.family’] = ‘Gentium Basic’&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;mlp&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;mpl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rcParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;font.family&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;Gentium Basic&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Also this can be change directly in the matplotlib rc file. I recommend also take a look to the &lt;a href=&quot;http://matplotlib.org/api/font_manager_api.html&quot;&gt;matplotlib font API&lt;/a&gt;.&lt;/p&gt;
+
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/matplotlib-intro/&quot;&gt;Matplotlib tips&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on October 02, 2014.&lt;/p&gt;</content>
 </entry>
@@ -484,21 +509,27 @@ Two commands are particularly useful for fortran:&lt;/p&gt;
     <uri>http://rchg.github.io</uri>
     
   </author>
-  <content type="html">&lt;p&gt;&lt;strong&gt;awk and pr&lt;/strong&gt;&lt;/p&gt;
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;This post collects a list of shorts tips related with UNIX terminal tools. To extract information of a file, to find specific archives, etc …&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;cp test_111027.428.dat del_2300
-awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del_2300 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;gt&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; DEL2300
+&lt;h3 id=&quot;awk-and-pr&quot;&gt;awk and pr&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;AWK&lt;/strong&gt; is a quite powerful line command, here I will just comment an example of how to combine it with &lt;strong&gt;pr&lt;/strong&gt;. The &lt;strong&gt;pr&lt;/strong&gt; command is useful to, for example, create a one two column file from two previous one column files (or more complex operations)  &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;cp &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;-file.dat del_2300
+awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del_2300 &amp;gt; DEL2300
 mv DEL2 DEL_0000
 mv DEL_0000 DEL0000
-cp test_111027.428.dat del_2300
-awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del_2300 &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;gt&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; DEL2300
-awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;gt&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; DEL0000
+cp &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt;-file.dat del_2300
+awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del_2300 &amp;gt; DEL2300
+awk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1, $NF}&amp;#39;&lt;/span&gt; del &amp;gt; DEL0000
 pr -m -t -s&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;DEL0000 DEL2300 &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; gawk &lt;span class=&quot;s1&quot;&gt;&amp;#39;{print $1,$2,$3,$4}&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;cut&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;cut&quot;&gt;cut&lt;/h3&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;cut -f 
-cut -c &lt;span class=&quot;m&quot;&gt;129&lt;/span&gt; file.txt &lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;gt&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; new_file.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+cut -c &lt;span class=&quot;m&quot;&gt;129&lt;/span&gt; file.txt &amp;gt; new_file.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;(THIS save only the character column number 129)&lt;/p&gt;
 
