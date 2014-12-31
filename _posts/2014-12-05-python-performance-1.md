@@ -13,7 +13,7 @@ image:
 In this post, I will introduce a python library quite useful to evaluate the most critical functions in your code (those that are most often called, and those where the program spent more time). To better understand how this library actually works, a good method is explain an example.
 
 
-Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations ([see this post](http://{{ site.url }}Mie-Scattering/) ). Typically, we have to program functions like,
+Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations ([see this post](http://{{ site.url }}/Mie-Scattering/) ). Typically, we have to program functions like,
 
 $$
 S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\theta)+b_{n}\tau_{n}(\theta) \right]
