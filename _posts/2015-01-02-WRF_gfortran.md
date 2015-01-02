@@ -15,20 +15,20 @@ image:
 My diagnistic os that the problem is related with the **C preprocessor**. A possible solution is change:
 
 {% highlight bash %}
-CPP             =      /lib/cpp -C -P
+CPP             =  /lib/cpp -C -P
 {% endhighlight %}
 
 to
 
 {% highlight bash %}
-CPP             =      /lib/cpp -P
+CPP             =  /lib/cpp -P
 {% endhighlight %}
 
 I think this avoid the addition of C-style comments to the .f90 files. However *this should be changed for every makefile in the directories of WRF*. The other solution is add -cpp to the gfortran. Basically you have to change two lines:
 
 {% highlight bash %}
-FORMAT_FIXED    =       -ffixed-form -cpp
-FORMAT_FREE     =       -ffree-form -ffree-line-length-none -cpp
+FORMAT_FIXED    =  -ffixed-form -cpp
+FORMAT_FREE     =  -ffree-form -ffree-line-length-none -cpp
 {% endhighlight %}
 
 
