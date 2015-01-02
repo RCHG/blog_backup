@@ -4,7 +4,7 @@ title: "Note on WRF-gfortran-compilation"
 author: ramiro_chg
 modified:
 excerpt: "How to compile WRF with gfortran"
-tags: [scientific-computing, hodgepodge, Fortran, WRF]
+tags: [scientific-computing, Fortran, WRF]
 image:
   feature: sample-image-2.jpg
 ---
@@ -42,7 +42,7 @@ gfortran -v
 
 the output would be the default configuration of gfortran on your machine, and probably there isn't anything like -cpp. I guess this output may depend partially on your Linux distribution (or Unix system).
 
-** Other users comments:**
+**Other users comments:**
 In the forum others users replied that my solution works also for WRFDA. If you are using ifort instead gfortran another user of the forum commented that added -fpp instead -cpp
 {:.notice}
 

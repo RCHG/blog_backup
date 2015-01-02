@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2015-01-02T20:54:14+01:00</updated>
+<updated>2015-01-02T20:55:47+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -51,7 +51,7 @@
 
 &lt;p&gt;the output would be the default configuration of gfortran on your machine, and probably there isn’t anything like -cpp. I guess this output may depend partially on your Linux distribution (or Unix system).&lt;/p&gt;
 
-&lt;p class=&quot;notice&quot;&gt;** Other users comments:**
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Other users comments:&lt;/strong&gt;
 In the forum others users replied that my solution works also for WRFDA. If you are using ifort instead gfortran another user of the forum commented that added -fpp instead -cpp&lt;/p&gt;
 
 
