@@ -4,13 +4,59 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2015-01-02T20:38:50+01:00</updated>
+<updated>2015-01-02T20:54:14+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
   <uri>http://rchg.github.io/</uri>
   
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Note on WRF-gfortran-compilation]]></title>
+  <link rel="alternate" type="text/html" href="http://rchg.github.io/WRF_gfortran/" />
+  <id>http://rchg.github.io/WRF_gfortran</id>
+  <published>2015-01-02T00:00:00+01:00</published>
+  <updated>2015-01-02T00:00:00+01:00</updated>
+  <author>
+    <name>R. Checa-Garcia</name>
+    <uri>http://rchg.github.io</uri>
+    
+  </author>
+  <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Here I described a solution for a problem in the compilation of WRF with gfortran. The problem arrives because some comments are considered code. This was posted on the &lt;a href=&quot;http://forum.wrfforum.com/viewtopic.php?f=5&amp;amp;t=6086&quot;&gt;WRF-Forum&lt;/a&gt; &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My diagnistic os that the problem is related with the &lt;strong&gt;C preprocessor&lt;/strong&gt;. A possible solution is change:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;CPP&lt;/span&gt;             &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;      /lib/cpp -C -P&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;to&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;CPP&lt;/span&gt;             &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;      /lib/cpp -P&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;I think this avoid the addition of C-style comments to the .f90 files. However &lt;em&gt;this should be changed for every makefile in the directories of WRF&lt;/em&gt;. The other solution is add -cpp to the gfortran. Basically you have to change two lines:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;FORMAT_FIXED&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;       -ffixed-form -cpp
+    &lt;span class=&quot;nv&quot;&gt;FORMAT_FREE&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;       -ffree-form -ffree-line-length-none -cpp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now the gfortran knows that cpp preprocessor is being used. The most easy way is generate the file configure.wrf as usual and before compile anything change manually those two lines by adding -cpp (and check before any compilation). Also is possible apply the changes on the ./configure script.&lt;/p&gt;
+
+&lt;p&gt;In my case these changes were enough to compile with gfortran. Anyway, previously to do this you may try&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gfortran -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;the output would be the default configuration of gfortran on your machine, and probably there isn’t anything like -cpp. I guess this output may depend partially on your Linux distribution (or Unix system).&lt;/p&gt;
+
+&lt;p class=&quot;notice&quot;&gt;** Other users comments:**
+In the forum others users replied that my solution works also for WRFDA. If you are using ifort instead gfortran another user of the forum commented that added -fpp instead -cpp&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/WRF_gfortran/&quot;&gt;Note on WRF-gfortran-compilation&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on January 02, 2015.&lt;/p&gt;</content>
+</entry>
 
 
   
@@ -45,11 +91,11 @@ y=F(x)
 y=Kx
 &lt;/script&gt;
 
-&lt;p&gt;The solution of the inverse discrete problem its usually described with the singular value decomposition.
-Then it is defined the pseudoinverse of K as,
-&lt;script type=&quot;math/tex&quot;&gt;
+&lt;p&gt;The solution of the inverse discrete problem its usually described with the singular value decomposition (SVD). Then it is defined the pseudoinverse of K as,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
 K^{\dagger}=(K^{T}K)^{-1}K^{T}=V\Sigma^{\dagger}U^{T}
-&lt;/script&gt;&lt;/p&gt;
+&lt;/script&gt;
 
 &lt;p&gt;The Tikhonov regularization propose another definition of the pseudoinverse which includes a regularization matrix &lt;script type=&quot;math/tex&quot;&gt;L&lt;/script&gt;
 and a regularization parameter &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;,&lt;/p&gt;
@@ -58,7 +104,7 @@ and a regularization parameter &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt
 K^{\dagger}=(K^{T}K+\alpha L^{T}L)^{-1}K^{T}=\bar{V}\Sigma^{\dagger}_{\alpha}\bar{U}^{T}
 &lt;/script&gt;
 
-&lt;p&gt;the last equation is used the generalized singular value decomposition.&lt;/p&gt;
+&lt;p&gt;In order to write the last equation the generalized singular value decomposition (GSVD) is used.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Tikhonov/&quot;&gt;Introduction to Tikhonov Regularization Method&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on December 12, 2014.&lt;/p&gt;</content>
 </entry>
@@ -79,7 +125,7 @@ K^{\dagger}=(K^{T}K+\alpha L^{T}L)^{-1}K^{T}=\bar{V}\Sigma^{\dagger}_{\alpha}\ba
   </author>
   <content type="html">&lt;p&gt;In this post, I will introduce a python library quite useful to evaluate the most critical functions in your code (those that are most often called, and those where the program spent more time). To better understand how this library actually works, a good method is explain an example.&lt;/p&gt;
 
-&lt;p&gt;Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations (&lt;a href=&quot;http://http://rchg.github.ioMie-Scattering/&quot;&gt;see this post&lt;/a&gt; ). Typically, we have to program functions like,&lt;/p&gt;
+&lt;p&gt;Therefore, I will use a numerical python code that I programmed to calculate the scattering properties of homogeneous spheres with Mie Scattering. The calculation needs the values of the Mie angular functions which are defined by recurrence relations (&lt;a href=&quot;http://http://rchg.github.io/Mie-Scattering/&quot;&gt;see this post&lt;/a&gt; ). Typically, we have to program functions like,&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;
 S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\theta)+b_{n}\tau_{n}(\theta) \right]
