@@ -108,7 +108,7 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 	- 5th. `ESA Earth Observation Summer School`, On Earth System Monitoring and Modelling Applications, 2-13 August 2010, ESA-ESRIN, Frascati-Rome (Italy).
 	- `Numerical Weather Prediction Models Workshop`. EUMETCAL-2009. Helsinki (Finland)
 
-- **Scientific Computing**
+- **Scientific Computing****Scientific Computing**
   - `Euro Sci-Python`, Course and Conference, July 2010, Ecole Normale Superior, Paris(France),
 - **Statistical Physics**
   - FISES. Física Estadística Conferences: Navarra 2003, Madrid 2004, Granada 2007, Salamanca 2008.
@@ -118,9 +118,23 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
   - Proceedings of 22th Statistical Physics Confer., Published in Pramana - Journal of Physics.
 {:.smallquote}
 
+### Poster & Presentations (collaborative and contributions)
+---
+
+**Remote Sensing of Trace Gases**
+
+- [IWGGMS-9 conference](http://zenodo.org/record/11105/files/I_4_2014-06-23_HITRAN_SAO_Butz.pdf): *Remote Sensing of Greenhouse gases and their sources and sinks*. André Butz, Arne Babenhauserheide, Marco Bertleff , **Ramiro Checa-Garcia**, Philipp Hahne, Frank Hase, Friedrich Klappenbach, Julian Kostinek, Ilse Aben, Otto Hasekamp, Jochen Landgraf, Arno de Lange, André Galli, Sourish Basu.
+- [IWGGMS-10 conference](http://iwggms.azurewebsites.net/0530%5Cpm%5C20_AndreButz.pdf): *Seasonal carbon uptake as seen from an improved version of RemoTeC*. A. Butz, A. Babenhauserheide , M. Bertleff, **R. Checa-Garcia**, K. Fischerkeller, P. Hahne, F. Klappenbach, J.Kostinek, K. Stammberger, S.Basu, S.Guerlet, R.Detmers, O.Hasekamp, J. Landgraf, S. Houweling[^1]
+- [EGU 2014](http://presentations.copernicus.org/EGU2014-12970_presentation.pdf): *Comparing Ensemble Kalman filter and 4DVar data assimilation systems for CO2 flux inversions*. Arne Babenhauserheide, P. Hahne, **R. Checa-Garcia**, F. Klappenbach, S. Dohe, S. Basu, S. Houweling, W. Peters, A. Butz.
+
+- [HITRAN 2014 Conference](http://www.cfa.harvard.edu/HITRAN/Download/Proceedings-2014.pdf)
+- [AGU-2014 Meeting](http://fallmeeting.agu.org/2014/files/2014/12/Friday-Daily-Newspaper.pdf):
+
 ### Referee
 ---
 
 - Indian Journal of Radio and Space Physics., (2011).
 - Hydrometeorology Water Resources Research (AGU journal), (2014).
 - Remote Sensing Remote Sensing (MPDI journal), (2014).
+
+[^1] My collaboration on this presentation was discussions about the topic with the main authors.
