@@ -474,6 +474,9 @@ $button-size: 1.5rem;
 			margin: 1px 0 0;
 			font-size: 80%;
 		}
+		ul:before{
+            content: "  ";
+        } 
 	}
 }
 #drawer {
