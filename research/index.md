@@ -86,9 +86,8 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 {:.smallblock}
 
 
-## Publications and Technical Reports
+## Publications List
 ---
-
 
 **Remote Sensing of Trace Gases**
 
@@ -142,7 +141,7 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 {:.smallquote}
 
 
-#### Referee
+## Journal Reviewer
 ---
 
 - Indian Journal of Radio and Space Physics., (2011).
