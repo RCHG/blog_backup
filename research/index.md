@@ -66,7 +66,6 @@ The central goal of the project I am working is related with a consolidation of 
 
 ## PhD. Dissertation
 
-
 **Important Note:**  I would recommend check [link](https://spideroak.com/browse/share/checagarcia/phddissertation) to download a PDF file with the Dissertation. However, please note that this version (and the version I uploaded to the arXiv repository) are not equal the official filled version at my university. More specifically: I finished my PhD Dissertation on November 2011. However because it was not filled until June-2012, I included additional research that I did by myself (alone) on the filled version. But also after finish my PhD (on September-2012) still I worked on several the same topics and I have included several improvements on the PDF on the version uploaded to arXiv (and on the first pdf linked above).
 {:.notice}
 <br><br>
@@ -143,7 +142,7 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 {:.smallquote}
 
 
-### Referee
+#### Referee
 ---
 
 - Indian Journal of Radio and Space Physics., (2011).
