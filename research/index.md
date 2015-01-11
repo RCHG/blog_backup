@@ -37,11 +37,11 @@ transfer theory, inverse problems and processing of satellite products.
 
 ---
 
-### Research Assistant at Karlsruhe Institute of Technology
+## Research Assistant at Karlsruhe Institute of Technology
 
 The central goal of the project I am working is related with a consolidation of the ESA satellite Sentinel-5 requirements. This means a detailed study of the different error sources like instrumental, spectroscopy, forward models errors derived of an effective description of the atmosphere aerosols and cirrus. To be able to conduct this research I use state of the art retrieval algorithms (inverse problem and radiative transfer solver) with trial ensembles of geophysical scenarios. Additional aspects of the research are: evaluate the cloud cover with Meteosat datasets, integrate satellite products of MODIS and CALIPSO with datasets obtained from offline chemical transport model.
 
-#### Publications and Technical Reports
+### Publications and Technical Reports
 
 **Remote Sensing of Trace Gases**
 
@@ -52,7 +52,7 @@ The central goal of the project I am working is related with a consolidation of 
 - *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `EGU - Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
 {:.smallquote}
 
-#### Poster & Presentations (collaborative and contributions)
+### Poster & Presentations (collaborative and contributions)
 
 **Remote Sensing of Trace Gases**
 
@@ -64,7 +64,7 @@ The central goal of the project I am working is related with a consolidation of 
 
 ---
 
-### PhD. Dissertation
+## PhD. Dissertation
 
 
 **Important Note:**  I would recommend check [link](https://spideroak.com/browse/share/checagarcia/phddissertation) to download a PDF file with the Dissertation. However, please note that this version (and the version I uploaded to the arXiv repository) are not equal the official filled version at my university. More specifically: I finished my PhD Dissertation on November 2011. However because it was not filled until June-2012, I included additional research that I did by myself (alone) on the filled version. But also after finish my PhD (on September-2012) still I worked on several the same topics and I have included several improvements on the PDF on the version uploaded to arXiv (and on the first pdf linked above).
@@ -78,7 +78,7 @@ The main challenges of measuring precipitation are related to the spatio-tempora
 
 ---
 
-### M.Sc. Thesis
+## M.Sc. Thesis
 
 **Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory** (R Checa-Garcia) arXiv preprint arXiv:1307.6199 (2013)
 
@@ -86,7 +86,8 @@ The main challenges of measuring precipitation are related to the spatio-tempora
 Two different theories are used to understand the liquid-vapor interfaces: the Van der Waals theory and the capillary waves theory. But comparing both come up a problem of interpretation of the interface density profiles obtained, for example, with the Density Functional Theory (DFT). As a consequence emerge the question of how the surface fluctuations are included on traditional density profiles (usually named equilibrium density profiles). Last years, new insights on the role of capillary waves were possible by analyzing X-ray reflectivity experiments and performing computer simulations of liquids with low melting temperature. In particular, the density profile exhibits a layering structure which is considered a key property to elucidate a new interpretation of those profiles as intrinsic density profiles. This dissertation aims to investigate these questions within the DFT using simple fluids with a pairwise interactions that reproduce important phase-diagram properties of liquid metals. Two generics questions were explored: the relevance of Fisher-Widom line and the role of capillary waves on the nature of interface obtained with approximations WDA and FMT. It hypothesized the existence of a density profile with strong layering properties whose structure is reduced by capillary waves. Then the effect of surface fluctuations is described by introducing an effective transversal size which imposes a limitation of the spectrum of surface fluctuations incorporated on the DFT. However, an explicit methodology to unfreeze the capillary waves over a postulated intrinsic profile exempt of surface fluctuations was proven still a challenge. As a consequence it suggested that other previous results describing the liquid surface using the equilibrium DFT may conduct to unphysical properties.
 {:.smallblock}
 
-### Publications and Technical Reports
+
+## Publications and Technical Reports
 ---
 
 
