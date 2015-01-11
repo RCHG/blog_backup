@@ -437,7 +437,7 @@ $button-size: 1.5rem;
 		margin: 0;
 		padding: 5px 10px;
 		color: $white;
-		@include font-rem(26);
+		@include font-rem(18);
 		text-transform: uppercase;
 		&:hover {
 			cursor: pointer;
@@ -453,6 +453,7 @@ $button-size: 1.5rem;
 		margin: 0 0 1px 0;
 		padding: 0;
 		font-family: $heading-font;
+		
 		list-style-type: none;
 		&:last-child {
 			border-bottom-width: 0;
@@ -470,7 +471,8 @@ $button-size: 1.5rem;
 			}
 		}
 		ul {
-			margin: 1px 0 0;
+			margin: 5px 0 0;
+			
 		}
 	}
 }
