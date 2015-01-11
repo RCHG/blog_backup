@@ -471,12 +471,9 @@ $button-size: 1.5rem;
 			}
 		}
 		ul {
-			margin: 1px 0 0;
+			margin: 5px 0 0;
 			font-size: 80%;
 		}
-		ul::before {
-            content: "-";
-        } 
 	}
 }
 #drawer {
