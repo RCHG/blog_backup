@@ -23,8 +23,7 @@ image:
 ## Overview
 ---
 
-My research background covers several fields and a broad set of methodologies with a fo-
-cus on computational skills and statistical methods. My initial formation is Physics, with
+My research background covers several fields and a broad set of methodologies with a focus on computational skills and statistical methods. My initial formation is Physics, with
 an specialization on Statistical Theoretical Physics. In my PhD I investigated
 in field of Atmospheric Sciences and Remote Sensing, in particular in micro-physics
 and remote sensing of precipitation, which also involved Applied Statistics.
@@ -41,6 +40,17 @@ transfer theory, inverse problems and processing of satellite products.
 ### Research Assistant at Karlsruhe Institute of Technology
 
 The central goal of the project I am working is related with a consolidation of the ESA satellite Sentinel-5 requirements. This means a detailed study of the different error sources like instrumental, spectroscopy, forward models errors derived of an effective description of the atmosphere aerosols and cirrus. To be able to conduct this research I use state of the art retrieval algorithms (inverse problem and radiative transfer solver) with trial ensembles of geophysical scenarios. Additional aspects of the research are: evaluate the cloud cover with Meteosat datasets, integrate satellite products of MODIS and CALIPSO with datasets obtained from offline chemical transport model.
+
+#### Publications and Technical Reports
+
+**Remote Sensing of Trace Gases**
+
+- *Mapping spectroscopic uncertainties into prospective methane retrieval errors from Sentinel-5 and its precursor*, **Ramiro Checa-Garcia**, Jochen Landgraf, Frank Hase, Ha Tran, Vincent Boudon, Frans Alkemade, Andre Butz. `AMT Journal`, submitted (Dec-2014)
+- *Consolidation of SWIR requirements for Sentinel-5 satellite*. `ESA Technical Note (2013)`
+- *Spectroscopy relevance on SWIR requirements for S5 satellite*. `ESA Technical report (2013)`
+- *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*, `AGU - Geophysical Research Abstracts`, T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner, October 2014.
+- *Remote Sensing Simulated retrievals of methane total columns in support of future satellite missions: an error sources analysis*, `EGU - Geophysical Research Abstracts`, **Ramiro Checa-Garcia**, Frans Alkemade, Vicent Boudon, Constanze Fischerkeller, Philipp Hahne, Frank Hase, Ha Tran, Jochen Landgraf, Andre Butz, April 2014.
+{:.smallquote}
 
 #### Poster & Presentations (collaborative and contributions)
 
@@ -120,7 +130,7 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 	- 5th. `ESA Earth Observation Summer School`, On Earth System Monitoring and Modelling Applications, 2-13 August 2010, ESA-ESRIN, Frascati-Rome (Italy).
 	- `Numerical Weather Prediction Models Workshop`. EUMETCAL-2009. Helsinki (Finland)
 
-- **Scientific Computing****Scientific Computing**
+- **Scientific Computing**
   - `Euro Sci-Python`, Course and Conference, July 2010, Ecole Normale Superior, Paris(France),
 - **Statistical Physics**
   - FISES. Física Estadística Conferences: Navarra 2003, Madrid 2004, Granada 2007, Salamanca 2008.
