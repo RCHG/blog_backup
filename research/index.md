@@ -42,7 +42,17 @@ transfer theory, inverse problems and processing of satellite products.
 
 The central goal of the project I am working is related with a consolidation of the ESA satellite Sentinel-5 requirements. This means a detailed study of the different error sources like instrumental, spectroscopy, forward models errors derived of an effective description of the atmosphere aerosols and cirrus. To be able to conduct this research I use state of the art retrieval algorithms (inverse problem and radiative transfer solver) with trial ensembles of geophysical scenarios. Additional aspects of the research are: evaluate the cloud cover with Meteosat datasets, integrate satellite products of MODIS and CALIPSO with datasets obtained from offline chemical transport model.
 
+#### Poster & Presentations (collaborative and contributions)
 
+**Remote Sensing of Trace Gases**
+
+- [IWGGMS-9 conference](http://zenodo.org/record/11105/files/I_4_2014-06-23_HITRAN_SAO_Butz.pdf): *Seasonal carbon uptake as seen from an improved version of RemoTeC*. A. Butz, A. Babenhauserheide , M. Bertleff, **R. Checa-Garcia**, K. Fischerkeller, P. Hahne, F. Klappenbach, J.Kostinek, K. Stammberger, S.Basu, S.Guerlet, R.Detmers, O.Hasekamp, J. Landgraf, S. Houweling
+- [IWGGMS-10 conference](http://iwggms.azurewebsites.net/0530%5Cpm%5C20_AndreButz.pdf): *Remote Sensing of Greenhouse Gases for Carbon Cycle Modelling (RemoteC): Algorithm Developments, Ground‐Based Instrumentation, and Modelling Aspects*. A.Butz, I.Aben, A.Babenhauserheide, S.Basu, M.Bertleff, **R. Checa‐Garcia**, C.Frankenberg, P.Hahne, F.Hase, O.Hasekamp, S.Houweling, F.Klappenbach, J.Kostinek, J.Landgraf, W.Peters 
+- [EGU 2014](http://presentations.copernicus.org/EGU2014-12970_presentation.pdf): *Comparing Ensemble Kalman filter and 4DVar data assimilation systems for CO2 flux inversions*. Arne Babenhauserheide, P. Hahne, **R. Checa-Garcia**, F. Klappenbach, S. Dohe, S. Basu, S. Houweling, W. Peters, A. Butz. [^1]
+- [HITRAN 2014 Conference](http://www.cfa.harvard.edu/HITRAN/Download/Proceedings-2014.pdf):  *Remote Sensing of Greenhouse gases and their sources and sinks*. André Butz, Arne Babenhauserheide, Marco Bertleff , **Ramiro Checa-Garcia**, Philipp Hahne, Frank Hase, Friedrich Klappenbach, Julian Kostinek, Ilse Aben, Otto Hasekamp, Jochen Landgraf, Arno de Lange, André Galli, Sourish Basu.
+- [AGU-2014 Meeting](http://fallmeeting.agu.org/2014/files/2014/12/Friday-Daily-Newspaper.pdf): *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*. T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner
+
+---
 ### PhD. Dissertation
 
 
@@ -55,6 +65,7 @@ The central goal of the project I am working is related with a consolidation of 
 The main challenges of measuring precipitation are related to the spatio-temporal variability of the drop-size distribution, to the uncertainties that condition the modeling of that distribution, and to the instrumental errors present in the in situ estimations. This PhD dissertation proposes advances in all these questions. The relevance of the spatial variability of the drop-size distribution for remote sensing measurements and hydro-meteorology field studies is asserted by analyzing the measurement of a set of disdrometers deployed on a network of 5 squared kilometers. This study comprises the spatial variability of integral rainfall parameters, the ZR relationships, and the variations within the one moment scaling method. The modeling of the drop-size distribution is analyzed by applying the MaxEnt method and comparing it with the methods of moments and the maximum likelihood. The instrumental errors are analyzed with a compressive comparison of sampling and binning uncertainties that affect actual devices. These analysis are further extended in several appendices where an error analysis is developed and new studies are proposed. The relevance of the pre-processing of disdrometric measurements is also assessed. The data-sets evaluated comprise experimental measurements of the GPM (NASA-JAXA) ground validation satellite mission and synthetic distributions generated computationally.
 {:.smallblock}
 
+---
 ### M.Sc. Thesis
 
 **Intrinsic structure of liquid surface and capillary waves on the Density Functional Theory** (R Checa-Garcia) arXiv preprint arXiv:1307.6199 (2013)
@@ -62,6 +73,13 @@ The main challenges of measuring precipitation are related to the spatio-tempora
 **Abstract:**
 Two different theories are used to understand the liquid-vapor interfaces: the Van der Waals theory and the capillary waves theory. But comparing both come up a problem of interpretation of the interface density profiles obtained, for example, with the Density Functional Theory (DFT). As a consequence emerge the question of how the surface fluctuations are included on traditional density profiles (usually named equilibrium density profiles). Last years, new insights on the role of capillary waves were possible by analyzing X-ray reflectivity experiments and performing computer simulations of liquids with low melting temperature. In particular, the density profile exhibits a layering structure which is considered a key property to elucidate a new interpretation of those profiles as intrinsic density profiles. This dissertation aims to investigate these questions within the DFT using simple fluids with a pairwise interactions that reproduce important phase-diagram properties of liquid metals. Two generics questions were explored: the relevance of Fisher-Widom line and the role of capillary waves on the nature of interface obtained with approximations WDA and FMT. It hypothesized the existence of a density profile with strong layering properties whose structure is reduced by capillary waves. Then the effect of surface fluctuations is described by introducing an effective transversal size which imposes a limitation of the spectrum of surface fluctuations incorporated on the DFT. However, an explicit methodology to unfreeze the capillary waves over a postulated intrinsic profile exempt of surface fluctuations was proven still a challenge. As a consequence it suggested that other previous results describing the liquid surface using the equilibrium DFT may conduct to unphysical properties.
 {:.smallblock}
+
+
+- - -
+
+
+- - -
+
 
 ### Publications and Technical Reports
 ---
@@ -118,16 +136,6 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
   - Proceedings of 22th Statistical Physics Confer., Published in Pramana - Journal of Physics.
 {:.smallquote}
 
-### Poster & Presentations (collaborative and contributions)
----
-
-**Remote Sensing of Trace Gases**
-
-- [IWGGMS-9 conference](http://zenodo.org/record/11105/files/I_4_2014-06-23_HITRAN_SAO_Butz.pdf): *Seasonal carbon uptake as seen from an improved version of RemoTeC*. A. Butz, A. Babenhauserheide , M. Bertleff, **R. Checa-Garcia**, K. Fischerkeller, P. Hahne, F. Klappenbach, J.Kostinek, K. Stammberger, S.Basu, S.Guerlet, R.Detmers, O.Hasekamp, J. Landgraf, S. Houweling
-- [IWGGMS-10 conference](http://iwggms.azurewebsites.net/0530%5Cpm%5C20_AndreButz.pdf): *Remote Sensing of Greenhouse Gases for Carbon Cycle Modelling (RemoteC): Algorithm Developments, Ground‐Based Instrumentation, and Modelling Aspects*. A.Butz, I.Aben, A.Babenhauserheide, S.Basu, M.Bertleff, **R. Checa‐Garcia**, C.Frankenberg, P.Hahne, F.Hase, O.Hasekamp, S.Houweling, F.Klappenbach, J.Kostinek, J.Landgraf, W.Peters 
-- [EGU 2014](http://presentations.copernicus.org/EGU2014-12970_presentation.pdf): *Comparing Ensemble Kalman filter and 4DVar data assimilation systems for CO2 flux inversions*. Arne Babenhauserheide, P. Hahne, **R. Checa-Garcia**, F. Klappenbach, S. Dohe, S. Basu, S. Houweling, W. Peters, A. Butz. [^1]
-- [HITRAN 2014 Conference](http://www.cfa.harvard.edu/HITRAN/Download/Proceedings-2014.pdf):  *Remote Sensing of Greenhouse gases and their sources and sinks*. André Butz, Arne Babenhauserheide, Marco Bertleff , **Ramiro Checa-Garcia**, Philipp Hahne, Frank Hase, Friedrich Klappenbach, Julian Kostinek, Ilse Aben, Otto Hasekamp, Jochen Landgraf, Arno de Lange, André Galli, Sourish Basu.
-- [AGU-2014 Meeting](http://fallmeeting.agu.org/2014/files/2014/12/Friday-Daily-Newspaper.pdf): *Remote Sensing G3E–Geostationary Emission Explorer for Europe: mission concept*. T. Knigge, F. Schmuelling A. Butz, J. Orphal, H. Bovensmann, T. von Clarmann, F. Friedl-Vallon, F. Hase, **R Checa-Garcia**, G. Hechenblaikner
 
 ### Referee
 ---
