@@ -120,7 +120,7 @@ Two different theories are used to understand the liquid-vapor interfaces: the V
 - *Toy Models of dynamical systems to understand topics of atmospheric dynamics*. **R. Checa-Garcia** `NWP Applications for Meteorology`.
 {:.smallquote}
 
-### Conferences & Workshops
+## Conferences & Workshops
 ---
 
 - **Atmospheric Sciences**
