@@ -437,7 +437,7 @@ $button-size: 1.5rem;
 		margin: 0;
 		padding: 5px 10px;
 		color: $white;
-		@include font-rem(22);
+		@include font-rem(18);
 		text-transform: uppercase;
 		&:hover {
 			cursor: pointer;
@@ -474,8 +474,8 @@ $button-size: 1.5rem;
 			margin: 1px 0 0;
 			font-size: 80%;
 		}
-		ul:before{
-            content: "  ";
+		ul::before {
+            content: "-";
         } 
 	}
 }
