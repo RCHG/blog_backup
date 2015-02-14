@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://rchg.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://rchg.github.io" />
-<updated>2015-02-14T11:42:53+01:00</updated>
+<updated>2015-02-14T11:43:30+01:00</updated>
 <id>http://rchg.github.io/</id>
 <author>
   <name>R.Checa-Garcia</name>
@@ -104,6 +104,31 @@ K^{\dagger}=(K^{T}K+\alpha L^{T}L)^{-1}K^{T}=\bar{V}\Sigma^{\dagger}_{\alpha}\ba
 &lt;/script&gt;
 
 &lt;p&gt;In order to write the last equation the generalized singular value decomposition (GSVD) is used.&lt;/p&gt;
+
+&lt;h3 id=&quot;measurements-with-noise1&quot;&gt;Measurements with noise&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h3&gt;
+
+&lt;p&gt;The inversion method has an additional difficulty when the measurements incorporate errors, usually modelled as Gaussian Errors. In that case the vector state solution, written as &lt;script type=&quot;math/tex&quot;&gt;x^{\epsilon}&lt;/script&gt; is related with the noisy measurements &lt;script type=&quot;math/tex&quot;&gt;y^{\epsilon}&lt;/script&gt;. The problem is formulated now as:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+y^{\epsilon}=Kx^{\epsilon}
+&lt;/script&gt;
+
+&lt;p&gt;and the additional problem is not just how to calculate the singular values, but how different are the estimation &lt;script type=&quot;math/tex&quot;&gt;x^{\epsilon}&lt;/script&gt; and the true value &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;. &lt;/p&gt;
+
+&lt;p&gt;However also there is a methodological problem on the definition of the solution &lt;script type=&quot;math/tex&quot;&gt;x^{\epsilon}&lt;/script&gt; given that is not true that always &lt;script type=&quot;math/tex&quot;&gt;y^{\delta}\in Im(K)&lt;/script&gt;. Therefore, a new concept of solution is needed and it is usually formulated as an optimization rule:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+x^{\epsilon}: ||y^{\epsilon}-Kx^{\epsilon}||\le||y^{\epsilon}-Kx||\,\,\, \forall x \in \mathcal{X}
+&lt;/script&gt;
+
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\mathcal{X}&lt;/script&gt; is the domain of the Forward Model.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Doicu, Adrian, Thomas Trautmann, and Franz Schreier. Numerical regularization for atmospheric inverse problems. Springer, 2010. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://rchg.github.io/Tikhonov/&quot;&gt;Introduction to Tikhonov Regularization Method&lt;/a&gt; was originally published by R. Checa-Garcia at &lt;a href=&quot;http://rchg.github.io&quot;&gt;r.checagarcia&lt;/a&gt; on December 12, 2014.&lt;/p&gt;</content>
 </entry>
@@ -289,7 +314,19 @@ S_{1}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ a_{n}\pi_{n}(\thet
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}&lt;/script&gt;
 
-&lt;p&gt;here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Transformation Matrix&lt;/strong&gt; while the &lt;strong&gt;Phase Matrix&lt;/strong&gt; is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;here &lt;script type=&quot;math/tex&quot;&gt;\mathbf{F}(\Omega)&lt;/script&gt; its a 4x4 real matrix called &lt;strong&gt;Transformation Matrix&lt;/strong&gt; &lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+
+\begin{bmatrix}
+  F_{11}(\theta) &amp; F_{12}(\theta) &amp; 0 &amp; 0 \\
+  F_{21}(\theta) &amp; F_{22}(\theta) &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; F_{33}(\theta) &amp; F_{34}(\theta) \\
+  0 &amp; 0 &amp; F_{43}(\theta) &amp; F_{44}(\theta)
+\end{bmatrix}
+ %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;while the &lt;strong&gt;Phase Matrix&lt;/strong&gt; is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the &lt;strong&gt;scattering matrix&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;The scattering matrix can be written as,&lt;/p&gt;
 
@@ -320,6 +357,7 @@ S_{2}(\theta) = \sum_{n=1}^{N_{max}}\frac{2n+1}{n(n+1)}\left[ b_{n}\pi_{n}(\thet
 	&lt;figcaption&gt;&lt;a title=&quot;Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index.&quot;&gt; Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index.&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;p class=&quot;smallblock&quot;&gt;&lt;strong&gt;Note&lt;/strong&gt;: The called T-matrix formalism it is an efficient alternative to Mie-Scattering. In particular, the T-matrix formalism is quite convinient for raindrop studies because the estimation of the scattering properties of Oblate Spheroid and Chebyshev particles is relatively easy described. The idea behind the theory is appealing: (1). The incident and scattered electric fields are expresed as a sum of spherical functions whose coeficientes, before and after the scattering process, might be related by a linear expression involving a &lt;strong&gt;transition matrix&lt;/strong&gt; or T-matrix. (2). By using numerical or analytical methods expressions of this transition matrix are calculated and based on the transition matrix the optical properties estimated.&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
