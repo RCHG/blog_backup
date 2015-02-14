@@ -33,7 +33,18 @@ In the Atmospheric Radiation studies it is quite common use the **Stokes vector*
 
 $$\vec{I}_{s}=h(R)\mathbf{F}(\Omega)\vec{I}_{i}$$
 
-here $$\mathbf{F}(\Omega)$$ its a 4x4 real matrix called **Transformation Matrix** while the **Phase Matrix** is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the **scattering matrix**.
+here $$\mathbf{F}(\Omega)$$ its a 4x4 real matrix called **Transformation Matrix** 
+
+$$
+\begin{bmatrix}
+  F_{11}(\theta) & F_{12}(\theta) & 0 & 0 \\
+  F_{21}(\theta) & F_{22}(\theta) & 0 & 0 \\
+  0 & 0 & F_{33}(\theta) & F_{34}(\theta) \\
+  0 & 0 & F_{43}(\theta) & F_{44}(\theta)
+\end{bmatrix}
+$$
+
+while the **Phase Matrix** is the transformation matrix with a factor proportional to the scattering cross-section that we will introduce later. Both formulations of the problem are equivalent as the real elements of the Phase Matrix can be estimated from the complex elements of the scattering matrix, in fact theMie Scattering theory gives us a method to calculate the **scattering matrix**.
 
 The scattering matrix can be written as,
 
@@ -64,3 +75,6 @@ These series are used directly to calculate the Efficiency Factor of Extinction,
 	<figcaption><a title="Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index."> Illustration of Mie Scattering properties: homogeneous sphere and several values of the refractive index.</a></figcaption>
 </figure>
 
+
+**Note**: The called T-matrix formalism it is an efficient alternative to Mie-Scattering. In particular, the T-matrix formalism is quite convinient for raindrop studies because the estimation of the scattering properties of Oblate Spheroid and Chebyshev particles is relatively easy described. The idea behind the theory is appealing: (1). The incident and scattered electric fields are expresed as a sum of spherical functions whose coeficientes, before and after the scattering process, might be related by a linear expression involving a **transition matrix** or T-matrix. (2). By using numerical or analytical methods expressions of this transition matrix are calculated and based on the transition matrix the optical properties estimated.
+{:.smallblock}
