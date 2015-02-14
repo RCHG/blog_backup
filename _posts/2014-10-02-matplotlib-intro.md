@@ -5,7 +5,7 @@ author: ramiro_chg
 modified:
 excerpt: "Matplotlib intro and tips"
 tags: [scientific-computing, hodgepodge, Python]
-page.comments: true
+comments: true
 image:
   feature: sample-image-2.jpg
 ---
