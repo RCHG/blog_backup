@@ -126,15 +126,25 @@ blockquote {
 	margin-left: 38px;
 	padding-left: 40px;
 	border-left: 4px solid darken($body-color,30);
-	@include font-rem(11);
+	@include font-rem(12);
 	font-family: $alt-font;
 }
 
 //Custom List
 //---------------------------------------------------
-li.inline{display:inline; margin-top: -3px; margin-right: 5px; margin-bottom: -3px; padding-left: 3px; padding-right: 3px; @include font-rem(10); background:darken($body-color,10); color:darken($body-color,70); @include rounded(5px);	float: right; font-style: bold;}
+li.inline{display:inline;
+          margin-top: -3px; margin-right: 5px;
+          margin-bottom: -3px; padding-left: 3px;
+          padding-right: 3px; @include font-rem(11);
+          background:darken($body-color,10); color:darken($body-color,70);
+          @include rounded(5px);
+          float: right; font-style: bold;}
 
-li.tags{margin-top: -3px; margin-right: 1px; padding-left: 3px; padding-right: 3px; @include font-rem(12); font-style: bold; border-left: 4px solid darken($body-color,30); list-style-type: none;}
+li.tags{margin-top: -3px; margin-right: 1px; 
+        padding-left: 3px; padding-right: 3px;
+        @include font-rem(12); font-style: bold;
+        border-left: 4px solid darken($body-color,30);
+        list-style-type: none;}
 
 a.tagtitle:before{  content: " \f0a9 "; padding-right: 3px; color:darken($body-color,30);}
 a.tagtitle{font-style: bold;}
