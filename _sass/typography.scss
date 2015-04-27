@@ -91,7 +91,7 @@ figcaption {
 	margin-top: 1.5em;
 	padding: .5em 1em;
 	text-indent: 0;
-	@include font-rem(14);
+	@include font-rem(15);
 	background-color: $body-color;
 	border: 1px solid #C64537;
 	@include rounded(3px);
@@ -105,7 +105,7 @@ figcaption {
         padding-top: 1em;
         padding-bottom: 1em;
 	text-indent: -12px;
-	@include font-rem(14);
+	@include font-rem(15);
 	background-color: $body-color;
 	border-left: 2px solid darken($body-color,30);
 	border-right: 2px solid darken($body-color,30);
@@ -126,7 +126,7 @@ blockquote {
 	margin-left: 38px;
 	padding-left: 40px;
 	border-left: 4px solid darken($body-color,30);
-	@include font-rem(14);
+	@include font-rem(15);
 	font-family: $alt-font;
 }
 
@@ -135,7 +135,7 @@ blockquote {
 li.inline{display:inline;
           margin-top: -3px; margin-right: 5px;
           margin-bottom: -3px; padding-left: 3px;
-          padding-right: 3px; @include font-rem(12);
+          padding-right: 3px; @include font-rem(14);
           background:darken($body-color,10); color:darken($body-color,70);
           @include rounded(5px);
           float: right; font-style: bold;}
