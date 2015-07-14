@@ -8,6 +8,7 @@ tags: [hodgepodge, python]
 image:
   feature: sample-image-2.jpg
 ---
+
 > Example of ReportLab PDF changes with Python.
 
 ### How introduce changes on PDF files with Python
