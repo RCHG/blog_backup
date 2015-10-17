@@ -62,4 +62,5 @@ image:
 - [References with Jekyll](http://github.com/inukshuk/jekyll-scholar)
 - [My Profile on SourceForge](http://sourceforge.net/u/rchecagarcia/profile/)
 - [Join C/C++ and Fortran 90](http://stackoverflow.com/tags/fortran-iso-c-binding/info)
+- [Reproducibility Guide](http://ropensci.github.io/reproducibility-guide/sections/introduction/)
 {:.smallquote}
