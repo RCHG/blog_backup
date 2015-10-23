@@ -42,7 +42,7 @@ $$
 \begin{bmatrix}
   B_{11} & B_{11}\\
   0  & B_{22}
-\end{bmatrix}=$$
+\end{bmatrix}=
 PAP^{T}=\begin{bmatrix}
   y_{1} \\
   y_{2}
