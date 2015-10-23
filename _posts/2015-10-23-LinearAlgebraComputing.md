@@ -53,4 +53,4 @@ PAP^{T}=\begin{bmatrix}
 \end{bmatrix}
 $$
 
-The subsystem $$B_{22}y_{2}=c_{2}$ is indepentent of the other B matrices with the logical computational improvement.
+The subsystem $$B_{22}y_{2}=c_{2}$$ is indepentent of the other B matrices with the logical computational improvement.
