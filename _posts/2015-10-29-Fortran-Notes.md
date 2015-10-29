@@ -1,10 +1,23 @@
+---
+layout: post
+title: "My Fortran 90 notes"
+author: ramiro_chg
+modified:
+excerpt: "Fortran Notes"
+tags: [Fortran, scientific-programing]
+image:
+  feature: sample-image-2.jpg
+---
 
-
-
-
-
-
-
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Table of Contents</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
 
 ## Terminology
 
