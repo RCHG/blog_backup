@@ -19,13 +19,15 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
+This notes are taken from several sources, but the book "Introduction to Programming with Fortran" from Ian Chivers and Jane3 Sleightholme (Springer) was specifically useful.
+
 ## Terminology
 
 ### Arrays
 
-- **explicit-shape array**: declared with explicit values for the bounds in each dimension of the array. For this we can have **automatic arrays** when the array is a local variable and **adjustable array** when it iys a dummy argument to a subprogram
-- **assumed-shape array**: it is a nonpointer dummy argument array that takes its shape from the associated actual argument array.
-- **deferred-shape array**: is an allocatable array (it has the ALLOCATABLE attribute and a specified rank but their bounds are set by allocation or argument association) or array pointer
+- **explicit-shape array**: declared with explicit values for the bounds in each dimension of the array. For this we can have **automatic arrays**, when the array is a local variable, and **adjustable array** when it is a dummy argument to a subprogram or procedure.
+- **assumed-shape array**: it is a non-pointer(!) dummy argument array that takes its shape from the associated actual argument array (by actual I mean the array that is introduced or demanded by the main program when it is called the subprogram or procedure). It is interesting to combine this approach with the size() instrinc procedure that gives the actual size of an array. We then can obtain within the procedure the size of the array and use this integer value inside the subprogram. For example to allocate an intent(out) array with the correct dimensions.
+- **deferred-shape array**: is an allocatable array (it has the ALLOCATABLE attribute and a specified rank but their bounds are set by allocation or argument association) or array pointer.
 - **automatic array**: it is explicit-shape and *local*. It is usually in subprograms and the bounds are set when the subprogram is called
 
 #### Examples
@@ -39,69 +41,64 @@ integer     , intent(in)                     :: n
 real        , intent(in)    , dimension(1:n) :: x
 {% endhighlight %}
 
-Here x is a dummy argument declared with specific bounds therefore it is a explicit-shape dummy array
-
-However we could use an assumed-shape dummy array because in Fortran 90 and later versions the actual array size and the associated dummy arguments have the same rank and the same size in each dimension. In this situation a different approach will be:
+Here x is a dummy argument declared with specific bounds therefore it is a explicit-shape dummy array. However we could use an assumed-shape dummy array because in Fortran 90 and later versions the actual array size and the associated dummy arguments have the same rank and the same size in each dimension. In this situation a different approach will be:
 
 {% highlight fortran %}
-program example_main
+  program example_main
 
-implicit none
-integer                         :: n
-real, allocatable, dimension(:) :: a
+  implicit none
+  integer                         :: n
+  real, allocatable, dimension(:) :: a
 
-! The interface part is optional and not mandatory
-! it is useful when we have external subprograms
-! and we can help the compiler to a full consistence
-! checking. It is recomended its use.
+  ! The interface part is optional and not mandatory  
+  ! it is useful when we have external subprograms
+  ! and we can help the compiler to a full consistence
+  ! checking. It is recomended its use.
 
-interface
-   subroutine example(x)
-      implicit none
-      integer                           :: m
-      real   , intent(in), dimension(:) :: x
-   end subroutine example
-end interface
+  interface
+     subroutine example(x)
+        implicit none
+        integer                           :: m
+        real   , intent(in), dimension(:) :: x
+    end subroutine example
+  end interface
 
-! n can be read from a file for example
+  ! n can be read from a file for example
 
-read *,n
-allocate(x(1:n))
+  read *,n
+  allocate(x(1:n))
 
-call example(x)
+  CALL example(x)
 
-end example_main
+  end example_main
 
-subroutine example(x)
-implicit none
-integer                                    :: n
-real        , intent(in)    , dimension(:) :: x
 
-n = size(x)
+  subroutine example(x)
+  implicit none
+  integer                                    :: n
+  real        , intent(in)    , dimension(:) :: x
 
-{% endhighlight %}
+  n = size(x)
+
+  {% endhighlight %}
 
 ### Procedures
 
 They are very important for break the code in smaller problems, to don't repeat code within a program, to allow a better testing strategy.
 
-In general the procedures communicate with the main program or other procedure by the arguments, inside the procedure they are named dummy arguments. 
-Because Fortran is an strongly type code, we have to define the type of each argument both in the main program and in the procedures and they
-have to be consistent (this is for instance ensured by the definition of an interface). 
-Inside the procedures, specifically in the subroutines, we have the possibility of define if the dummy argument is an
-input, an output or both, by the intent sentence in the type definition block at the beginning of the sentence.
-The internal local variables are simple not included in the list of arguments of the procedure and they are destroyed once the procedure end.
+In general the procedures communicate with the main program or other procedure by the arguments, inside the procedure they are named dummy arguments.Because Fortran is an strongly type code, we have to define the type of each argument both in the main program and in the procedures and they have to be consistent (this is for instance ensured by the definition of an interface). 
+
+Inside the procedures, specifically in the subroutines, we have the possibility of define if the dummy argument is an input, an output or both, by the intent sentence in the type definition block at the beginning of the sentence. The internal local variables are simple not included in the list of arguments of the procedure and they are destroyed once the procedure end.
 
 The interface block is mandatory in several cases: 
 
-1. A procedure with optional or keywords arguments
-2. Function returning an array
-3. Function returning a pointer
-4. Procedure with assumed-shape dummy arguments
-5. Procedure with dummy arguments with pointer or target attribute
-6. Procedure generic (this allow overloading)
-7. Procedure defining a user operator
-8. Procedure with a user defined assignment
+    1. A procedure with optional or keywords arguments
+    2. Function returning an array or a pointer
+    3. Procedure with assumed-shape dummy arguments
+    4. Procedure with dummy arguments with pointer or target attribute
+    5. Procedure generic (this allow overloading)
+    6. Procedure defining a user operator
+    7. Procedure with a user defined assignment
 
 #### Functions
 
