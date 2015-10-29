@@ -36,7 +36,7 @@ subroutine example(x , n)
 implicit none
 integer     , intent(in)                     :: n
 real        , intent(in)    , dimension(1:n) :: x
-{%end highlight%}
+{% endhighlight %}
 
 Here x is a dummy argument declared with specific bounds therefore it is a explicit-shape dummy array
 
@@ -78,7 +78,7 @@ real        , intent(in)    , dimension(:) :: x
 
 n = size(x)
 
-{%end highlight%}
+{% endhighlight %}
 
 ### Procedures
 
@@ -165,5 +165,5 @@ interface
 
     end subroutine ext_sub2()
 end interface
-{%end highlight%}
+{% endhighlight %}
 
