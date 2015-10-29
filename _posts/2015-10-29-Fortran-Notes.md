@@ -21,7 +21,7 @@ image:
 
 > This notes are taken from several sources, but the book *Introduction to Programming with Fortran* [^1] was specifically useful.
 
-[^1] Introduction to Programming with Fortran, Ian Chivers and Jane Sleightholme, Springer 2006.
+[^1]: Introduction to Programming with Fortran, *Ian Chivers and Jane Sleightholme*, Springer 2006.
 
 
 ## Terminology
