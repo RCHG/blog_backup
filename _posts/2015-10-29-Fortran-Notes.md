@@ -19,10 +19,10 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-> This notes are taken from several sources, but the book *Introduction to Programming with Fortran* [^1] was specifically useful.
+> This notes were possible by reading from several sources, but the book *Introduction to Programming with Fortran* [^1] was specifically useful because its large set of examples and progressive definitions. My first approach to Fortran 90 relies on the manual Physique Numérique[^2] that I recommend to those people interested in an introduction to Computational Physics based in Fortran.
 
 [^1]: Introduction to Programming with Fortran, *Ian Chivers and Jane Sleightholme*, Springer 2006.
-
+[^2]: Physique Numérique, Ph. Depondt, INSP and CNRS Université Pierre et Marie Curie, 2006.
 
 ## Terminology
 
