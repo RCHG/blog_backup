@@ -22,6 +22,7 @@ image:
 ## Terminology
 
 ### Arrays
+
 - **explicit-shape array**: declared with explicit values for the bounds in each dimension of the array. For this we can have **automatic arrays** when the array is a local variable and **adjustable array** when it iys a dummy argument to a subprogram
 - **assumed-shape array**: it is a nonpointer dummy argument array that takes its shape from the associated actual argument array.
 - **deferred-shape array**: is an allocatable array (it has the ALLOCATABLE attribute and a specified rank but their bounds are set by allocation or argument association) or array pointer
@@ -132,6 +133,8 @@ end interface
 ! ..
 
 end subroutine my_own
+{% endhighlight %}
+
 
 In this situation we have to include information on a main program using this
 subroutine as
