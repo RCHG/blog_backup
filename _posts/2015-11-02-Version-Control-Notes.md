@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "My Version Control Notes"
+title: "Centralized Version Control Notes"
 author: ramiro_chg
 modified:
 excerpt: "Version Control Notes"
-tags: [VCS, scientific-programing]
+tags: [VCS, scientific-computing]
 image:
   feature: sample-image-1.jpg
 ---
