@@ -4,7 +4,7 @@ title: "My Fortran 90 notes"
 author: ramiro_chg
 modified:
 excerpt: "Fortran Notes"
-tags: [Fortran, scientific-programing]
+tags: [Fortran, scientific-computing]
 image:
   feature: sample-image-2.jpg
 ---
