@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Fortran 90 notes"
+title: "Fortran 90 Notebook"
 author: ramiro_chg
 modified:
 excerpt: "Fortran Notes"
