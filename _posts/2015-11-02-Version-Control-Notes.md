@@ -58,8 +58,7 @@ a instantaneous-photo of the full set of files. In this situation every working 
 
 
 
-
--> ![Typical CVCS-Source Univ. Washington. ](https://homes.cs.washington.edu/~mernst/advice/version-control-fig2.png "Typical CVCS-Source Univ. Washington. ") <-
+ ![Typical CVCS-Source Univ. Washington. ](https://homes.cs.washington.edu/~mernst/advice/version-control-fig2.png "Typical CVCS-Source Univ. Washington. ")
 
 
 
