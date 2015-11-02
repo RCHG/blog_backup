@@ -56,7 +56,12 @@ The method might depends on the specific version control software. In the case o
 that a user commits changes on the code (using a SVN client) the SVN server creates a new state of the file-system tree (that is, the repository) named **revision**. Each revision has assigned one unique number (natural number). Note that in SVN each identify number refers to a full state of the file-system (not to a specific commit of a specific file). It is like
 a instantaneous-photo of the full set of files. In this situation every working copy is private and only the process of commit the changes make them public (open to other users). This is the so named Central Version Control System (CVCS). Other version control systems are based on distributed or decentralized systems, examples are git and mercurial. 
 
-![Typical CVCS-Source Univ. Washington. ](https://homes.cs.washington.edu/~mernst/advice/version-control-fig2.png "Typical CVCS-Source Univ. Washington. ")
+
+
+
+-> ![Typical CVCS-Source Univ. Washington. ](https://homes.cs.washington.edu/~mernst/advice/version-control-fig2.png "Typical CVCS-Source Univ. Washington. ") <-
+
+
 
 ### Terminology
 
