@@ -64,7 +64,7 @@ a instantaneous-photo of the full set of files. In this situation every working 
 
 ### Terminology
 
-  - **Repository** ...
+  - **Repository**   It was already explained. In the case of for example Mercurial it is a directory in which a kind of set files are stored: the repository has the files of the project together with the history of changes of the files. 
   - **Trunk**        The trunk is the directory where all the main development is stored. The idea is that this directory may be evaluated by the developers. Usually it is the last main version under development.
   - **Tags**         The tags directory is used to store named snapshots or revisions. Because the unique numbers assigned to each revision are not descriptive of the key points of the snapshot the Tag operation allows to provide descriptive name to specific version in the repository
   - **Branches**     Branch operation is used to create another line of development. This is a very important concept when you want your development process to fork off into two different directions.
