@@ -71,7 +71,13 @@ a instantaneous-photo of the full set of files. In this situation every working 
   - **Working copy** Working copy is a snapshot of the repository. The repository is shared by all the users, but people do not modify it directly. Instead each developer checks out the working copy. The working copy is a private and isolated from the rest of the project users.
   - **Commit**      Commit is the process of confirming and storing changes from working copy to central server (repository). After commit, changes are public and other users can retrieve these changes by **updating their working copy**. Commit is an atomic operation. Either the whole commit succeeds or is rolled back. Users never see half finished commit.
 
-## An example with svn
+##  SVN: subversion
+
+It is one of the most used version control systems. Currently it is a project of the Apache Software Foundation htts://subversion.apache.org/
+
+In those cases where a distribuited version control is not needed then SVN is a robust version control software in particular the last versions.
+
+### An example with svn
 
 It is very easy to use svn (subversion) from the terminal. If you have correctly installed svn in a Linux/Unix machine you can follow this example:
 
