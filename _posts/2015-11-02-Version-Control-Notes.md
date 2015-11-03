@@ -205,4 +205,13 @@ A   THANKS.txt
 
 ... and her her **working copy** is update with our changes.
 
+### Typical working cycle with SVN
+
+
+1. Update your working copy -> **svn update**
+2. Changes in the code -> **svn add**, **svn delete** etc...
+3. Check the status/details of our changes -> **svn status**, **svn diff**
+4. (This step was not commented before). Restore to an unmodified state -> **svn revert**. 
+5. Imagine that we have changes to uppercase some letters but other user replace some letters with numbers in the same. Usually the users realize of possible conflicts when the use svn update, then svn gives them a note indicating that two or more users have changed parts of the same files. To resolve the problem we have the tool -> **svn resolve**  
+6. Submitt changes -> **svn commit** 
 
