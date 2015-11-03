@@ -75,7 +75,7 @@ a instantaneous-photo of the full set of files. In this situation every working 
 
 It is very easy to use svn (subversion) from the terminal. If you have correctly installed svn in a Linux/Unix machine you can follow this example:
 
-First, lets imagine that you wanted to download the last version of a nice open-source code. In my case it is a chess-program called scidvspc. I have checked that it is a sourceforge project and then:
+First, lets imagine that you wanted to download the last version of a nice open-source code. In my case, I wanted to download and compile from the source a chess-program called scidvspc. I checked that it is a sourceforge project and then it is very easy to obtain a **working copy** from the official **repository**.
 
 {% highlight bash %}
 > mkdir /home/mrmagguu/test_svn
@@ -83,7 +83,7 @@ First, lets imagine that you wanted to download the last version of a nice open-
 > svn checkout svn://svn.code.sf.net/p/scidvspc/code/ scidvspc-code
 {% endhighlight%}
 
-Now in your directory test_svn you have a directory named: scidvspc-code that replicates the online repository stored at sourceforge.net server. Let's try something:
+Now in your directory *test_svn* you have a new sub-directory named: *scidvspc-code* that **replicates the online repository** stored at sourceforge.net server. Let's try something:
 
 {% highlight bash %}
 > svn status 
@@ -94,7 +94,7 @@ svn: warning: W155007: '/home/mrmagguu/test_svn' is not a working copy
 > svn status
 {% endhighlight%}
 
-Probably nothing is now returned. Now let's change a file. For instance in README.txt I have change some lowercase letter to uppercase.
+Probably nothing is now returned, this is because simply there is nothing new to report, but as we have seen if we use the command svn in a directory that is not the working copy of a repository svn will complain. Now let's change a file. For instance in README.txt I have changed some lowercase letters to uppercase.
 
 {% highlight bash %}
 > vim README.txt
@@ -102,7 +102,7 @@ Probably nothing is now returned. Now let's change a file. For instance in READM
 M       README.txt
 {% endhighlight%}
 
-And, yes, it detected that we have changed README.txt. But this change is only effective in our private working copy. Nowbody knows that some lowercase letter were changed to uppercase letters. Let's try:
+And, yes!, it detected that we have changed README.txt. But this change is only effective in our private working copy. Nowbody knows that some lowercase letters were changed to uppercase letters. Let's try:
 
 {% highlight bash %}
 > svn diff
@@ -157,7 +157,7 @@ Index: README.txt
 
 {% endhighlight%}
 
-Now we begin to see the advantages of version control. Let's say now that we have created a new file. For instance I have created a file called: THANKS.txt with the text 'Thank you for create this nice software.'
+Now we begin to see the advantages of version control, we can see exactly the changes with just one command. Let's say now that we have created also new file. For instance I have created a file called: THANKS.txt with the text 'Thank you for create this nice software.'
 
 {% highlight bash %}
 > vim THANKS.txt
@@ -166,7 +166,7 @@ M       README.txt
 ?       THANKS.txt
 {% endhighlight%}
 
-SVN indicate us that there is a new file in the **working copy** but its status is unclear. 
+SVN indicate us that there is a new file in the **working copy** but its status is unclear. SVN knows that this file is not in the main central repository but don't know if we want to add it or not.
 
 {% highlight bash %}
 > svn add THANKS.txt
@@ -176,17 +176,17 @@ M       README.txt
 A       THANKS.txt
 {% endhighlight%}
 
-So we have added a file to the project and we have Modificated another file. If we would think that the changes are convinient we could commit the changes with **svn commit -m 'Added a file to say thank you'**. Then we will see something like...
+So we have **A**dded a file to the project and we have **M**odificated another file. If we would think that these changes are convinient we could commit the changes with **svn commit -m 'Added a file to say thank you'**. Then we will see something like...
 
 {% highlight bash %}
-> svn commit -m 'Added a file to say thank you'
+> svn commit -m 'Added a file to say thank you and few lowercase letters...'
 Sending        README.txt
 Adding         THANKS.txt
 Transmitting file data ..
 Committed revision XYZ
 {% endhighlight%}
 
-Here XYZ is the **revision number**. Usually our commits in case like this are validated by a developer holding the project if they are useful. On the other side as users we can try to update our working code to the last revision, but first we can check the status of our version. In this case I will suppose that we have commit our changes to the server and now other user whats to have this revision:
+The -m command indicates the message that we want to include as information of the new revision, while XYZ is the **revision number** (that, remember is a unique number describing a full status of the project). Usually our commits will be validated (or not) by a developer holding the project if they are useful (or useless). On the other side, as users, we can try to update our working code to the last revision, but first we can check the status of our version. In this case I will suppose that we have commit our changes to the server and now *other user* would like to have this revision:
 
 {% highlight bash %}
 > svn status -u
