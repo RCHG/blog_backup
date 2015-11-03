@@ -203,6 +203,6 @@ U   README.txt
 A   THANKS.txt
 {% endhighlight%}
 
-Update her **working copy**. 
+... and her her **working copy** is update with our changes.
 
 
