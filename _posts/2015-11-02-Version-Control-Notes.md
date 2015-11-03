@@ -71,4 +71,90 @@ a instantaneous-photo of the full set of files. In this situation every working 
   - **Working copy** Working copy is a snapshot of the repository. The repository is shared by all the users, but people do not modify it directly. Instead each developer checks out the working copy. The working copy is a private and isolated from the rest of the project users.
   - **Commit**      Commit is the process of confirming and storing changes from working copy to central server (repository). After commit, changes are public and other users can retrieve these changes by **updating their working copy**. Commit is an atomic operation. Either the whole commit succeeds or is rolled back. Users never see half finished commit.
 
+## An example with svn
+
+It is very easy to use svn (subversion) from the terminal. If you have correctly installed svn in a Linux/Unix machine you can follow this example:
+
+First, lets imagine that you wanted to download the last version of a nice open-source code. In my case it is a chess-program called scidvspc. I have checked that it is a sourceforge project and then:
+
+{% highlight bash %}
+>  mkdir /home/mrmagguu/test_svn
+> cd /home/mrmagguu/test_svn
+> svn checkout svn://svn.code.sf.net/p/scidvspc/code/ scidvspc-code
+{% endhighlight%}
+
+Now in your directory test_svn you have a directory named: scidvspc-code that replicates the online repository stored at sourceforge.net server. Let's try something:
+
+{% highlight bash %}
+> svn status 
+svn: warning: W155007: '/home/mrmagguu/test_svn' is not a working copy
+> pwd
+/home/mrmagguu/test_svn
+> cd scidvspc-code 
+> svn status
+{% endhighlight%}
+
+Probably nothing is now returned. Now let's change a file. For instance in README.txt I have change some lowercase letter to uppercase.
+
+{% highlight bash %}
+> vim README.txt
+> svn status
+M       README.txt
+{% endhighlight%}
+
+And, yes, it detected that we have changed README.txt. But this change is only effective in our private working copy. Nowbody knows that some lowercase letter were changed to uppercase letters. Let's try:
+
+{% highlight bash %}
+> svn status
+
+Index: README.txt
+===================================================================
+--- README.txt	(revision 2372)
++++ README.txt	(working copy)
+@@ -6,19 +6,19 @@
+   Table of Contents
+ 
+ 
+-  1. introduction
+-  2. features
++  1. Introduction
++  2. Features
+         2..1 New and Improved features
+         2..2 Missing Features
+ 
+-  3. download
+-  4. installation
++  3. Download
++  4. Installation
+         4..1 Linux , FreeBSD
+         4..2 Windows
+         4..3 Mac OS X
+ 
+-  5. news
+-  6. miscellaneous
++  5. News
++  6. Miscellaneous
+      6.1 docked windows
+      6.2 how to play
+      6.3 todo
+@@ -27,7 +27,7 @@
+      6.6 thanks
+      6.7 scid's history
+ 
+-  7. changes
++  7. Changes
+         7..1 Scid vs. PC 4.14
+         7..2 Scid vs. PC 4.13
+         7..3 Scid vs. PC 4.12
+@@ -48,8 +48,8 @@
+         7..18 Scid vs. PC 4.0
+         7..19 Scid vs. PC 3.6.26.1
+ 
+-  8. contact
+-  9. links
++  8. Contact
++  9. Links
+
+{% endhighlight%}
+
 
