@@ -78,7 +78,7 @@ It is very easy to use svn (subversion) from the terminal. If you have correctly
 First, lets imagine that you wanted to download the last version of a nice open-source code. In my case it is a chess-program called scidvspc. I have checked that it is a sourceforge project and then:
 
 {% highlight bash %}
->  mkdir /home/mrmagguu/test_svn
+> mkdir /home/mrmagguu/test_svn
 > cd /home/mrmagguu/test_svn
 > svn checkout svn://svn.code.sf.net/p/scidvspc/code/ scidvspc-code
 {% endhighlight%}
@@ -105,7 +105,7 @@ M       README.txt
 And, yes, it detected that we have changed README.txt. But this change is only effective in our private working copy. Nowbody knows that some lowercase letter were changed to uppercase letters. Let's try:
 
 {% highlight bash %}
-> svn status
+> svn diff
 
 Index: README.txt
 ===================================================================
@@ -156,5 +156,53 @@ Index: README.txt
 +  9. Links
 
 {% endhighlight%}
+
+Now we begin to see the advantages of version control. Let's say now that we have created a new file. For instance I have created a file called: THANKS.txt with the text 'Thank you for create this nice software.'
+
+{% highlight bash %}
+> vim THANKS.txt
+> svn status
+M       README.txt
+?       THANKS.txt
+{% endhighlight%}
+
+SVN indicate us that there is a new file in the **working copy** but its status is unclear. 
+
+{% highlight bash %}
+> svn add THANKS.txt
+A       THANKS.txt
+> svn status
+M       README.txt
+A       THANKS.txt
+{% endhighlight%}
+
+So we have added a file to the project and we have Modificated another file. If we would think that the changes are convinient we could commit the changes with **svn commit -m 'Added a file to say thank you'**. Then we will see something like...
+
+{% highlight bash %}
+> svn commit -m 'Added a file to say thank you'
+Sending        README.txt
+Adding         THANKS.txt
+Transmitting file data ..
+Committed revision XYZ
+{% endhighlight%}
+
+Here XYZ is the **revision number**. Usually our commits in case like this are validated by a developer holding the project if they are useful. On the other side as users we can try to update our working code to the last revision, but first we can check the status of our version. In this case I will suppose that we have commit our changes to the server and now other user whats to have this revision:
+
+{% highlight bash %}
+> svn status -u
+   + XYZ       README.txt
+   +           THANKS.txt
+   + (XYZ-1) .
+{% endhighlight%}
+
+The + means changed in the repository while XYZ and (XYZ-1) are the revision numbers of the last change and the previous one. If the new user think that these changes should be incorporated to her/his working copy then...
+
+{% highlight bash %}
+> svn update
+U   README.txt
+A   THANKS.txt
+{% endhighlight%}
+
+Update her **working copy**. 
 
 
