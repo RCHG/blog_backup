@@ -73,7 +73,7 @@ Now to create a repository in our directory we just write:
 > hg init
 {% endhighlight%}
 
-With ls -a command we can certificate that there is a new directory named **.hg** that is hidden to the usual ls. Right now we have no included anything in the repository. We can do with:
+With `ls -a` command we can certificate that there is a new directory named **.hg** that is hidden to the usual ls. Right now we have no included anything in the repository. We can do with:
 
 {% highlight bash %}
 > hg add
@@ -98,7 +98,7 @@ date:        Wed Nov 04 17:36:56 2015 +0100
 summary:     Version 0.1 (initial)
 {% endhighlight%}
 
-Now I forgot to include a file with the bibliography. We copy a new file: biblio.bib in the directory and:
+Now I forgot to include a file with the bibliography. We copy a new file: **biblio.bib** in the directory and:
 {% highlight bash %}
 > hg summary
 parent: 0:187c32c11d5b tip
@@ -110,6 +110,7 @@ phases: 1 draft
 {% endhighlight%}
 
 We forgot to add the new file:
+
 {% highlight bash %}
 > hg add biblio.bib
 > hg summary
@@ -146,6 +147,12 @@ date:        Wed Nov 04 17:36:56 2015 +0100
 summary:    Version 0.1 (initial)
 {% endhighlight%}
 
-We see the now how useful is mercurial to track all the changes!!
+We see the now how useful is mercurial to track all the changes!! Let's say that our editor saves automatically files with the symbol **~** at the end but we do not want to keep track of these files. An easy way to handle with this is by creating a simple file called **.hgignore** with the following text inside:
+
+{% highlight bash %}
+syntax: glob
+*~
+{% endhighlight%}
+
 
 
