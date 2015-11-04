@@ -182,7 +182,7 @@ M       README.txt
 A       THANKS.txt
 {% endhighlight%}
 
-So we have **A**dded a file to the project and we have **M**odificated another file. If we would think that these changes are convinient we could commit the changes with **svn commit -m 'Added a file to say thank you'**. Then we will see something like...
+So we have **A**dded a file to the project and we have **M**odificated another file. If we would think that these changes are convinient we could commit the changes with `svn commit -m 'Added a file to say thank you'`. Then we will see something like...
 
 {% highlight bash %}
 > svn commit -m 'Added a file to say thank you and few lowercase letters...'
@@ -213,11 +213,10 @@ A   THANKS.txt
 
 ### Typical working cycle with SVN
 
-
-1. Update your working copy -> **svn update**
-2. Changes in the code -> **svn add**, **svn delete** etc...
-3. Check the status/details of our changes -> **svn status**, **svn diff**
-4. (This step was not commented before). Restore to an unmodified state -> **svn revert**. 
-5. Imagine that we have changes to uppercase some letters but other user replace some letters with numbers in the same. Usually the users realize of possible conflicts when the use svn update, then svn gives them a note indicating that two or more users have changed parts of the same files. To resolve the problem we have the tool -> **svn resolve**  
-6. Submitt changes -> **svn commit** 
+1. Update your working copy -> `svn update`
+2. Changes in the code -> `svn add`, `svn delete` etc...
+3. Check the status/details of our changes -> `svn status`, `svn diff`
+4. (This step was not commented before). Restore to an unmodified state -> `svn revert`. 
+5. Imagine that we have changes to uppercase some letters but other user replace some letters with numbers in the same. Usually the users realize of possible conflicts when the use svn update, then svn gives them a note indicating that two or more users have changed parts of the same files. To resolve the problem we have the tool -> `svn resolve` 
+6. Submitt changes -> `svn commit`
 
