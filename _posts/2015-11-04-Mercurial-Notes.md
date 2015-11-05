@@ -154,5 +154,42 @@ syntax: glob
 *~
 {% endhighlight%}
 
+### Mercurial: next steps
+
+If you tried the above tiny shown tutorial then probably you will be confortable with Hg. But probably also you will have a lot of questions about Hg. For instance, the username, the email, what means the code: changeset:   1:891564a37700 or other things.
+
+Let's go step by step. At the beginning we commented that we have a working installation of Hg. We can try to verify this with:
+
+{% highlight bash %}
+> hg debuginstall
+checking encoding (UTF-8)...
+checking Python executable (/usr/bin/python)
+checking Python version (2.7.10)
+checking Python lib (/usr/lib/python2.7)...
+checking installed modules (/usr/lib/python2.7/dist-packages/mercurial)...
+checking templates (/usr/share/mercurial/templates)...
+checking commit editor...
+checking username...
+no problems detected
+{% endhighlight%}
+
+This command gives us information about the installation. In my case everthing seems correct. You have detected about Python, this is because all the extensions in Mercurial are written in Python. If you type the command `hg config` you will have more information. The usual configuration file for a given user is found in **/home/user/.hgrc**. And looks like:
+
+{% highlight bash %}
+> more /home/mrmagguu/.hgrc
+# Mercurial Configuration Info
+[ui]
+username = Mr. Magguu <mr_magguu@magguu.com>
+
+[extensions]
+graphlog = 
+hgcia = 
+hgk = 
+hgview = 
+color = 
+{% endhighlight%}
+
+Here is the very basic configuration for the user *mrmaggugg*. The activated extensions are indicated here just with the name follow by = .Therefore the information about the user is taken from this configuration file. You can edit manually but before you should check `hg help config`, but because the information given is very large you can try something like `hg help config | grep user` just to have the information with the word user of the documentation. And just to give another examples of this configuration files it has **graphlog**, **color** or **hgview**. The first introduce the command `hg glog` that is a kind of `hg log` command but with additional information about branches, master version etc. **color** just add color to the outputs shown on your terminal when you use any hg command. Concerning **hgview** you will have `hgview` command you will have a graphical frontend for Hg.
+
 
 
