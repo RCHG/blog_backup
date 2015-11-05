@@ -25,7 +25,7 @@ image:
 
 My teaching background comprises experience as Teacher Assistant and Assistant Professor at the University Autonoma of Madrid (UAM) together with specific formation on Didactic of Physics and Chemistry by the University of Granada. At UAM I taught *Experimental Physics* on Laboratories to Bachelor students of Biology and Environmental Sciences, Computer Science and Physics. Concerning PhD Students, I was supporting doctorate candidates thorough discussions about the main topics of their PhD Thesis at Karlsruhe Institute of Technology, while in the field of my PhD Thesis I helped other students providing technicalsupport with Numerical and Computational problems.
 
-## Thinking about Teaching: my opinion
+## Thinking about Teaching, my perspective
 
 The teacher should have a solid knowledge of the subject that he is teaching. Besides that the learning process is also important and for these reasons I would like remark some points that I consider relevant on my didactic approach,
 	
