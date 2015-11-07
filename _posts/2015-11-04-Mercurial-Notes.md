@@ -193,5 +193,5 @@ Here is the very basic configuration for the user *mrmaggugg*. The activated ext
 
 #### Text Editors and Hg
 
-  - In case you are using **VIM**, which is one of the main tools I use every day, I may recommend the plugin  [lawrencium]: http://bolt80.com/lawrencium/   
+  - In case you are using **VIM**, which is one of the main tools I use every day, I may recommend the plugin  [lawrencium](http://bolt80.com/lawrencium/)   
   - **Geany** is another nice tool that might integrate a version control inside with a plugin and **gedit** has this posibility also with rabbitVCS. This utility is not specific of mercurial and you might use several control version software. Note that git has specific plugins.
