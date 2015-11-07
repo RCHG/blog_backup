@@ -191,5 +191,7 @@ color =
 
 Here is the very basic configuration for the user *mrmaggugg*. The activated extensions are indicated here just with the name follow by = .Therefore the information about the user is taken from this configuration file. You can edit manually but before you should check `hg help config`, but because the information given is very large you can try something like `hg help config | grep user` just to have the information with the word user of the documentation. And just to give another examples of this configuration files it has **graphlog**, **color** or **hgview**. The first introduce the command `hg glog` that is a kind of `hg log` command but with additional information about branches, master version etc. **color** just add color to the outputs shown on your terminal when you use any hg command. Concerning **hgview** you will have `hgview` command you will have a graphical frontend for Hg.
 
+#### Text Editors and Hg
 
-
+  - In case you are using **VIM**, which is one of the main tools I use every day, I may recommend the plugin  [lawrencium]: http://bolt80.com/lawrencium/   
+  - **Geany** is another nice tool that might integrate a version control inside with a plugin and **gedit** has this posibility also with rabbitVCS. This utility is not specific of mercurial and you might use several control version software. Note that git has specific plugins.
