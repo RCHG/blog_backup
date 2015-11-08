@@ -20,7 +20,7 @@ image:
 </section><!-- /#table-of-contents -->
 
 
-### About make
+### What is make?
 
 It is a command line tool to perform automatic tasks. Usually it is used on compilation of complex codes to ensure
 that all the dependencies are correcly included, but also it allows to perform other repetitive tasks efficently.
@@ -36,6 +36,8 @@ build the target from them. Make helps you to create **rules** for that. The str
 target: dependency1 dependency2 dependency3
     rule
 {% endhighlight%}
+
+### Step by Step with examples
 
 For example, the next rule compile a Fortran code with dependences: *compute.f90 constants.f90 main.f90* and a target 
 **myprogram.out**. 
