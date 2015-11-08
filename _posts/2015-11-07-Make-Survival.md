@@ -110,4 +110,16 @@ With this kind of rules you have to,
 
 After that you will have the file **nowcasting.tar.gz** decompresed on your directory and stored also in **data/**
 as **dataset.tar.gz**. However is we don't have yet downloaded the file or prepare it for extracting then 
-make doesn't know how to proceed. Basically **make** doesn't know how to build the dependency **data/dataset.tar.gz**
+make doesn't know how to proceed. Basically **make** doesn't know how to build the dependency **data/dataset.tar.gz. But we can try as,
+
+{% highlight make %}
+.PHONY : download
+download : 
+    wget -O dataset.tar.gz http://dataserver.mrmagguu.com/nowcasting.tar.gz
+prepare : download
+    mv dataset.tar.gz data/
+create : prepare
+    tar -zxf data/dataset.tar.gz
+{% endhighlight%}
+
+And the commad **make create** will do all the previous rules to achieve the rule create. Note that if you type in **bash** shell **make** and tab you will see all the possible rules avaliables on the **Makefile** of your current directory, something very useful.
