@@ -41,19 +41,19 @@ For example, the next rule compile a Fortran code with dependences: *compute.f90
 **myprogram.out**. 
 
 {% highlight make %}
-myprogram.out : compute.f90 constants.f90 main.f90
-    gfortran compute.f90 constants.f90 main.f90 -o myprogram.out
+myprogram.out : compute.f90 cte.f90 main.f90
+    gfortran compute.f90 cte.f90 main.f90 -o myprogram.out
 {% endhighlight%}
 
 Usually this information is stored in a file named: **Makefile** which contains all the rules. And we can compile
 just writting `make`. Let's say that we want to compare results with several different *contants.f90* files
 
 {% highlight make %}
-myprogram1.out : compute.f90 constants1.f90 main.f90
-    gfortran compute.f90 constants1.f90 main.f90 -o myprogram.out
+myprogram1.out : compute.f90 cte1.f90 main.f90
+    gfortran compute.f90 cte1.f90 main.f90 -o myprogram.out
     
-myprogram2.out : compute.f90 constants2.f90 main.f90
-    gfortran compute.f90 constants1.f90 main.f90 -o myprogram.out
+myprogram2.out : compute.f90 cte2.f90 main.f90
+    gfortran compute.f90 cte2.f90 main.f90 -o myprogram.out
 {% endhighlight%}
 
 We can invoke each rule by,
@@ -71,11 +71,11 @@ It is quite common include a clean rule as,
 clean : 
     rm -f myprogram*.out
 
-myprogram1.out : compute.f90 constants1.f90 main.f90
-    gfortran compute.f90 constants1.f90 main.f90 -o myprogram.out
+myprogram1.out : compute.f90 cte1.f90 main.f90
+    gfortran compute.f90 cte1.f90 main.f90 -o myprogram.out
     
-myprogram2.out : compute.f90 constants2.f90 main.f90
-    gfortran compute.f90 constants1.f90 main.f90 -o myprogram.out
+myprogram2.out : compute.f90 cte2.f90 main.f90
+    gfortran compute.f90 cte2.f90 main.f90 -o myprogram.out
 {% endhighlight%}
 
 This clean rule has no dependencies, however if **make** finds a file or directory named **clean** then nothing is done. For this
@@ -93,7 +93,7 @@ have to be downloaded from a server with the more recent information, we can inc
 {% highlight make %}
 .PHONY : download
 download : 
-    wget -O dataset.tar.gz http://dataserver.mrmagguu.com/nowcasting.tar.gz
+    wget -O dataset.tar.gz http://mydataserver.com/nowcasting.tar.gz
 prepare : dataset.tar.gz
     mv dataset.tar.gz data/
 create : data/dataset.tar.gz
@@ -115,7 +115,7 @@ make doesn't know how to proceed. Basically **make** doesn't know how to build t
 {% highlight make %}
 .PHONY : download
 download : 
-    wget -O dataset.tar.gz http://dataserver.mrmagguu.com/nowcasting.tar.gz
+    wget -O dataset.tar.gz http://mydataserver.com/nowcasting.tar.gz
 prepare : download
     mv dataset.tar.gz data/
 create : prepare
@@ -123,3 +123,5 @@ create : prepare
 {% endhighlight%}
 
 And the commad **make create** will do all the previous rules to achieve the rule create. Note that if you type in **bash** shell **make** and tab you will see all the possible rules avaliables on the **Makefile** of your current directory, something very useful.
+
+
