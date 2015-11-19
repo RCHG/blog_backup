@@ -1,0 +1,28 @@
+---
+layout: post
+title: "LibAV notes"
+author: ramiro_chg
+modified:
+excerpt: "Extract frames from animations"
+tags: [scientific-computing, linux]
+image:
+  feature: sample-image-1.jpg
+---
+
+### Library
+
+The library is named **libav-tools** so it is very install to install in linux/Unix with the package manager of your distribution.
+
+### How to use
+
+If you have an specific animation for example: my_animation.mp4 and you would like to extract few frames from it:
+
+{% highlight bash %}
+> avconv -i my_animation.mp4 -r 4 -ss 00:00:00 -t 00:00:10 -f image2 %04d.png
+{% endhighlight %}
+
+This command will create 4 images per second of the movie between the second 00:00:00 and 00:00:10 and will create .png files 
+named as 0001.png, 0002.png etc...
+
+
+
